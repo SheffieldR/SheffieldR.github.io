@@ -1,0 +1,23 @@
+project:
+  type: website
+  resources:
+    - "*.R"
+    - "*.Rmd"
+    - "*.jpg"
+    - "*.pdf"
+    - "*.png"
+    - "*.yaml"
+
+website:
+  title: "SheffieldR"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/SheffieldR
+      - icon: twitter
+        href: https://twitter.com/Sheffield_R_
+format:
+  html:
+    theme: pulse
+    css: styles.css
