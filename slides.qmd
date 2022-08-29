@@ -1,0 +1,25 @@
+---
+title: "Slides"
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/Sheffield_R_ls
+    - icon: github
+      text: Github
+      href: https://github.com/SheffieldR
+---
+
+Here you will find links to slides from previous meetings
+
+| Speaker                            | Date        | Slides     |
+|:-----------------------------------|:------------|:-----------|
+| Rob Smith                          | 2020-02-04  | [R for Decision Science](/www/slides/2020_02_04_shiny_rob_smith.pdf) |
+| Théo Michelot                      | 2017-05-02  | [Using C++ to speed up R code](/www/slides/2017-05-speed_up_r_with_cpp-theo-michelot.pdf) |
+| Pieter Wessels                     | 2017-04-04  | ["Wisdom of the crowd" : Ensembles in Machine Learning and the factors that influence them](/www/slides/2017-04-ensembles-pieter-wessels.pdf) |
+| James Waterhouse and Darell Taylor | 2016-11-16  | [Data Juggling at SkyBet](/www/slides/2016-12-data-juggling-james-waterhouse-darell-taylor.pdf) |
+| Lukas Drapal                       | 2016-10-21  | [Complete (and win) on Kaggle](/www/slides/2016-11-kaggle-lukas-drapal.pdf) |
+| Matt Hall                          | 2016-09-17  | [R with Jupyter Notebooks for Interactive and Collaborative Research](/www/slides/2016-10-jupyter-mathew-hall.pdf) |
+| Alison Parton                      | 2016-08-17  | [Can you trust the humble statistician? An intro to unit testing in R](/www/slides/2016-09-unit-testing-alison-parton.pdf) |
+| Jeremy Oakley                      | 2016-08-17  | [SHELF: an R package for expert elicitation](/www/slides/2016-09-shelf-jeremy-oakley.pdf) |

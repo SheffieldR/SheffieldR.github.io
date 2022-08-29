@@ -10,13 +10,20 @@ project:
 
 website:
   title: "SheffieldR"
+  site-url: https://SheffieldR.github.io/
+  description: "Shefffield R User Group"
   navbar:
     right:
       - about.qmd
+      - sponsors.qmd
+      - resources.qmd
+      - slides.qmd
       - icon: github
         href: https://github.com/SheffieldR
       - icon: twitter
         href: https://twitter.com/Sheffield_R_
+      - icon: rss
+        href: index.xml
 format:
   html:
     theme: pulse

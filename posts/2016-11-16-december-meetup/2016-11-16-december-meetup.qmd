@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "December Sheffield R Meetup: Dan Olner, James Waterhouse & Darrell Taylor"
+title:  "December Sheffield R Meetup: Dan Olner, James Waterhouse and Darrell Taylor"
 date:   2016-11-16 10:30:00 +0000
 categories: meetups
 speakers:
