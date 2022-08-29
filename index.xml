@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>SheffieldR</title>
+<link>https://SheffieldR.github.io/index.html</link>
+<atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Shefffield R User Group</description>
+<generator>quarto-0.9.634</generator>
+<lastBuildDate>Tue, 10 Apr 2018 17:30:00 GMT</lastBuildDate>
+<item>
+  <title>rrtools: Tools for Writing Reproducible Research in R</title>
+  <link>https://SheffieldR.github.io/posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><em>NOTE: Because of the Easter holidays April’s meetup will be on the 2nd Tue of the month.</em></p>
+<p>This month we’ll be exploring <strong>rrtools</strong>, an implementation of R package structure, development tools and practices to a research workflow context.</p>
+<!--more-->
+<p><br></p>
+<p>Rrtools builds on functionality offered by packages like devtools and usethis, adapting and extending them to a research context. The package provides guidance, templates, and functions for making a basic compendium suitable for doing reproducible research with R and a convenient starting point for writing a journal article, report, or thesis.</p>
+<p><em>Useful features:</em></p>
+<ul>
+<li><p>A template for doing scholarly writing in a literate programming environment using <a href="http://rmarkdown.rstudio.com/">R Markdown</a> and <a href="https://bookdown.org/home/about.html">bookdown</a>.</p></li>
+<li><p>Isolation of your computational environment in a container using <a href="https://www.docker.com/what-docker">Docker</a></p></li>
+<li><p>Package dependency versioning using <a href="https://mran.microsoft.com/documents/rro/reproducibility/">MRAN</a>,</p></li>
+<li><p>Continuous Integration (testing) using <a href="https://docs.travis-ci.com/user/for-beginners">Travis</a>.</p></li>
+</ul>
+<p>In this joint session, Anna Krystalli will give an overview of the philosophy, key functions and resulting compendium structure while Dan Olner will walk us through using the tools to convert an existing research project to a reproducible research compendium.</p>
+<p><strong>Speaker Bios</strong></p>
+<p><a href="http://danolner.github.io/">Dan</a> is a researcher in the Sheffield Methods Institute working on a diverse bunch of projects, from modelling whether houses can see wind turbines or green space to making 3D prints of Census data to making monsters using a Kinect motion sensor. He also occasionally runs day workshops on data wrangling and visualisation in R.</p>
+<p><a href="http://annakrystalli.me/">Anna</a> is a Research Software Engineer at the University of Sheffield, helping researchers do more with their code and data.</p>
+
+
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html</guid>
+  <pubDate>Tue, 10 Apr 2018 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Docker and Interactive unit testing</title>
+  <link>https://SheffieldR.github.io/posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In this month’s meetup, Mark Dunning will give a general introduction to the Docker container platform and Phil Mike Jones will introduce strategies for interactive unit testing.</p>
+<!--more-->
+<p>Mark Dunning (<a href="https://twitter.com/DrMarkDunning"><span class="citation" data-cites="DrMarkDunning">@DrMarkDunning</span></a>) will give a general introduction to the Docker container platform and present a couple of R-related examples in which he used it to distribute course materials and supplementary materials for a paper. Mark joined Sheffield University in October 2017 to set up a Bioinformatics Core facility, having previously worked for Cancer Research UK in Cambridge after completing his PhD. The <a href="http://sbc.shef.ac.uk">Sheffield Bioinformatics Core</a> provides support on the analysis and interpretation of biological datasets as well as a programme of training courses. Mark is an R and open-science enthusiast and has contributed software to the popular Bioconductor project and developed and delivered numerous training courses on R.</p>
+<p>Phil Mike Jones (<a href="https://twitter.com/philmikejones"><span class="citation" data-cites="philmikejones">@philmikejones</span></a>) will talk us through some interactive unit testing using examples from his package, <a href="https://github.com/philmikejones/rakeR/tree/master/tests">rakeR</a>, and his reproducible <a href="https://github.com/philmikejones/thesis/tree/master/data-raw">PhD thesis</a>. Phil is a research associate in the Centre for Criminological Research based in the School of Law at the University of Sheffield, working on the “Long-term impacts of ‘Thatcherism’: crime, politics and inequality” project. He has just finished a PhD in human geography at the University of Sheffield, entitled ‘A Spatial Microsimulation Analysis of Health Inequalities and Health Resilience’.</p>
+
+
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html</guid>
+  <pubDate>Tue, 06 Mar 2018 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Stan and the Tidyverse</title>
+  <link>https://SheffieldR.github.io/posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Welcome back to the Sheffield R Meetup! We’re kicking off 2018 with two great talks:</p>
+<!--more-->
+<p>Shaun Coutts will be giving a demonstration of using Stan via the rstan interface and launching jobs on iceberg and sharc.</p>
+<p>Katjuša Koler will be talking about doing things differently using the Tidyverse:</p>
+<p>In this session, I will give an example of a workflow in base R and compare it to a tidyverse approach. Tidyverse is a system of packages (dplyr, ggplot2 etc.) used to manipulate, explore and visualize data. I will discuss the pros and cons of each workflow. This talk will be useful for beginners, as well as anyone considering making a bridge from base R to tidyverse.</p>
+<p>So two talks, one with Bayes R and one with Base R! We look forward to seeing you there.</p>
+
+
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html</guid>
+  <pubDate>Tue, 06 Feb 2018 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>R coding social</title>
+  <link>https://SheffieldR.github.io/posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In the run up to the festive season we’d like to invite Sheffield R users to come and join us for an R coding social! Come along for a chance to meet and greet fellow R users in Sheffield. If you have a coding problem to discuss, feel free to bring it along and take advantage of the wealth of R coding knowledge available!</p>
+<!--more-->
+<p>We’ll start with a round of introductions, allowing people briefly to introduce themselves. After going around the room, there will be the opportunity for attendees to share code they’ve been working on and want help with / want feedback on / want to present.</p>
+<p>Come with a topic you want to discuss or with something you’ve done that you want to tell everyone about, or just come to listen and contribute as much or as little as you want.</p>
+
+
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html</guid>
+  <pubDate>Tue, 05 Dec 2017 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Managing projects with workflowr and Introduction to DiagrammeR</title>
+  <link>https://SheffieldR.github.io/posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re back to our regular schedule after last month’s Hacktoberfest fun. Join us for talks on managing your projects with workflowr and a brief introduction to the visualisation tool, DiagrammeR.</p>
+<!--more-->
+<section id="managing-projects-with-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="managing-projects-with-workflow">Managing projects with workflow</h2>
+<p>In this session I’ll do a walk through of using package <a href="https://jdblischak.github.io/workflowr/">workflowr</a> to organise and document projects including some best practice tips and tricks.</p>
+<p>Anna Krystalli has a background in marine macroecology. Now she works as a Research Software Engineer at the University of Sheffield, helping researchers do more with their code and data.</p>
+</section>
+<section id="introduction-to-diagrammer" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-diagrammer">Introduction to DiagrammeR</h2>
+<p>In this session I’ll give a brief introduction to <a href="http://rich-iannone.github.io/DiagrammeR/">DiagrammeR</a>, a package for creating and visualising network graphs and diagrams, with built-in support for a range of formats. I’ll demonstrate how to create a data-driven network diagram using data on trade in endangered species.</p>
+<p>Tamora James is a PhD researcher in the Department of Animal and Plant Sciences at the University of Sheffield. Her work involves modelling populations of vulnerable bird species to determine effective conservation interventions.</p>
+</section>
+<section id="sheffield-r-users-group-needs-you" class="level2">
+<h2 class="anchored" data-anchor-id="sheffield-r-users-group-needs-you">Sheffield R Users Group needs you!</h2>
+<p>We rely on members of the Sheffield R community to speak at our meetups and try to offer a mix of “beginners” and “expert” level talks. If you’d like to share a 15 minute informal slide-talk on a topic of your choosing (broadly ‘something cool I’ve done related to R that others would benefit from hearing about’) then we’d love to hear from you!</p>
+<p>Let us know by filling in our speaker <a href="https://goo.gl/forms/6EQaWs7PsxdOP04l2">sign up form</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html</guid>
+  <pubDate>Tue, 07 Nov 2017 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Celebrating Hacktoberfest… #rstats style!</title>
+  <link>https://SheffieldR.github.io/posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’ll be following up our introductory <strong>Celebrating Hacktoberfest</strong> session with drop-in sessions throughout October, so do join us if you’d like to get involved or learn more about open source!</p>
+<p><strong>Schedule for the rest of the month:</strong></p>
+<ul>
+<li><p><strong>Tu Oct 10 5:00 pm - 8:00 pm</strong> University of Sheffield, Diamond Meeting room 1</p></li>
+<li><p><strong>Tu Oct 17 5:30 pm - 8:30 pm</strong> University of Sheffield, Information Commons Collaboratory 1 ‐ 1.26</p></li>
+<li><p><strong>Tu Oct 24 5:30 pm - 8:30 pm</strong> University of Sheffield, Diamond Meeting room 1</p></li>
+<li><p><strong>Tu Oct 31 5:30 pm - 8:30 pm</strong> University of Sheffield, Diamond Meeting room 1 - <strong>Halloween Hacktoberfest!</strong></p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://SheffieldR.github.io/posts/2017-10-03-oct-meetup/https:/cloud.githubusercontent.com/assets/121322/18864038/31532b4a-8449-11e6-8701-97c00c95bf09.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<!--more-->
+<p><br></p>
+<p>It’s <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> over on GitHub! a global celebration of open source intended to promote participation in open source projects.</p>
+<p>So this month we’re taking a break from talks and booked some group hackspaces at the University throughout the month to <strong>get involved in some open source projects requiring some #rstats help.</strong></p>
+<p>Anyone can benefit from getting involved, regardless of coding skill. At the very least, you’ll <strong>learn more about open source</strong> and <strong>how to contribute through online collaborative coding platforms like GitHub</strong>. But you never know, you might end up stumbling across the perfect project for you and ending up joining a community.</p>
+<p>You can choose to contribute as little or much as you like, from correcting typos, contributing ideas to discussions to building features! Make at least 4 contributions (pull requests) to any GitHub-hosted project between October 1 and October 31 to <strong>earn a limited edition Hacktoberfest T-shirt!</strong></p>
+<section id="at-todays-meetup" class="level2">
+<h2 class="anchored" data-anchor-id="at-todays-meetup">At today’s meetup:</h2>
+<p>We’ll take a look at <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=label%3Ahacktoberfest+state%3Aopen+type%3Aissue+language%3AR&amp;type=">Hacktoberfest R projects on GitHub</a> (many <a href="https://ropensci.org/">rOpenSci</a> packages requiring help!) and discuss how to use GitHub to contribute to projects e.g.&nbsp;how to make a pull request, best practice for contributing code etc.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html</guid>
+  <pubDate>Tue, 03 Oct 2017 17:30:00 GMT</pubDate>
+  <media:content url="https://cloud.githubusercontent.com/assets/121322/18864038/31532b4a-8449-11e6-8701-97c00c95bf09.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>September Sheffield R Meetup: Object oriented systems in R + The Reproducible Thesis w/ Bookdown</title>
+  <link>https://SheffieldR.github.io/posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="welcome-back-to-a-new-season-of-r-user-group-meetups" class="level2">
+<h2 class="anchored" data-anchor-id="welcome-back-to-a-new-season-of-r-user-group-meetups">Welcome back to a new season of R user group meetups!</h2>
+<p>We’ve got an exciting pair of talks for you this month!</p>
+<!--more-->
+<p>First up, <strong>Chris Hopkinson</strong>, self-described Data Lover, will be talking us through <strong>Object oriented systems in R</strong>:</p>
+<p><em>“Object Oriented programming is commonplace in many languages. It is a useful way to organise code. R has some special flavours of Object Oriented programming. Understanding these will help you understand R better and write better software.”</em></p>
+<p>Then, we have <strong>Phil Mike Jones</strong>, a geographer about to complete his PhD in computational human geography + a research associate at the Centre for Criminological Research at the School of Law,who will be discussing his journey in writing a <strong>Reproducible Thesis with Bookdown</strong>.</p>
+<p><em>“My PhD thesis is completely reproducible (except a few items that cannot be downloaded without website credentials) and this has saved me no end of headaches now I’m preparing to submit. Supervisor (or boss) asked for some changes? No problem: change the data, run the code, and sit back as all figures and calculations are automatically updated. I probably don’t need to remind you that reproducibility is also the hallmark of the scientific method.</em></p>
+<p><em>In this session, I’ll share some tips that I discovered along the way and hopefully, at least some will be helpful for your projects. A completely reproducible project might not be possible or practical for you, but reproducibility is a scale so all projects could benefit from at least some of this advice.”</em></p>
+<p>Hope to see you there.</p>
+<p>The SheffieldR team</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html</guid>
+  <pubDate>Tue, 05 Sep 2017 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>July Sheffield R Meetup: Thermal images and Object oriented systems in R</title>
+  <link>https://SheffieldR.github.io/posts/2017-07-04-july-meetup/2017-07-04-july-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’ve got two great talks lined up for our last meeting before the summer break.</p>
+<p><em>Update: Due to a change in availability we have had to postpone the talk on object oriented systems in R. Instead we’ll be holding an informal code clinic, so come along with any coding problems that you want to discuss.</em></p>
+<p><strong>Rebecca Senior</strong> is a 3rd year PhD student in the Department of Animal and Plant Sciences at the University of Sheffield, and avid lover of using R to do just about everything! She studies interactions between land-use change and climate change in the tropics. She’s going to talk about the work she’s been doing analysing thermal image data collected in the forests of Borneo.</p>
+<p><strong>Chris Hopkinson</strong> is a Sheffield R group regular, analyst and data lover. He’ll be giving us the low-down on object oriented systems in R.</p>
+<!--more-->
+<section id="thermal-images-in-r" class="level2">
+<h2 class="anchored" data-anchor-id="thermal-images-in-r">Thermal images in R</h2>
+<p>Rebecca will introduce the ThermImage package and demonstrate its use in extracting and processing thermal images in R. She’ll talk about the challenges associated with the structure of thermal data and the kinds of questions that ecologists can ask with such data, such as capturing the extent to which animals can move locally to track their preferred temperatures. A single thermal image produces 19,200 distinct temperature measurements, so optimising the extraction -&gt; processing -&gt; plotting -&gt; analysis workflow is essential.</p>
+</section>
+<section id="object-oriented-systems-in-r" class="level2">
+<h2 class="anchored" data-anchor-id="object-oriented-systems-in-r">Object oriented systems in R</h2>
+<p>Object Oriented programming is commonplace in many languages. It is a useful way to organise code. R has some special flavours of Object Oriented programming. Understanding these will help you understand R better and write better software.</p>
+<p>We hope to see you there!</p>
+<p>The SheffieldR team</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2017-07-04-july-meetup/2017-07-04-july-meetup.html</guid>
+  <pubDate>Tue, 04 Jul 2017 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>June Sheffield R Meetup: Literate programming and Writing a decision tree package for R</title>
+  <link>https://SheffieldR.github.io/posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This month Anna Krystalli will present a exploration of literate programming, following up from a discussion on literate programming techniques at our meetup in April, and Pete Dodd will tell us about building an open source decision tree package in R.</p>
+<section id="literate-programming-with-rmarkdown" class="level2">
+<h2 class="anchored" data-anchor-id="literate-programming-with-rmarkdown">Literate programming with Rmarkdown</h2>
+<p>In this session we’ll explore the various options and strategies for literate programming and dynamic report generation in R and Rmarkdown. This session will make use of the literate programming packages knitr and Rmarkdown.</p>
+</section>
+<section id="writing-a-decision-tree-package-for-r" class="level2">
+<h2 class="anchored" data-anchor-id="writing-a-decision-tree-package-for-r">Writing a decision tree package for R</h2>
+<p>Decision trees are a class of model widely used in health economic modelling. A tree (in the mathematical sense) has probabilities associated with branches leaving a node to describe the chances of a set of potential outcomes. In health economics, costs and health consequences are also associated with outcomes. By way of example, clinical diagnostic algorithms based on a sequence of symptom screens and diagnostic tests map particularly naturally into this framework. There are proprietary packages to develop, visualize and analyse such models, but nothing open-source and user-friendly. We describe an attempt to develop a package with a simple syntax for decision tree models in R based on the DOT language, which allows visualization, as well as considerable flexibility in analysis approach.</p>
+<p>We hope to see you there!</p>
+<p>The SheffieldR team</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html</guid>
+  <pubDate>Tue, 06 Jun 2017 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>May Sheffield R Meetup: Making R Faster</title>
+  <link>https://SheffieldR.github.io/posts/2017-05-02-may-meetup/2017-05-02-may-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This month we’ll be learning from Théo Michelot how to make R go faster using a couple of techniques.</p>
+<section id="using-c-to-speed-up-r-code" class="level2">
+<h2 class="anchored" data-anchor-id="using-c-to-speed-up-r-code">Using C++ to speed up R code</h2>
+<p>R is a very handy tool for data analysis, but it can be computationally quite slow. When analysing large data sets, or using complex models, it can be desirable to speed things up. For this reason, it has become increasingly common to combine R code with C++ code. C++ is a compiled programming language, which makes it much faster than R in some cases. I will first talk about Rcpp, an R package which makes it very simple to call C++ functions from an R script. Then, I will talk about the Template Model Builder (TMB), an R package which uses automatic differentiation in C++ to speed up the numerical evaluation of a function (typically, a likelihood function), thus making techniques such as maximum likelihood estimation very fast. I will show that these do not require a strong programming background, and that it is quite easy for someone familiar with R to use Rcpp and TMB. I will compare the three approaches with examples of code.</p>
+<p>We hope to see you there!</p>
+<p>The SheffieldR team</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2017-05-02-may-meetup/2017-05-02-may-meetup.html</guid>
+  <pubDate>Tue, 02 May 2017 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>April Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning</title>
+  <link>https://SheffieldR.github.io/posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This month’s talks cover ensembles in machine learning and using R notebooks as a learning tool.</p>
+<section id="wisdom-of-the-crowd-ensembles-in-machine-learning-and-the-factors-that-influence-them" class="level2">
+<h2 class="anchored" data-anchor-id="wisdom-of-the-crowd-ensembles-in-machine-learning-and-the-factors-that-influence-them">“Wisdom of the crowd”: Ensembles in machine learning, and the factors that influence them</h2>
+<p>Pieter Wessels will present a brief discussion on Ensembles, including popular algorithms for creating same engine Ensembles (bagging, boosting, etc), multiple engine Ensembles, the factors that influence Ensembles, including diversity between members and a brief introduction to one measure of diversity.</p>
+</section>
+<section id="teaching-with-r-notebook" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-with-r-notebook">Teaching with R Notebook</h2>
+<p>Duncan Gillespie will speak about the pros and cons of using R notebooks as a learning tool in an introductory R course.</p>
+<p>We hope to see you there!</p>
+<p>The SheffieldR team</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html</guid>
+  <pubDate>Tue, 04 Apr 2017 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>March Sheffield R Meetup: Code surgery and social</title>
+  <link>https://SheffieldR.github.io/posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In March we held our first R coding surgery and social, a chance for our members to meet, greet, learn from and collaborate with fellow R users.</p>
+<section id="in-attendance" class="level4">
+<h4 class="anchored" data-anchor-id="in-attendance">In attendance</h4>
+<p>Tamora, Eoghan, Kassandra, Alison, Mat, Chris, José</p>
+</section>
+<section id="topics" class="level4">
+<h4 class="anchored" data-anchor-id="topics">Topics</h4>
+<section id="data-storage-alison" class="level5">
+<h5 class="anchored" data-anchor-id="data-storage-alison">Data storage (Alison)</h5>
+<p><strong>Problem</strong></p>
+<ul>
+<li>Storing data of different lengths.</li>
+</ul>
+<p><strong>Answer</strong></p>
+<ul>
+<li>Use list columns: allows arbitrary length vectors.</li>
+<li>See <a href="https://www.rstudio.com/resources/videos/happy-r-users-purrr-tutorial/">Charlotte Wickham presentation on tidy data at R Studio conference 2017</a>.</li>
+</ul>
+</section>
+<section id="spatio-temporal-time-series-kassandra" class="level5">
+<h5 class="anchored" data-anchor-id="spatio-temporal-time-series-kassandra">Spatio-temporal time series (Kassandra)</h5>
+<p><strong>Problem</strong></p>
+<ul>
+<li>Lots of observations in some areas/directions, few elsewhere.</li>
+<li>Time series of environmental variables.</li>
+<li>Relate observed distribution with methane flux.</li>
+<li>Time series has gaps - how to handle?</li>
+</ul>
+<p><strong>Answer</strong></p>
+<ul>
+<li>Can create an even time series - add NAs where observations missing</li>
+<li>Raster layers as time, environmental variable single point time series</li>
+<li>List columns again!</li>
+<li>Loading raster data into R: use <code>raster</code> package, load data and specify projection string (unless data is GEO tiff, in that case it’s in the metadata).</li>
+</ul>
+</section>
+<section id="optimisation-alison" class="level5">
+<h5 class="anchored" data-anchor-id="optimisation-alison">Optimisation (Alison)</h5>
+<p><strong>Problem</strong></p>
+<ul>
+<li>Profiling and how to make the loop quicker.</li>
+</ul>
+<p><strong>Answer</strong></p>
+<ul>
+<li>Apply lineprof/profvis to profile whole sections of program/script. See <a href="http://adv-r.had.co.nz/Profiling.html">Hadley’s profiling guide</a>.</li>
+<li>Might be possible to use closures to precalculate distributions.</li>
+<li>Use C++ via Rcpp.</li>
+<li>Use JAGS or stan - parallelisable implementations.</li>
+</ul>
+</section>
+<section id="live-demo-chris" class="level5">
+<h5 class="anchored" data-anchor-id="live-demo-chris">Live demo (Chris)</h5>
+<ul>
+<li><a href="http://sheffieldr.github.io/assets/material/2017-03/ListColumnDemo.R">Live code demo of list columns</a>.</li>
+<li>Use saveRDS(), readRDS() as alternative to store as text.</li>
+<li>Might be problems with speed - use profiling to compare with text storage.</li>
+</ul>
+</section>
+<section id="eeg-processing-josé" class="level5">
+<h5 class="anchored" data-anchor-id="eeg-processing-josé">EEG processing (José)</h5>
+<p><strong>Problem</strong></p>
+<ul>
+<li>Getting raw data into format required for R package for signal processing.</li>
+<li>Bad documentation!</li>
+</ul>
+<p><strong>Answer</strong></p>
+<ul>
+<li>Use Matlab with manufacturer software?</li>
+</ul>
+</section>
+<section id="data-handling-kassandra" class="level5">
+<h5 class="anchored" data-anchor-id="data-handling-kassandra">Data handling (Kassandra)</h5>
+<p><strong>Problem</strong></p>
+<ul>
+<li>Problem with large data - can she write all objects together?</li>
+</ul>
+<p><strong>Answer</strong></p>
+<ul>
+<li>Need to be able to write sequentially - plugin for R to speak to database e.g.&nbsp;RSQLite or use RDS.</li>
+<li>Sparse matrix?</li>
+<li>R ArcGIS interface?</li>
+</ul>
+</section>
+<section id="profiling-update-alison" class="level5">
+<h5 class="anchored" data-anchor-id="profiling-update-alison">Profiling update (Alison)</h5>
+<ul>
+<li>Constant matrix each time - copy on modify?</li>
+<li>Avoid assignment of matrices within for loop (nested).</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html</guid>
+  <pubDate>Tue, 07 Mar 2017 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>February Sheffield R Meetup: Martin Garlovsky and Christopher Hopkinson</title>
+  <link>https://SheffieldR.github.io/posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In this month’s meeting we’ll explore survival analysis, a means of analysing data in which the outcome is the time to the occurrence of an event of interest. We’ll also be finding out about one of the more esoteric features of the R language, namely non-standard evaluation.</p>
+<section id="survival-analysis-with-coxme" class="level2">
+<h2 class="anchored" data-anchor-id="survival-analysis-with-coxme">Survival analysis with coxme</h2>
+<p>Martin Garlovsky, a PhD student studying sexual selection and speciation, will talk about using Cox proportional hazards models with random effects to perform survival analysis. Survival analysis can be used for a wide range of “time to event” data, e.g.&nbsp;deaths, divorce, maturation, relapse, disease etc, and is applicable in a wide range of biological, medical and social research. The R packages coxme, coxph and survival provide methods for survival analysis.</p>
+</section>
+<section id="non-standard-evaluation-or-why-r-is-a-little-unusual" class="level2">
+<h2 class="anchored" data-anchor-id="non-standard-evaluation-or-why-r-is-a-little-unusual">Non-Standard Evaluation, or why R is a little unusual</h2>
+<p>Analyst and data lover, Christopher Hopkinson, will be delving into the bowels of the R language to try to understand how R evaluates our code and when this may lead to unexpected results.</p>
+<p>If this topic is of interest, you might like to have a read of <a href="http://adv-r.had.co.nz/Computing-on-the-language.html">Hadley’s Advanced R book</a>.</p>
+<p>Hope to see you there!</p>
+<p>We look forward to seeing you at the Red Deer on 7 February! Location details are on our <a href="https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/events/237310112//">meetup event</a>.</p>
+<p>The SheffieldR team</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html</guid>
+  <pubDate>Wed, 01 Feb 2017 10:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>December Sheffield R Meetup: Dan Olner, James Waterhouse and Darrell Taylor</title>
+  <link>https://SheffieldR.github.io/posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This month we’ll be learning about R’s capabilities for wrangling and handling spatial data and how Sky Betting and Gaming does data science.</p>
+<p>Dan Olner from the Sheffield Methods Institute will be sharing his experience from some recent work on spatial analysis:</p>
+<section id="doing-spatial-stuff-with-r-the-magic-and-the-messiness-with-an-example-applying-it-to-windfarmhouse-price-interaction" class="level2">
+<h2 class="anchored" data-anchor-id="doing-spatial-stuff-with-r-the-magic-and-the-messiness-with-an-example-applying-it-to-windfarmhouse-price-interaction">Doing spatial stuff with R: the magic and the messiness (with an example applying it to windfarm/house-price interaction)</h2>
+<blockquote class="blockquote">
+<p>R has grown into an amazing tool for wrangling and analysing spatial data. It can do some awesome things with borderline magical ease. I’ll cover some of the introductory essentials to doing spatial stuff before looking at a project using R (and other tools including QGIS) that analysed the price impact of wind turbines on house prices in Scotland. (Spoiler: couldn’t find anything significant; see link below.) This project’s story is more about the real-world messiness of getting R spatial analysis to do what you want it to.</p>
+<p><a href="http://www.climatexchange.org.uk/reducing-emissions/impact-wind-farms-property-prices/">http://www.climatexchange.org.uk/reducing-emissions/impact-wind-farms-property-prices/</a> <a href="https://github.com/SheffieldMethodsInstitute/windfarmsHousePrices">https://github.com/SheffieldMethodsInstitute/windfarmsHousePrices</a></p>
+</blockquote>
+<p>We will also be joined by James Waterhouse (Head of Data Science) and Darrell Taylor (Principal Data Engineer) from Sky Betting and Gaming who will talk about <strong>Data Juggling at SkyBet</strong>: A brief look inside the data science toolbox at Sky Betting and Gaming.</p>
+<p>We look forward to seeing you at the Red Deer on 6 December! Location details are on our <a href="https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/events/235618485/">meetup event</a>.</p>
+<p>The SheffieldR team</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html</guid>
+  <pubDate>Wed, 16 Nov 2016 10:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>November Sheffield R Meetup: Shaun Coutts and Lukas Drapal</title>
+  <link>https://SheffieldR.github.io/posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>At this month’s meeting we’ll be talking about modelling, inference, and prediction.</p>
+<p>Shaun Coutts joins us to talk about his experience with R and JAGS:</p>
+<blockquote class="blockquote">
+<p>I am a quantitative ecologist who uses statistical, analytical and simulation models to look at pressing environmental issues such as invasive species and wildlife harvest. I am currently a post doc at the University of Sheffield modelling the evolution of herbicide resistance. I also use these approaches to address a wide range of topics such as population dynamics, community ecology, dispersal ecology, optimal population management, and social-economic systems. I am also interested in how far population models for one species or area can be extrapolated to others, and if so, how it should be done.</p>
+</blockquote>
+<p>Lukas Drapal will introduce us to the online machine learning competition site <a href="http://kaggle.com">kaggle</a>:</p>
+<blockquote class="blockquote">
+<p>Kaggle is a great place to learn data science by doing. Kaggle hosts machine learning competitions and has a very active community that share their techniques and tips. In this talk I describe how Kaggle works, share best practises and dive into challenges of a competition that we won among more than 1500 teams - Allstate Purchase Prediction Challenge.</p>
+</blockquote>
+<p>We look forward to seeing you at the Red Deer on 1 November! Location details are on our <a href="https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/events/235018288/">meetup event</a>.</p>
+<p>The SheffieldR team</p>
+
+
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html</guid>
+  <pubDate>Fri, 21 Oct 2016 15:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>October Sheffield R Meetup: Mathew Hall and Mike Croucher</title>
+  <link>https://SheffieldR.github.io/posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>At this month’s meeting we’ll be talking about how R interacts with different languages and technologies.</p>
+<p>Our very own Mat Hall will give us a crash course in using R with Jupyter notebooks for interactive reproducible and collaborative research.</p>
+<p>We’ll also hear from Mike Croucher, who is an EPSRC Research Software Engineering Fellow working at The University of Sheffield. Mike specialises in assisting researchers to produce better quality software. He is co-founder of The University of Sheffield’s Research Software Engineering group and plays a major role in the Sheffield Open Data Science Initiative. In September Mike was involved in organising the first ever Research Software Engineering conference.</p>
+<p>We look forward to seeing you there!</p>
+<p>The SheffieldR team</p>
+
+
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html</guid>
+  <pubDate>Sat, 17 Sep 2016 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>September Sheffield R Meetup: Alison Parton and Jeremy Oakley</title>
+  <link>https://SheffieldR.github.io/posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After the summer break, Sheffield R group is back with a couple of great talks to kick off the new season.</p>
+<p>Our beginner’s talk this month, presented by Alison Parton, is:</p>
+<section id="can-you-trust-the-humble-statistician-an-intro-to-unit-testing-in-r" class="level2">
+<h2 class="anchored" data-anchor-id="can-you-trust-the-humble-statistician-an-intro-to-unit-testing-in-r">Can you trust the humble statistician? An intro to unit testing in R</h2>
+<p>“<em>You’ve slaved away converting the awesome methods you’ve concocted into R code. It runs without any nasty red errors so you’ve not missed an end bracket, but are they all really in the right place? I’ll be telling beginners what I’ve learnt after dipping my toes into the world of unit testing in R, and (hopefully) getting the veterans to assist in my quest for reliable code.</em>”</p>
+</section>
+<section id="shelf-an-r-package-for-expert-elicitation" class="level2">
+<h2 class="anchored" data-anchor-id="shelf-an-r-package-for-expert-elicitation">SHELF: an R package for expert elicitation</h2>
+<p>For our expert talk we welcome Professor Jeremy Oakley who will introduce SHELF, an R package containing tools to support the Sheffield Elicitation Framework (SHELF). This is a toolkit for eliciting probability distributions from experts, translating an expert’s judgements about the characteristics of a distribution for a parameter of interest into a range of parametric distributions and providing visual and summary feedback. SHELF also provides methods for interactive plotting and elicitation, weighting for multiple expert elicitation and a graphical interface for the roulette elicitation method.</p>
+<p>Hope to see you there!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html</guid>
+  <pubDate>Wed, 17 Aug 2016 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>NBN Hack Results</title>
+  <link>https://SheffieldR.github.io/posts/2016-05-20-hack-results/2016-05-20-hack-results.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In March we ran a series of hack events centred around the National Biodiversity Network’s data gateway. We teamed up with Sheffield Wildlife Trust to investigate the data and see what we might be able to learn. Thanks to Tom August’s <code>rnbn</code> package, it was a cinch to get the data which is kindly contributed by volunteers and organisations across the country.</p>
+<p>Our hack was organised around several projects selected after a pitch session. Attendees chose a team based on the project and collaborated using a shared <a href="https://docs.google.com/document/d/19ctbFk6Y5Dt_YMxSEoWz0bsoIHgmCN8jUsUs3TU2qKI/edit">HackPad</a> and pushed their code to <a href="https://github.com/SheffieldR/NBN_hack_series">a central GitHub repository</a>.</p>
+<!--more-->
+<section id="the-teams" class="level1">
+<h1>The Teams</h1>
+<section id="habitats-vs-biodiversity" class="level2">
+<h2 class="anchored" data-anchor-id="habitats-vs-biodiversity">Habitats vs Biodiversity</h2>
+<p>The Sheffield Wildlife Trust have compiled a wide variety of habitat data into shapefile spatial polygons. They would like to be able to integrate it with biodiversity data from the NBN to facilitate further analysis. So the aim of this project is to produce a simple shiny app through which the user can select species/taxa of interest, query the NBN for data and match it to spatial polygon data. The app would then output an analytical dataset that could then be used for further analysis. Outputs could therefore feed into the spatial analysis project.</p>
+<p>Repository link: <a href="https://github.com/SheffieldR/NBN_hack_series/tree/master/Habitats_Vs_Biodiversity">Habitats vs Biodiversity</a></p>
+</section>
+<section id="humans-vs-biodiversity" class="level2">
+<h2 class="anchored" data-anchor-id="humans-vs-biodiversity">Humans vs Biodiversity</h2>
+<p>This team sought to determine how Sheffield’s biodiversity had changed with Sheffield’s population. As Sheffield’s urban environments grow with the population, the team wanted to understand how local wildlife had changed over time. The team looked into measures that could be used to estimate population density, river quality from other open data sources alongside an estimate for biodiversity in the data from the NBN gateway.</p>
+<p>Repository link: <a href="https://github.com/SheffieldR/NBN_hack_series/tree/master/Humans_Vs_Biodiversity">Humans vs Biodiversity</a></p>
+</section>
+<section id="team-temporal" class="level2">
+<h2 class="anchored" data-anchor-id="team-temporal">Team Temporal</h2>
+<p>Team Temporal wanted to study how species were represented in the NBN Gateway data sets over time. The team aimed to build plots of records over time for species with more than 1000 records in the data set. Additionally, the team sought to apply <a href="https://github.com/BiologicalRecordsCentre/sparta/blob/master/R/telfer.R">Telfer’s change index</a> to produce a summary of the change over time for species in Sheffield.</p>
+<p>Repository link: <a href="https://github.com/SheffieldR/NBN_hack_series/tree/master/Team_Temporal">Team Temporal</a></p>
+</section>
+<section id="bird-bingo" class="level2">
+<h2 class="anchored" data-anchor-id="bird-bingo">Bird Bingo</h2>
+<p>Bird Bingo is a game where players are given a virtual “card” with pictures of several species they might see in their area. When they see one of their species they can check it off. The team used the NBN Gateway to get species the user was likely to see by querying the Gateway for local species in the bird TVK species group. The team used the <a href="http://eol.org">Encyclopedia of Life</a>’s API to get images for the selected species and presented the player’s card and handled checking off species using the <a href="http://shiny.rstudio.com">Shiny web framework</a>.</p>
+<p>Repository link: <a href="https://github.com/SheffieldR/NBN_hack_series/tree/master/BirdBingo">BirdBingo</a></p>
+</section>
+<section id="team-python" class="level2">
+<h2 class="anchored" data-anchor-id="team-python">Team Python</h2>
+<p>This team wrote an NBN Gateway package for Python a la <code>rnbn</code>.</p>
+<p>Repository link: <a href="https://github.com/lionfish0/pynbn">lionfish0/pynbn</a></p>
+<p>See the <a href="../../nbn-hack/">Hack details page</a> for details on the event including how to register. To get updates on the hack and our events, follow us on Twitter: <a href="https://twitter.com/Sheffield_R_"><span class="citation" data-cites="Sheffield">@Sheffield</span>_R_</a>.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>hack</category>
+  <guid>https://SheffieldR.github.io/posts/2016-05-20-hack-results/2016-05-20-hack-results.html</guid>
+  <pubDate>Fri, 20 May 2016 19:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>National Biodiversity Hack Event</title>
+  <link>https://SheffieldR.github.io/posts/2016-01-28-hack/2016-01-28-hack.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<!--- 
+    calendar link 
+-->
+<p>We’re running a hackathon event over three sessions in March. The hack will focus on the <a href="http://www.nbn.org.uk">National Biodiversity Network</a>’s data to collaboratively develop outputs that benefit the public, Council or local wildlife organisations.</p>
+<p>See the <a href="../../nbn-hack/">Hack details page</a> for details on the event including how to register. To get updates on the hack and our events, follow us on Twitter: <a href="https://twitter.com/Sheffield_R_"><span class="citation" data-cites="Sheffield">@Sheffield</span>_R_</a>. <!--- eventbrite link --> <!--- google questionnaire --></p>
+
+
+
+ ]]></description>
+  <category>hack</category>
+  <guid>https://SheffieldR.github.io/posts/2016-01-28-hack/2016-01-28-hack.html</guid>
+  <pubDate>Wed, 27 Jan 2016 19:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>January Sheffield R Meetup: Happy New-ish YeaR!</title>
+  <link>https://SheffieldR.github.io/posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This month we will be talking in more detail about our upcoming NBN Biodiversity Hack event, which will be held over the first 3 weeks of March. Paul and Anna will share some of our experiences from the Open Data Sheffield #hackthemarine event held earlier this month, and we will bounce around any ideas the group may have for exciting analyses and visualisations using the biodiversity data.</p>
+<p>But that’s not all! We are delighted to have a talk from Dan Pollard from UoS Health Economics and Decision Science. He will be introducing the Zelig package, which can be used to both estimate statistical models but also conduct simulations from the results; ideal for building data driven computer models.</p>
+
+
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html</guid>
+  <pubDate>Tue, 26 Jan 2016 17:30:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

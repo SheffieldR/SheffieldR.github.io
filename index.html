@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.634">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>SheffieldR</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="alternate" type="application/rss+xml" title="SheffieldR" href="index.xml"></head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">SheffieldR</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sponsors.html">Sponsors</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./resources.html">Resources</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./slides.html">Slides</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SheffieldR"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/Sheffield_R_"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./index.xml"><i class="bi bi-rss" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">SheffieldR</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(22)</span></div><div class="category" data-category="hack">hack <span class="quarto-category-count">(2)</span></div><div class="category" data-category="meetups">meetups <span class="quarto-category-count">(20)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="meetups" data-listing-date-sort="1523381400000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1.19">
+<div class="thumbnail">
+<a href="./posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html">
+<h3 class="no-anchor listing-title">
+rrtools: Tools for Writing Reproducible Research in R
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html">
+<div class="listing-description">
+<em>NOTE: Because of the Easter holidays April’s meetup will be on the 2nd Tue of the month.</em>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html">
+<div class="listing-date">
+Apr 10, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="meetups" data-listing-date-sort="1520357400000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1.075">
+<div class="thumbnail">
+<a href="./posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html">
+<h3 class="no-anchor listing-title">
+Docker and Interactive unit testing
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html">
+<div class="listing-description">
+In this month’s meetup, Mark Dunning will give a general introduction to the Docker container platform and Phil Mike Jones will introduce strategies for interactive unit testing.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html">
+<div class="listing-date">
+Mar 6, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="meetups" data-listing-date-sort="1517938200000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="0.65">
+<div class="thumbnail">
+<a href="./posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html">
+<h3 class="no-anchor listing-title">
+Stan and the Tidyverse
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html">
+<div class="listing-description">
+Welcome back to the Sheffield R Meetup! We’re kicking off 2018 with two great talks:
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html">
+<div class="listing-date">
+Feb 6, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="meetups" data-listing-date-sort="1512495000000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="0.705">
+<div class="thumbnail">
+<a href="./posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html">
+<h3 class="no-anchor listing-title">
+R coding social
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html">
+<div class="listing-description">
+In the run up to the festive season we’d like to invite Sheffield R users to come and join us for an R coding social! Come along for a chance to meet and greet fellow R users in Sheffield. If you have a coding problem to discuss, feel free to bring it along and take advantage of the wealth of R coding knowledge available!
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html">
+<div class="listing-date">
+Dec 5, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="meetups" data-listing-date-sort="1510075800000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1.195">
+<div class="thumbnail">
+<a href="./posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html">
+<h3 class="no-anchor listing-title">
+Managing projects with workflowr and Introduction to DiagrammeR
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html">
+<div class="listing-description">
+We’re back to our regular schedule after last month’s Hacktoberfest fun. Join us for talks on managing your projects with workflowr and a brief introduction to the visualisation tool, DiagrammeR.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html">
+<div class="listing-date">
+Nov 7, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="meetups" data-listing-date-sort="1507051800000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1.425">
+<div class="thumbnail">
+<p><a href="./posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html"> <img src="https://cloud.githubusercontent.com/assets/121322/18864038/31532b4a-8449-11e6-8701-97c00c95bf09.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html">
+<h3 class="no-anchor listing-title">
+Celebrating Hacktoberfest… #rstats style!
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html">
+<div class="listing-description">
+We’ll be following up our introductory <strong>Celebrating Hacktoberfest</strong> session with drop-in sessions throughout October, so do join us if you’d like to get involved or learn more about open source!
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html">
+<div class="listing-date">
+Oct 3, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="meetups" data-listing-date-sort="1504632600000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1.185">
+<div class="thumbnail">
+<a href="./posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html">
+<h3 class="no-anchor listing-title">
+September Sheffield R Meetup: Object oriented systems in R + The Reproducible Thesis w/ Bookdown
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html">
+<div class="listing-description">
+We’ve got an exciting pair of talks for you this month!
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html">
+<div class="listing-date">
+Sep 5, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="meetups" data-listing-date-sort="1499189400000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1.335">
+<div class="thumbnail">
+<a href="./posts/2017-07-04-july-meetup/2017-07-04-july-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2017-07-04-july-meetup/2017-07-04-july-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-07-04-july-meetup/2017-07-04-july-meetup.html">
+<h3 class="no-anchor listing-title">
+July Sheffield R Meetup: Thermal images and Object oriented systems in R
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2017-07-04-july-meetup/2017-07-04-july-meetup.html">
+<div class="listing-description">
+We’ve got two great talks lined up for our last meeting before the summer break.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-07-04-july-meetup/2017-07-04-july-meetup.html">
+<div class="listing-date">
+Jul 4, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="meetups" data-listing-date-sort="1496770200000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1.045">
+<div class="thumbnail">
+<a href="./posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html">
+<h3 class="no-anchor listing-title">
+June Sheffield R Meetup: Literate programming and Writing a decision tree package for R
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html">
+<div class="listing-description">
+This month Anna Krystalli will present a exploration of literate programming, following up from a discussion on literate programming techniques at our meetup in April, and Pete Dodd will tell us about building an open source decision tree package in R.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html">
+<div class="listing-date">
+Jun 6, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="meetups" data-listing-date-sort="1493746200000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="0.955">
+<div class="thumbnail">
+<a href="./posts/2017-05-02-may-meetup/2017-05-02-may-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2017-05-02-may-meetup/2017-05-02-may-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-05-02-may-meetup/2017-05-02-may-meetup.html">
+<h3 class="no-anchor listing-title">
+May Sheffield R Meetup: Making R Faster
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2017-05-02-may-meetup/2017-05-02-may-meetup.html">
+<div class="listing-description">
+This month we’ll be learning from Théo Michelot how to make R go faster using a couple of techniques.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-05-02-may-meetup/2017-05-02-may-meetup.html">
+<div class="listing-date">
+May 2, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="meetups" data-listing-date-sort="1491327000000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="0.44">
+<div class="thumbnail">
+<a href="./posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html">
+<h3 class="no-anchor listing-title">
+April Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html">
+<div class="listing-description">
+This month’s talks cover ensembles in machine learning and using R notebooks as a learning tool.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html">
+<div class="listing-date">
+Apr 4, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="meetups" data-listing-date-sort="1488907800000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1.48">
+<div class="thumbnail">
+<a href="./posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html">
+<h3 class="no-anchor listing-title">
+March Sheffield R Meetup: Code surgery and social
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html">
+<div class="listing-description">
+In March we held our first R coding surgery and social, a chance for our members to meet, greet, learn from and collaborate with fellow R users.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html">
+<div class="listing-date">
+Mar 7, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="meetups" data-listing-date-sort="1485945000000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<a href="./posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html">
+<h3 class="no-anchor listing-title">
+February Sheffield R Meetup: Martin Garlovsky and Christopher Hopkinson
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html">
+<div class="listing-description">
+In this month’s meeting we’ll explore survival analysis, a means of analysing data in which the outcome is the time to the occurrence of an event of interest. We’ll also be finding out about one of the more esoteric features of the R language, namely non-standard evaluation.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html">
+<div class="listing-date">
+Feb 1, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="meetups" data-listing-date-sort="1479292200000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="0.985">
+<div class="thumbnail">
+<a href="./posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html">
+<h3 class="no-anchor listing-title">
+December Sheffield R Meetup: Dan Olner, James Waterhouse and Darrell Taylor
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html">
+<div class="listing-description">
+This month we’ll be learning about R’s capabilities for wrangling and handling spatial data and how Sky Betting and Gaming does data science.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html">
+<div class="listing-date">
+Nov 16, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="meetups" data-listing-date-sort="1477063800000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1.055">
+<div class="thumbnail">
+<a href="./posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html">
+<h3 class="no-anchor listing-title">
+November Sheffield R Meetup: Shaun Coutts and Lukas Drapal
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html">
+<div class="listing-description">
+At this month’s meeting we’ll be talking about modelling, inference, and prediction.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html">
+<div class="listing-date">
+Oct 21, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="meetups" data-listing-date-sort="1474133400000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="0.57">
+<div class="thumbnail">
+<a href="./posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html">
+<h3 class="no-anchor listing-title">
+October Sheffield R Meetup: Mathew Hall and Mike Croucher
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html">
+<div class="listing-description">
+At this month’s meeting we’ll be talking about how R interacts with different languages and technologies.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html">
+<div class="listing-date">
+Sep 17, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="meetups" data-listing-date-sort="1471455000000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="0.955">
+<div class="thumbnail">
+<a href="./posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html">
+<h3 class="no-anchor listing-title">
+September Sheffield R Meetup: Alison Parton and Jeremy Oakley
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html">
+<div class="listing-description">
+After the summer break, Sheffield R group is back with a couple of great talks to kick off the new season.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html">
+<div class="listing-date">
+Aug 17, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="hack" data-listing-date-sort="1463772600000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="2.35">
+<div class="thumbnail">
+<a href="./posts/2016-05-20-hack-results/2016-05-20-hack-results.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2016-05-20-hack-results/2016-05-20-hack-results.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2016-05-20-hack-results/2016-05-20-hack-results.html">
+<h3 class="no-anchor listing-title">
+NBN Hack Results
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('hack'); return false;">
+hack
+</div>
+</div>
+<a href="./posts/2016-05-20-hack-results/2016-05-20-hack-results.html">
+<div class="listing-description">
+In March we ran a series of hack events centred around the National Biodiversity Network’s data gateway. We teamed up with Sheffield Wildlife Trust to investigate the data and see what we might be able to learn. Thanks to Tom August’s <code>rnbn</code> package, it was a cinch to get the data which is kindly contributed by volunteers and organisations across the country.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2016-05-20-hack-results/2016-05-20-hack-results.html">
+<div class="listing-date">
+May 20, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="hack" data-listing-date-sort="1453923000000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="0.345">
+<div class="thumbnail">
+<a href="./posts/2016-01-28-hack/2016-01-28-hack.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2016-01-28-hack/2016-01-28-hack.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2016-01-28-hack/2016-01-28-hack.html">
+<h3 class="no-anchor listing-title">
+National Biodiversity Hack Event
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('hack'); return false;">
+hack
+</div>
+</div>
+<a href="./posts/2016-01-28-hack/2016-01-28-hack.html">
+<div class="listing-description">
+We’re running a hackathon event over three sessions in March. The hack will focus on the National Biodiversity Network’s data to collaboratively develop outputs that benefit the public, Council or local wildlife organisations.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2016-01-28-hack/2016-01-28-hack.html">
+<div class="listing-date">
+Jan 27, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="meetups" data-listing-date-sort="1453829400000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="0.585">
+<div class="thumbnail">
+<a href="./posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html">
+<h3 class="no-anchor listing-title">
+January Sheffield R Meetup: Happy New-ish YeaR!
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html">
+<div class="listing-description">
+This month we will be talking in more detail about our upcoming NBN Biodiversity Hack event, which will be held over the first 3 weeks of March. Paul and Anna will share some of our experiences from the Open Data Sheffield #hackthemarine event held earlier this month, and we will bounce around any ideas the group may have for exciting analyses and visualisations using the biodiversity data.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html">
+<div class="listing-date">
+Jan 26, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="meetups" data-listing-date-sort="1448386200000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="0.44">
+<div class="thumbnail">
+<a href="./posts/2015-11-24-november-meetup/2015-11-24-november-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2015-11-24-november-meetup/2015-11-24-november-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2015-11-24-november-meetup/2015-11-24-november-meetup.html">
+<h3 class="no-anchor listing-title">
+November Sheffield R Meetup: Matt Aldridge
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2015-11-24-november-meetup/2015-11-24-november-meetup.html">
+<div class="listing-description">
+This month we are delighted to welcome a guest speaker Matt Aldridge from Mango Solutions - a company which specialises in data analysis/science, training and consultancy using R. You may know them as they organise the Effective Applications of the R Language (EARL) conferences in the UK and US. Matt’s talk will be titled “The Changing Face of R” and will be accessible to all regardless of experience or background - it will certainly be interesting in how R is being used to shape data analysis away from the academic ivory tower!
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2015-11-24-november-meetup/2015-11-24-november-meetup.html">
+<div class="listing-date">
+Nov 24, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="meetups" data-listing-date-sort="1445967000000" data-listing-file-modified-sort="1661794297246" data-listing-reading-time-sort="1.215">
+<div class="thumbnail">
+<a href="./posts/2015-10-27-october-meetup/2015-10-27-october-meetup.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/2015-10-27-october-meetup/2015-10-27-october-meetup.html"></a></p>
+</div>
+<div class="body">
+<a href="./posts/2015-10-27-october-meetup/2015-10-27-october-meetup.html">
+<h3 class="no-anchor listing-title">
+October Sheffield R Meetup: Git, GitHub, and Shiny apps
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('meetups'); return false;">
+meetups
+</div>
+</div>
+<a href="./posts/2015-10-27-october-meetup/2015-10-27-october-meetup.html">
+<div class="listing-description">
+This month we will be taking a look at integrating git and github use with R. Git is a great tool to help you manage your code using version control - helping avoid that annoying situation where you have 8 different pieces of code and can’t remember which one you should be using! Github then allows you to share your code and documentation, which can be a great way to disseminate your work and help others to reproduce it (as per the philosophy of open science). We also plan on using it in the upcoming Biodiversity hack event! Feel free to bring your laptops along if you want to dabble as we go!
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2015-10-27-october-meetup/2015-10-27-october-meetup.html">
+<div class="listing-date">
+Oct 27, 2015
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.634">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2017-03-07">
+
+<title>SheffieldR - March Sheffield R Meetup: Code surgery and social</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">SheffieldR</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../sponsors.html">Sponsors</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources.html">Resources</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../slides.html">Slides</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SheffieldR"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/Sheffield_R_"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"><i class="bi bi-rss" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">March Sheffield R Meetup: Code surgery and social</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">meetups</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 7, 2017</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>In March we held our first R coding surgery and social, a chance for our members to meet, greet, learn from and collaborate with fellow R users.</p>
+<section id="in-attendance" class="level4">
+<h4 class="anchored" data-anchor-id="in-attendance">In attendance</h4>
+<p>Tamora, Eoghan, Kassandra, Alison, Mat, Chris, José</p>
+</section>
+<section id="topics" class="level4">
+<h4 class="anchored" data-anchor-id="topics">Topics</h4>
+<section id="data-storage-alison" class="level5">
+<h5 class="anchored" data-anchor-id="data-storage-alison">Data storage (Alison)</h5>
+<p><strong>Problem</strong></p>
+<ul>
+<li>Storing data of different lengths.</li>
+</ul>
+<p><strong>Answer</strong></p>
+<ul>
+<li>Use list columns: allows arbitrary length vectors.</li>
+<li>See <a href="https://www.rstudio.com/resources/videos/happy-r-users-purrr-tutorial/">Charlotte Wickham presentation on tidy data at R Studio conference 2017</a>.</li>
+</ul>
+</section>
+<section id="spatio-temporal-time-series-kassandra" class="level5">
+<h5 class="anchored" data-anchor-id="spatio-temporal-time-series-kassandra">Spatio-temporal time series (Kassandra)</h5>
+<p><strong>Problem</strong></p>
+<ul>
+<li>Lots of observations in some areas/directions, few elsewhere.</li>
+<li>Time series of environmental variables.</li>
+<li>Relate observed distribution with methane flux.</li>
+<li>Time series has gaps - how to handle?</li>
+</ul>
+<p><strong>Answer</strong></p>
+<ul>
+<li>Can create an even time series - add NAs where observations missing</li>
+<li>Raster layers as time, environmental variable single point time series</li>
+<li>List columns again!</li>
+<li>Loading raster data into R: use <code>raster</code> package, load data and specify projection string (unless data is GEO tiff, in that case it’s in the metadata).</li>
+</ul>
+</section>
+<section id="optimisation-alison" class="level5">
+<h5 class="anchored" data-anchor-id="optimisation-alison">Optimisation (Alison)</h5>
+<p><strong>Problem</strong></p>
+<ul>
+<li>Profiling and how to make the loop quicker.</li>
+</ul>
+<p><strong>Answer</strong></p>
+<ul>
+<li>Apply lineprof/profvis to profile whole sections of program/script. See <a href="http://adv-r.had.co.nz/Profiling.html">Hadley’s profiling guide</a>.</li>
+<li>Might be possible to use closures to precalculate distributions.</li>
+<li>Use C++ via Rcpp.</li>
+<li>Use JAGS or stan - parallelisable implementations.</li>
+</ul>
+</section>
+<section id="live-demo-chris" class="level5">
+<h5 class="anchored" data-anchor-id="live-demo-chris">Live demo (Chris)</h5>
+<ul>
+<li><a href="http://sheffieldr.github.io/assets/material/2017-03/ListColumnDemo.R">Live code demo of list columns</a>.</li>
+<li>Use saveRDS(), readRDS() as alternative to store as text.</li>
+<li>Might be problems with speed - use profiling to compare with text storage.</li>
+</ul>
+</section>
+<section id="eeg-processing-josé" class="level5">
+<h5 class="anchored" data-anchor-id="eeg-processing-josé">EEG processing (José)</h5>
+<p><strong>Problem</strong></p>
+<ul>
+<li>Getting raw data into format required for R package for signal processing.</li>
+<li>Bad documentation!</li>
+</ul>
+<p><strong>Answer</strong></p>
+<ul>
+<li>Use Matlab with manufacturer software?</li>
+</ul>
+</section>
+<section id="data-handling-kassandra" class="level5">
+<h5 class="anchored" data-anchor-id="data-handling-kassandra">Data handling (Kassandra)</h5>
+<p><strong>Problem</strong></p>
+<ul>
+<li>Problem with large data - can she write all objects together?</li>
+</ul>
+<p><strong>Answer</strong></p>
+<ul>
+<li>Need to be able to write sequentially - plugin for R to speak to database e.g.&nbsp;RSQLite or use RDS.</li>
+<li>Sparse matrix?</li>
+<li>R ArcGIS interface?</li>
+</ul>
+</section>
+<section id="profiling-update-alison" class="level5">
+<h5 class="anchored" data-anchor-id="profiling-update-alison">Profiling update (Alison)</h5>
+<ul>
+<li>Constant matrix each time - copy on modify?</li>
+<li>Avoid assignment of matrices within for loop (nested).</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
