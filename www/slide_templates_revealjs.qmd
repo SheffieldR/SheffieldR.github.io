@@ -1,0 +1,89 @@
+---
+title: PGFinder - Open Software for Peptidoglycan Analysis
+author: Neil Shephard
+email: n.shephard@sheffield.ac.uk
+format:
+  revealjs:
+    theme: sky
+    incremental: true
+    embed-resources: true
+    logo: "SheffieldR_footer.png"
+    footer: "https://SheffieldR.github.io"
+---
+
+::: {.incremental}
+## Sample Slides
+
+Bullet Points can have pauses between them.
+
+* One
+* Two
+* Three
+
+. . .
+
+* Four
+
+:::
+::: {.notes}
+Keep notes for your slide here
+:::
+
+::: {.incremental'}
+## We can have columns
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**And include images locally**
+![](img/rse-logoonly-stroke-blackborder.png){width=250}
+:::
+::: {.column width="50%"}
+**Or directly from the web**
+![](https://live.staticflickr.com/65535/52358555065_6a2abf6ef5_k.jpg){width=250}
+:::
+* [https://rse.shef.ac.uk](https://rse.shef.ac.uk)
+* [rse@sheffield.ac.uk](mailto:rse@sheffield.ac.uk)
+* [@RSE\_Sheffield](https://twitter.com/RSE_Sheffield)
+::::
+:::
+:::
+Keep notes for your slide here
+:::
+
+::: {.incremental}
+## Code Blocks
+
+We can include code blocks and highlight specific rows.
+
+```{.R code-line-numbers="1,4"}
+library(dplyr)
+library(ggplot)
+
+data(mtcars)
+head(mtcars)
+```
+:::
+:::
+Keep notes for your slide here
+:::
+
+
+::: {.incremental}
+## Executable Code Blocks
+
+We can also run code blocks and show the output rather than the code
+
+```{.R code-line-numbers="1,4"}
+#! echo: false
+library(dplyr)
+library(ggplot)
+
+data(mtcars)
+head(mtcars)
+```
+
+:::
+:::
+Keep notes for your slide here
+:::
