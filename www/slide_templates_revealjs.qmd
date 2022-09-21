@@ -1,7 +1,7 @@
 ---
-title: PGFinder - Open Software for Peptidoglycan Analysis
-author: Neil Shephard
-email: n.shephard@sheffield.ac.uk
+title: Title
+author: Author Name
+email: Author Email
 format:
   revealjs:
     theme: sky
@@ -26,7 +26,9 @@ Bullet Points can have pauses between them.
 
 :::
 ::: {.notes}
+
 Keep notes for your slide here
+
 :::
 
 ::: {.incremental'}
@@ -35,20 +37,19 @@ Keep notes for your slide here
 
 ::: {.column width="50%"}
 
-**And include images locally**
-![](img/rse-logoonly-stroke-blackborder.png){width=250}
+**Include images locally**
+![](SheffieldR_footer.png){width=250}
 :::
 ::: {.column width="50%"}
 **Or directly from the web**
 ![](https://live.staticflickr.com/65535/52358555065_6a2abf6ef5_k.jpg){width=250}
 :::
-* [https://rse.shef.ac.uk](https://rse.shef.ac.uk)
-* [rse@sheffield.ac.uk](mailto:rse@sheffield.ac.uk)
-* [@RSE\_Sheffield](https://twitter.com/RSE_Sheffield)
 ::::
 :::
-:::
+::: {.notes}
+
 Keep notes for your slide here
+
 :::
 
 ::: {.incremental}
@@ -64,8 +65,10 @@ data(mtcars)
 head(mtcars)
 ```
 :::
-:::
+::: {.notes}
+
 Keep notes for your slide here
+
 :::
 
 
@@ -84,6 +87,6 @@ head(mtcars)
 ```
 
 :::
-:::
+::: {.notes}
 Keep notes for your slide here
 :::
