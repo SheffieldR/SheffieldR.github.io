@@ -1,7 +1,7 @@
 ---
 title: Title
-author: Author Name
-email: Author Email
+author: "Author Name"
+email: email@somehwere
 format:
   revealjs:
     theme: sky
@@ -57,12 +57,12 @@ Keep notes for your slide here
 
 We can include code blocks and highlight specific rows.
 
-```{.R code-line-numbers="1,4"}
+```{.R code-line-numbers="1,5"}
 library(dplyr)
 library(ggplot)
 
 data(mtcars)
-head(mtcars)
+head(mtcars) |> print()
 ```
 :::
 ::: {.notes}
@@ -77,15 +77,39 @@ Keep notes for your slide here
 
 We can also run code blocks and show the output rather than the code
 
-```{.R code-line-numbers="1,4"}
-#! echo: false
+```{.R}
+#| echo: false
 library(dplyr)
 library(ggplot)
 
 data(mtcars)
-head(mtcars)
+head(mtcars) |> print()
 ```
 
+:::
+::: {.notes}
+Keep notes for your slide here
+:::
+
+::: {.incremental}
+## YAML Header
+
+The YAML Header contains most configuration options.
+
+```{.yaml}
+---
+title: Title
+author: "Author Name"
+email: Email
+format:
+  revealjs:
+    theme: sky
+    incremental: true
+    embed-resources: true
+    logo: "SheffieldR_footer.png"
+    footer: "https://SheffieldR.github.io"
+---
+```
 :::
 ::: {.notes}
 Keep notes for your slide here
