@@ -13,6 +13,8 @@ website:
   site-url: https://SheffieldR.github.io/
   description: "Shefffield R User Group"
   navbar:
+    logo: images/SheffieldRLogo_hex_big.png
+    search: true
     right:
       - about.qmd
       - sponsors.qmd
