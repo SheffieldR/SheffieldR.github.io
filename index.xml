@@ -9,7 +9,7 @@
 <link>https://SheffieldR.github.io/index.html</link>
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
-<generator>quarto-0.9.634</generator>
+<generator>quarto-1.3.433</generator>
 <lastBuildDate>Tue, 10 Apr 2018 17:30:00 GMT</lastBuildDate>
 <item>
   <title>rrtools: Tools for Writing Reproducible Research in R</title>
@@ -157,7 +157,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://SheffieldR.github.io/posts/2017-10-03-oct-meetup/https:/cloud.githubusercontent.com/assets/121322/18864038/31532b4a-8449-11e6-8701-97c00c95bf09.png" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<figcaption class="figure-caption">Hacktoberfest banner</figcaption>
 </figure>
 </div>
 <!--more-->
@@ -177,7 +177,6 @@
   <category>meetups</category>
   <guid>https://SheffieldR.github.io/posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html</guid>
   <pubDate>Tue, 03 Oct 2017 17:30:00 GMT</pubDate>
-  <media:content url="https://cloud.githubusercontent.com/assets/121322/18864038/31532b4a-8449-11e6-8701-97c00c95bf09.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>September Sheffield R Meetup: Object oriented systems in R + The Reproducible Thesis w/ Bookdown</title>
