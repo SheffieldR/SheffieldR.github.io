@@ -6,17 +6,16 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com/Sheffield_R_ls
+      href: https://twitter.com/Sheffield_R_
     - icon: github
       text: Github
       href: https://github.com/SheffieldR
 
 ---
 
-We are the Sheffield R group. We meet used to meet every month or so  to learn about and discuss R over a drink or two,
-the pandemic threw a spanner in the works of that but we're looking to get meetings back up and running with some degree
-of regularity.
+We are the Sheffield R group. We meet roughly every month to learn about and discuss R, the pandemic threw a spanner in
+the works of that but we're looking to get meetings back up and running with some degree of regularity.
 
 Meetings are advertised on our [Meetup page](http://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/)
 
-Slides and other material from our meetups is available here.
+Slides and other material from our meetups is available on our GitHub account [SheffieldR](https://github.com/SheffieldR/).

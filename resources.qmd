@@ -11,9 +11,8 @@ about:
       href: https://github.com/SheffieldR
 ---
 
-If you are thinking of, or have been invited to give a talk, you can use the [Quarto](https://quarto.org) templates below
+If you are thinking of, or have been invited to give a talk, you can use the [Quarto](https://quarto.org) template below
 as a basis for your slides.
 
 
-* [RevealJS](/www/slide_templates_revealjs.qmd)
-* [Beamer](/www/slide_templates_beamer.qmd)
+* [Quarto RevealJS Template](https://github.com/ns-rse/quarto-revealjs-template)
