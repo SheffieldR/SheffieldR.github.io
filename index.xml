@@ -9,7 +9,7 @@
 <link>https://SheffieldR.github.io/index.html</link>
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
-<generator>quarto-1.3.433</generator>
+<generator>quarto-1.3.450</generator>
 <lastBuildDate>Tue, 10 Apr 2018 17:30:00 GMT</lastBuildDate>
 <item>
   <title>rrtools: Tools for Writing Reproducible Research in R</title>
