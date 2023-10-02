@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SheffieldR Rebbot : Quarto for slides"
+title:  "SheffieldR Reboot : Quarto for slides"
 date:   2023-10-26 17:30:00 +0000
 categories: meetups
 image: https://live.staticflickr.com/65535/53182749103_d03f3bbd0a_k.jpg
