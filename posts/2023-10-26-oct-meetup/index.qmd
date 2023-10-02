@@ -12,6 +12,9 @@ preparation system [Quarto](https://quarto.org) and how to use it with GitHub to
 websites. There is however still scope for a second talk so if you'd like to make a short presentation on how you have
 used R in your research please [get in touch](mailto:n.shephard@sheffield.ac.uk).
 
+Meeting is 2023-10-26 17:30-19:00 in LT02 (60), Arts Tower, Western Bank, Sheffield. Sign up
+[here](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/296493587/).
+
 ![[_Plants to Boot_ Picture by Neil Shephard](https://flickr.com/photos/slackline/53182749103/)](https://live.staticflickr.com/65535/53182749103_d03f3bbd0a_k.jpg)
 
 <!--more-->
@@ -26,7 +29,7 @@ presentations. Further support is now available for more programming languages b
 [Python](https://python.org), [Julia](https://julialang.org) and the JavaScript data analysis language
 [Observable](https://observablehq.com/@observablehq/observable-javascript).
 
-[Neil Shephard](https://www.sheffield.ac.uk/dcs/people/research-staff/neil-shephard), a Research Software Engineer
+[Neil Shephard](https://www.sheffield.ac.uk/dcs/people/research-staff/neil-shephard) is a Research Software Engineer
 within the Department of Computer Science, will guide you through how to use a GitHub Template for Quarto RevealJS slides
 to create and publish them to [GitHub Pages](https://pages.github.com/).
 
