@@ -10,7 +10,41 @@
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Tue, 10 Apr 2018 17:30:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 26 Oct 2023 17:30:00 GMT</lastBuildDate>
+<item>
+  <title>SheffieldR Rebbot : Quarto for slides</title>
+  <link>https://SheffieldR.github.io/posts/2023-10-26-oct-meetup/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After a long hiatus SheffieldR User Group is back and we’ll be starting things off by looking at the new document preparation system <a href="https://quarto.org">Quarto</a> and how to use it with GitHub to publish presentations as websites. There is however still scope for a second talk so if you’d like to make a short presentation on how you have used R in your research please <a href="mailto:n.shephard@sheffield.ac.uk">get in touch</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://SheffieldR.github.io/posts/2023-10-26-oct-meetup/https:/live.staticflickr.com/65535/53182749103_d03f3bbd0a_k.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption"><a href="https://flickr.com/photos/slackline/53182749103/"><em>Plants to Boot</em> Picture by Neil Shephard</a></figcaption>
+</figure>
+</div>
+<!--more-->
+<section id="quarto-for-revealjs-slides" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-for-revealjs-slides">Quarto for RevealJS Slides</h2>
+<p>The evolution of literate programming continues with <a href="https://quarto.org">Quarto</a> which builds on the widely popular <a href="https://bookdown.org/yihui/rmarkdown/">RMarkdown</a>. Powered by <a href="https://pandoc.org/">Pandoc</a> under the hood it continues to provide many popular document structures such as books, journal articles, Beamer articles and websites, but extends these further introducing new document structures such as blogs including <a href="https://revealjs.com">RevealJS</a> slide presentations. Further support is now available for more programming languages beyond R including <a href="https://python.org">Python</a>, <a href="https://julialang.org">Julia</a> and the JavaScript data analysis language <a href="https://observablehq.com/@observablehq/observable-javascript">Observable</a>.</p>
+<p><a href="https://www.sheffield.ac.uk/dcs/people/research-staff/neil-shephard">Neil Shephard</a>, a Research Software Engineer within the Department of Computer Science, will guide you through how to use a GitHub Template for Quarto RevealJS slides to create and publish them to <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+<section id="speaker-biography" class="level3">
+<h3 class="anchored" data-anchor-id="speaker-biography">Speaker Biography</h3>
+<p><a href="https://ns-rse.github.io">Neil</a> is a Research Software Engineer at the University of Sheffield. His career has been varied with time as a Genetic Epidemiologist, Medical Statistician working on Clinical Trials and time in industry working as a Data Scientist in a startup tech company. He combines his knowledge and experience to help researchers at the University of Sheffield improve the quality and openness of their code and data.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2023-10-26-oct-meetup/index.html</guid>
+  <pubDate>Thu, 26 Oct 2023 17:30:00 GMT</pubDate>
+  <media:content url="https://live.staticflickr.com/65535/53182749103_d03f3bbd0a_k.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>rrtools: Tools for Writing Reproducible Research in R</title>
   <link>https://SheffieldR.github.io/posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html</link>
@@ -621,24 +655,6 @@
   <category>hack</category>
   <guid>https://SheffieldR.github.io/posts/2016-01-28-hack/2016-01-28-hack.html</guid>
   <pubDate>Wed, 27 Jan 2016 19:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>January Sheffield R Meetup: Happy New-ish YeaR!</title>
-  <link>https://SheffieldR.github.io/posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This month we will be talking in more detail about our upcoming NBN Biodiversity Hack event, which will be held over the first 3 weeks of March. Paul and Anna will share some of our experiences from the Open Data Sheffield #hackthemarine event held earlier this month, and we will bounce around any ideas the group may have for exciting analyses and visualisations using the biodiversity data.</p>
-<p>But that’s not all! We are delighted to have a talk from Dan Pollard from UoS Health Economics and Decision Science. He will be introducing the Zelig package, which can be used to both estimate statistical models but also conduct simulations from the results; ideal for building data driven computer models.</p>
-
-
-
- ]]></description>
-  <category>meetups</category>
-  <guid>https://SheffieldR.github.io/posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html</guid>
-  <pubDate>Tue, 26 Jan 2016 17:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
