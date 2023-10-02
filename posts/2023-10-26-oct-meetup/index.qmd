@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "SheffieldR Rebbot : Quarto for slides"
+date:   2023-10-26 17:30:00 +0000
+categories: meetups
+image: https://live.staticflickr.com/65535/53182749103_d03f3bbd0a_k.jpg
+excerpt_separator: <!--more-->
+---
+
+After a long hiatus SheffieldR User Group is back and we'll be starting things off by looking at the new document
+preparation system [Quarto](https://quarto.org) and how to use it with GitHub to publish presentations as
+websites. There is however still scope for a second talk so if you'd like to make a short presentation on how you have
+used R in your research please [get in touch](mailto:n.shephard@sheffield.ac.uk).
+
+![[_Plants to Boot_ Picture by Neil Shephard](https://flickr.com/photos/slackline/53182749103/)](https://live.staticflickr.com/65535/53182749103_d03f3bbd0a_k.jpg)
+
+<!--more-->
+
+## Quarto for RevealJS Slides
+
+The evolution of literate programming continues with [Quarto](https://quarto.org) which builds on the widely popular
+[RMarkdown](https://bookdown.org/yihui/rmarkdown/). Powered by [Pandoc](https://pandoc.org/) under the hood it continues
+to provide many popular document structures such as books, journal articles, Beamer articles and websites, but extends
+these further introducing new document structures such as blogs including [RevealJS](https://revealjs.com) slide
+presentations. Further support is now available for more programming languages beyond R including
+[Python](https://python.org), [Julia](https://julialang.org) and the JavaScript data analysis language
+[Observable](https://observablehq.com/@observablehq/observable-javascript).
+
+[Neil Shephard](https://www.sheffield.ac.uk/dcs/people/research-staff/neil-shephard), a Research Software Engineer
+within the Department of Computer Science, will guide you through how to use a GitHub Template for Quarto RevealJS slides
+to create and publish them to [GitHub Pages](https://pages.github.com/).
+
+### Speaker Biography
+
+[Neil](https://ns-rse.github.io) is a Research Software Engineer at the University of Sheffield. His career has been
+varied with time as a Genetic Epidemiologist, Medical Statistician working on Clinical Trials and time in industry
+working as a Data Scientist in a startup tech company. He combines his knowledge and experience to help researchers at
+the University of Sheffield improve the quality and openness of their code and data.
