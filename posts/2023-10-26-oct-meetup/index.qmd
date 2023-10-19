@@ -24,7 +24,7 @@ Meeting is 2023-10-26 17:30-19:00 in LT02 (60), Arts Tower, Western Bank, Sheffi
 The evolution of literate programming continues with [Quarto](https://quarto.org) which builds on the widely popular
 [RMarkdown](https://bookdown.org/yihui/rmarkdown/). Powered by [Pandoc](https://pandoc.org/) under the hood it continues
 to provide many popular document structures such as books, journal articles, Beamer articles and websites, but extends
-these further introducing new document structures such as blogs including [RevealJS](https://revealjs.com) slide
+these further introducing new document structures such as blogs and [RevealJS](https://revealjs.com) slide
 presentations. Further support is now available for more programming languages beyond R including
 [Python](https://python.org), [Julia](https://julialang.org) and the JavaScript data analysis language
 [Observable](https://observablehq.com/@observablehq/observable-javascript).
