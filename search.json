@@ -91,6 +91,13 @@
     "text": "After a long hiatus SheffieldR User Group is back and we’ll be starting things off by looking at the new document preparation system Quarto and how to use it with GitHub to publish presentations as websites. There is however still scope for a second talk so if you’d like to make a short presentation on how you have used R in your research please get in touch.\nMeeting is 2023-10-26 17:30-19:00 in LT02 (60), Arts Tower, Western Bank, Sheffield. Sign up here."
   },
   {
+    "objectID": "posts/2023-10-26-oct-meetup/index.html#introduction-to-plotly",
+    "href": "posts/2023-10-26-oct-meetup/index.html#introduction-to-plotly",
+    "title": "SheffieldR Reboot : Quarto for slides",
+    "section": "Introduction to Plotly",
+    "text": "Introduction to Plotly\nUnlock the power of interactive and engaging data visualizations with Plotly in R! In this workshop, you’ll dive into the world of Plotly, a leading data visualization library, and learn how to create stunning, interactive charts and graphs for your data analysis projects.\nGrace Accad, Data Scientist in the Data Visualisation Team at The University of Sheffield, will showcase the use of Plotly to enhance your graphics."
+  },
+  {
     "objectID": "posts/2023-10-26-oct-meetup/index.html#quarto-for-revealjs-slides",
     "href": "posts/2023-10-26-oct-meetup/index.html#quarto-for-revealjs-slides",
     "title": "SheffieldR Reboot : Quarto for slides",
