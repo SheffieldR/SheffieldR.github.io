@@ -19,6 +19,16 @@ Meeting is 2023-10-26 17:30-19:00 in LT02 (60), Arts Tower, Western Bank, Sheffi
 
 <!--more-->
 
+## Introduction to Plotly
+
+Unlock the power of interactive and engaging data visualizations with [Plotly in R](https://plotly.com/r/)! In this
+workshop, you'll dive into the world of Plotly, a leading data visualization library, and learn how to create stunning,
+interactive charts and graphs for your data analysis projects.
+
+[Grace Accad](mailto:g.accad@sheffield.ac.uk), Data Scientist in the [Data Visualisation
+Team](https://dataviz.shef.ac.uk/) at The University of Sheffield, will showcase the use of Plotly to enhance your
+graphics.
+
 ## Quarto for RevealJS Slides
 
 The evolution of literate programming continues with [Quarto](https://quarto.org) which builds on the widely popular
@@ -29,9 +39,9 @@ presentations. Further support is now available for more programming languages b
 [Python](https://python.org), [Julia](https://julialang.org) and the JavaScript data analysis language
 [Observable](https://observablehq.com/@observablehq/observable-javascript).
 
-[Neil Shephard](https://www.sheffield.ac.uk/dcs/people/research-staff/neil-shephard) is a Research Software Engineer
-within the Department of Computer Science, will guide you through how to use a GitHub Template for Quarto RevealJS slides
-to create and publish them to [GitHub Pages](https://pages.github.com/).
+[Neil Shephard](https://www.sheffield.ac.uk/dcs/people/research-staff/neil-shephard) is a [Research Software
+Engineer](https://rse.shef.ac.uk) within the Department of Computer Science, will guide you through how to use a GitHub
+Template for Quarto RevealJS slides to create and publish them to [GitHub Pages](https://pages.github.com/).
 
 ### Speaker Biography
 
