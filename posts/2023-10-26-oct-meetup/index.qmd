@@ -43,6 +43,12 @@ presentations. Further support is now available for more programming languages b
 Engineer](https://rse.shef.ac.uk) within the Department of Computer Science, will guide you through how to use a GitHub
 Template for Quarto RevealJS slides to create and publish them to [GitHub Pages](https://pages.github.com/).
 
+You can view the slides that were presented [here](https://ns-rse.github.io/SheffieldR-quarto-for-slides/) and if you
+wanted to try making slides yourself you can use the [Quarto RevealJS
+Template](https://github.com/ns-rse/quarto-revealjs-template) that was demoed. The talk/slides cover the material that
+is on the front `README.md`. If you find any mistakes please do report an
+[issue](https://github.com/ns-rse/quarto-revealjs-template/issues).
+
 ### Speaker Biography
 
 [Neil](https://ns-rse.github.io) is a Research Software Engineer at the University of Sheffield. His career has been
