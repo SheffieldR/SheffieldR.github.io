@@ -7,7 +7,10 @@ image: image.png
 excerpt_separator: <!--more-->
 ---
 
-After October's Reboot, we are back with another Meetup this 20th November for a showcase using Shiny to illuminate the power of data-driven insights. Join us as we delve into the world of interactive data visualization, with hands-on demonstrations, insightful discussions, and practical use cases that will empower you to harness the potential of Shiny in your own projects.
+After October's Reboot, we are back with another Meetup this 20th November for a showcase using Shiny to illuminate the
+power of data-driven insights. Join us as we delve into the world of interactive data visualization, with hands-on
+demonstrations, insightful discussions, and practical use cases that will empower you to harness the potential of Shiny
+in your own projects.
 
 Meeting is 2023-11-20 17:30-19:00 in 107 Workroom 4, 38 Mappin Street. Sign up
 [here](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/297112060/).
@@ -21,7 +24,7 @@ Meeting is 2023-11-20 17:30-19:00 in 107 Workroom 4, 38 Mappin Street. Sign up
 Join us for an exciting showcase where we'll dive into two innovative R-Shiny projects. The first project introduces the
 fascinating world of mapping to investigate the dynamics of segregation among neighboring regions, a concept we fondly
 refer to as "social frontiers." In the second project, we explore economic sectors with a focus on aiding South
-Yorkshire's mayoral authority in their strategic growth planning endeavors.
+Yorkshire's mayoral authority in their strategic growth planning endeavours.
 
 The burning question that currently occupies our minds: How can we leverage powerful tools like Shiny to assist other
 institutions, including local councils and mayoral offices, in streamlining their data analysis processes and preventing
