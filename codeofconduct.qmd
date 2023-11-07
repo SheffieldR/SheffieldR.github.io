@@ -12,15 +12,21 @@ about:
 ---
 
 ::: {style="text-align: left;"}
+
 ## Introduction
 
-R Sheffield is committed to providing a professional, inclusive, and harassment-free environment for all participants in our events, whether in person or virtually. Our events aim to foster collaboration and the open exchange of ideas, and we expect all attendees to adhere to the following code of conduct. This code applies to all R Sheffield activities and related events.
+R Sheffield is committed to providing a professional, inclusive, and harassment-free environment for all participants in
+our events, whether in person or virtually. Our events aim to foster collaboration and the open exchange of ideas, and
+we expect all attendees to adhere to the following code of conduct. This code applies to all R Sheffield activities and
+related events.
 
 ## Expected Behaviour
 
-All participants, including members, speakers, attendees, volunteers, sponsors, exhibitors, and anyone else associated with R Sheffield events, are expected to:
+All participants, including members, speakers, attendees, volunteers, sponsors, exhibitors, and anyone else associated
+with R Sheffield events, are expected to:
 
-Behave professionally and in accordance with this code of conduct, as well as their respective employer's policies governing appropriate workplace behaviour and applicable laws.
+Behave professionally and in accordance with this code of conduct, as well as their respective employer's policies
+governing appropriate workplace behaviour and applicable laws.
 
 Respect the inherent worth of every person and group, promoting a welcoming atmosphere that values diversity.
 
@@ -28,39 +34,51 @@ Respect the inherent worth of every person and group, promoting a welcoming atmo
 
 Harassment, in any form, will not be tolerated, including but not limited to:
 
--   Offensive comments related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, race, religion, or any other protected status.
+- Offensive comments related to gender, gender identity and expression, sexual orientation, disability, physical
+  appearance, body size, age, race, religion, or any other protected status.
 
--   Intimidation, stalking, or any form of harassment, whether in person or virtually.
+- Intimidation, stalking, or any form of harassment, whether in person or virtually.
 
--   Use of abusive, offensive, or degrading language. Inappropriate physical contact, unwelcome sexual advances, or requests for sexual favours.
+- Use of abusive, offensive, or degrading language. Inappropriate physical contact, unwelcome sexual advances, or
+  requests for sexual favours.
 
--   Deliberate misgendering or use of rejected names.
+- Deliberate misgendering or use of rejected names.
 
--   Sharing sexualized images or engaging in sexual behaviour in inappropriate contexts.
+- Sharing sexualized images or engaging in sexual behaviour in inappropriate contexts.
 
--   Threats of violence or incitement of violence toward any individual.
+- Threats of violence or incitement of violence toward any individual.
 
--   Deliberate intimidation, stalking, or following.
+- Deliberate intimidation, stalking, or following.
 
--   Harassing photography, recording, or logging online activity for harassment purposes.
+- Harassing photography, recording, or logging online activity for harassment purposes.
 
--   Sustained disruption of discussions or presentations.
+- Sustained disruption of discussions or presentations.
 
 ## Consequences of Unacceptable Behaviour
 
-R Sheffield event organisers may take appropriate actions depending on the severity of the incident, which could include:
+R Sheffield event organisers may take appropriate actions depending on the severity of the incident, which could
+include:
 
-1.  Issuing warnings to the offending individual.
+1. Issuing warnings to the offending individual.
 
-2.  Expelling the individual from the event.
+2. Expelling the individual from the event.
 
-3.  Identifying the individual as a harasser to other R Sheffield members or the general public.
+3. Identifying the individual as a harasser to other R Sheffield members or the general public.
 
 ## Reporting Violations
 
-If you witness or experience any form of harassment at an R Sheffield event, please notify a conference [organiser](http://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/) or complete [this form](https://docs.google.com/forms/d/e/1FAIpQLScinCbE3orbodtTkG-q3wg_IT1ZDJifHWbYdkgkuYxVO7uj9w/viewform) immediately. Reports will be addressed promptly.
+If you witness or experience any form of harassment at an R Sheffield event, please notify a conference
+[organiser](http://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/) or complete [this
+form](https://docs.google.com/forms/d/e/1FAIpQLScinCbE3orbodtTkG-q3wg_IT1ZDJifHWbYdkgkuYxVO7uj9w/viewform)
+immediately. Reports will be addressed promptly.
+
 
 ## Pre-Event Concerns
 
-If you have concerns about attending an event and believe another individual may be present who poses a risk, please contact the organisers or fill [this form](https://docs.google.com/forms/d/e/1FAIpQLScinCbE3orbodtTkG-q3wg_IT1ZDJifHWbYdkgkuYxVO7uj9w/viewform) in advance. We will take precautions to ensure your safety and comfort, including providing an escort, briefing onsite staff, and taking measures to prevent contact between you and the potential harasser.
+If you have concerns about attending an event and believe another individual may be present who poses a risk, please
+contact the organisers or fill [this
+form](https://docs.google.com/forms/d/e/1FAIpQLScinCbE3orbodtTkG-q3wg_IT1ZDJifHWbYdkgkuYxVO7uj9w/viewform) in
+advance. We will take precautions to ensure your safety and comfort, including providing an escort, briefing onsite
+staff, and taking measures to prevent contact between you and the potential harasser.
+
 :::
