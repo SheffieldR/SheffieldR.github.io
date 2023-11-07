@@ -28,7 +28,7 @@ The burning question that currently occupies our minds: How can we leverage powe
 
 Dr Dan Olner is a policy fellow with Y-PERN, the "Yorkshire Policy Engagement and Research Network", working closely with SMYCA in their business, growth and skills team on all things spatial, data and regional. His background is in spatial analysis, spatial economics, data science and politics. He has an interest in using data analysis to address sustainability and net zero issues. More info at [Danoler](https://danolner.net)! 
 
-You can view the slides that will be presented [here](https://github.com/DanOlner/ShinyMapEssentials)
+You can view the code that will be presented [here](https://github.com/DanOlner/ShinyMapEssentials)
 
 If you have any questions or inquires please get in touch with [Grace Accad](mailto:g.accad@sheffield.ac.uk) or [Neil Shephard](mailto:n.shephard@sheffield.ac.uk)
 
