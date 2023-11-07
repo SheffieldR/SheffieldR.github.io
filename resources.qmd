@@ -15,4 +15,4 @@ If you are thinking of, or have been invited to give a talk, you can use the [Qu
 as a basis for your slides.
 
 
-* [Quarto RevealJS Template](https://github.com/ns-rse/quarto-revealjs-template)
+[Quarto RevealJS Template](https://github.com/ns-rse/quarto-revealjs-template)
