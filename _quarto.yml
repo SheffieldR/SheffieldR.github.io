@@ -20,6 +20,7 @@ website:
       - sponsors.qmd
       - resources.qmd
       - slides.qmd
+      - codeofconduct.qmd
       - icon: github
         href: https://github.com/SheffieldR
       - icon: twitter
