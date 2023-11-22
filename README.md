@@ -42,7 +42,6 @@ biography of the presenter(s). To create a new post follow the steps below.
     GitHub. **NB** There is no need to run `quarto publish gh-pages` locally nor to commit the locally rendered HTML
     (located under `_site/_` directory and which is ignored via `.gitignore`). The GitHub Workflow (under
     `.github/workflows/publish.yaml`) handles rendering and publishing the site on GitHub.
-    the pages
 
 11. Open a pull request to merge your changes into the `main` branch.
 
