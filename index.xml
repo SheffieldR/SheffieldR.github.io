@@ -198,7 +198,7 @@
 <p>Tamora James is a PhD researcher in the Department of Animal and Plant Sciences at the University of Sheffield. Her work involves modelling populations of vulnerable bird species to determine effective conservation interventions.</p>
 </section>
 <section id="sheffield-r-users-group-needs-you" class="level2">
-<h2 class="anchored" data-anchor-id="sheffield-r-users-group-needs-you">Sheffield R Users Group needs you!</h2>
+<h2 class="anchored" data-anchor-id="sheffield-r-users-group-needs-you">Sheffield R Users Group needs you</h2>
 <p>We rely on members of the Sheffield R community to speak at our meetups and try to offer a mix of “beginners” and “expert” level talks. If you’d like to share a 15 minute informal slide-talk on a topic of your choosing (broadly ‘something cool I’ve done related to R that others would benefit from hearing about’) then we’d love to hear from you!</p>
 <p>Let us know by filling in our speaker <a href="https://goo.gl/forms/6EQaWs7PsxdOP04l2">sign up form</a>.</p>
 
@@ -239,7 +239,7 @@
 <p>Anyone can benefit from getting involved, regardless of coding skill. At the very least, you’ll <strong>learn more about open source</strong> and <strong>how to contribute through online collaborative coding platforms like GitHub</strong>. But you never know, you might end up stumbling across the perfect project for you and ending up joining a community.</p>
 <p>You can choose to contribute as little or much as you like, from correcting typos, contributing ideas to discussions to building features! Make at least 4 contributions (pull requests) to any GitHub-hosted project between October 1 and October 31 to <strong>earn a limited edition Hacktoberfest T-shirt!</strong></p>
 <section id="at-todays-meetup" class="level2">
-<h2 class="anchored" data-anchor-id="at-todays-meetup">At today’s meetup:</h2>
+<h2 class="anchored" data-anchor-id="at-todays-meetup">At today’s meetup</h2>
 <p>We’ll take a look at <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=label%3Ahacktoberfest+state%3Aopen+type%3Aissue+language%3AR&amp;type=">Hacktoberfest R projects on GitHub</a> (many <a href="https://ropensci.org/">rOpenSci</a> packages requiring help!) and discuss how to use GitHub to contribute to projects e.g.&nbsp;how to make a pull request, best practice for contributing code etc.</p>
 
 
@@ -259,7 +259,7 @@
 
 
 <section id="welcome-back-to-a-new-season-of-r-user-group-meetups" class="level2">
-<h2 class="anchored" data-anchor-id="welcome-back-to-a-new-season-of-r-user-group-meetups">Welcome back to a new season of R user group meetups!</h2>
+<h2 class="anchored" data-anchor-id="welcome-back-to-a-new-season-of-r-user-group-meetups">Welcome back to a new season of R user group meetups</h2>
 <p>We’ve got an exciting pair of talks for you this month!</p>
 <!--more-->
 <p>First up, <strong>Chris Hopkinson</strong>, self-described Data Lover, will be talking us through <strong>Object oriented systems in R</strong>:</p>
