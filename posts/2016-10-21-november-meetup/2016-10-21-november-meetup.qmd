@@ -22,8 +22,6 @@ Lukas Drapal will introduce us to the online machine learning competition site [
 
 > Kaggle is a great place to learn data science by doing. Kaggle hosts machine learning competitions and has a very active community that share their techniques and tips. In this talk I describe how Kaggle works, share best practises and dive into challenges of a competition that we won among more than 1500 teams - Allstate Purchase Prediction Challenge.
 
-
 We look forward to seeing you at the Red Deer on 1 November! Location details are on our [meetup event](https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/events/235018288/).
 
 The SheffieldR team
-

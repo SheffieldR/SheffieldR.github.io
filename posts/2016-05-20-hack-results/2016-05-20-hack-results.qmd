@@ -43,5 +43,4 @@ This team wrote an NBN Gateway package for Python a la `rnbn`.
 
 Repository link: [lionfish0/pynbn](https://github.com/lionfish0/pynbn)
 
-
 See the [Hack details page](/nbn-hack/) for details on the event including how to register. To get updates on the hack and our events, follow us on Twitter: [@Sheffield\_R\_](https://twitter.com/Sheffield_R_).

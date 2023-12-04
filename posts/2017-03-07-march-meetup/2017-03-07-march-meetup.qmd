@@ -12,6 +12,7 @@ speakers:
 In March we held our first R coding surgery and social, a chance for our members to meet, greet, learn from and collaborate with fellow R users.
 
 #### In attendance
+
 Tamora, Eoghan, Kassandra, Alison, Mat, Chris, José
 
 #### Topics

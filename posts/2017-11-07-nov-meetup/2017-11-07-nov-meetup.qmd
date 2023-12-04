@@ -22,7 +22,7 @@ In this session I'll give a brief introduction to [DiagrammeR](http://rich-ianno
 
 Tamora James is a PhD researcher in the Department of Animal and Plant Sciences at the University of Sheffield. Her work involves modelling populations of vulnerable bird species to determine effective conservation interventions.
 
-## Sheffield R Users Group needs you!
+## Sheffield R Users Group needs you
 
 We rely on members of the Sheffield R community to speak at our meetups and try to offer a mix of "beginners" and "expert" level talks. If you'd like to share a 15 minute informal slide-talk on a topic of your choosing (broadly 'something cool I've done related to R that others would benefit from hearing about') then we'd love to hear from you!
 
