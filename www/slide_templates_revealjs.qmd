@@ -12,6 +12,7 @@ format:
 ---
 
 ::: {.incremental}
+
 ## Sample Slides
 
 Bullet Points can have pauses between them.
@@ -32,7 +33,9 @@ Keep notes for your slide here
 :::
 
 ::: {.incremental'}
+
 ## We can have columns
+
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -53,6 +56,7 @@ Keep notes for your slide here
 :::
 
 ::: {.incremental}
+
 ## Code Blocks
 
 We can include code blocks and highlight specific rows.
@@ -64,6 +68,7 @@ library(ggplot)
 data(mtcars)
 head(mtcars) |> print()
 ```
+
 :::
 ::: {.notes}
 
@@ -71,8 +76,8 @@ Keep notes for your slide here
 
 :::
 
-
 ::: {.incremental}
+
 ## Executable Code Blocks
 
 We can also run code blocks and show the output rather than the code
@@ -92,6 +97,7 @@ Keep notes for your slide here
 :::
 
 ::: {.incremental}
+
 ## YAML Header
 
 The YAML Header contains most configuration options.
@@ -110,6 +116,7 @@ format:
     footer: "https://SheffieldR.github.io"
 ---
 ```
+
 :::
 ::: {.notes}
 Keep notes for your slide here

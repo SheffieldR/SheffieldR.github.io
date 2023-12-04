@@ -29,5 +29,4 @@ Object Oriented programming is commonplace in many languages. It is a useful way
 
 We hope to see you there!
 
-
 The SheffieldR team

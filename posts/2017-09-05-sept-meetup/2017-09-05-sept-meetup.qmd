@@ -10,7 +10,7 @@ speakers:
     title: "Object oriented systems in R"
 ---
 
-## Welcome back to a new season of R user group meetups!
+## Welcome back to a new season of R user group meetups
 
 We've got an exciting pair of talks for you this month!
 
@@ -27,6 +27,5 @@ _"My PhD thesis is completely reproducible (except a few items that cannot be do
 _In this session, I'll share some tips that I discovered along the way and hopefully, at least some will be helpful for your projects. A completely reproducible project might not be possible or practical for you, but reproducibility is a scale so all projects could benefit from at least some of this advice."_
 
 Hope to see you there.
-
 
 The SheffieldR team

@@ -32,7 +32,6 @@ Anyone can benefit from getting involved, regardless of coding skill. At the ver
 
 You can choose to contribute as little or much as you like, from correcting typos, contributing ideas to discussions to building features! Make at least 4 contributions (pull requests) to any GitHub-hosted project between October 1 and October 31 to **earn a limited edition Hacktoberfest T-shirt!**
 
-
-## At today's meetup:
+## At today's meetup
 
 We'll take a look at [Hacktoberfest R projects on GitHub](https://github.com/search?utf8=%E2%9C%93&q=label%3Ahacktoberfest+state%3Aopen+type%3Aissue+language%3AR&type=) (many [rOpenSci](https://ropensci.org/) packages requiring help!) and discuss how to use GitHub to contribute to projects e.g. how to make a pull request, best practice for contributing code etc.
