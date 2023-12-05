@@ -1,0 +1,89 @@
+---
+layout: post
+title:  "SheffieldR : January 2024 Meetup"
+date:   2024-01-18 17:00:00 +0000
+categories: meetups
+image: image.png
+excerpt_separator: <!--more-->
+---
+
+SheffieldR User Group is back in January 2024 with a Health Economics special and two talks from Robert Smith and Wael
+Mohammed of [Dark Peak Analytics](https://darkpeakanalytics.com/) and the University of Sheffield who will talk us
+through two of their recent publications. Rob will show us how to automate Health Economic Evaluation with R without
+sharing sensitive data and Wael will guide us through a tutorial on R packaging for cost-effectiveness models.
+
+Meeting is 2024-01-08 17:00-18:30 in The Diamond G04 Workroom 1. Sign up
+[here](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/297758319/).
+
+If you have any questions or inquires please get in touch with [Grace Accad](mailto:g.accad@sheffield.ac.uk) or [Neil
+Shephard](mailto:n.shephard@sheffield.ac.uk)/
+
+<!--more-->
+
+## Robert Smith
+
+[Living HTA: Automating Health Economic Evaluation with R](https://wellcomeopenresearch.org/articles/7-194)
+
+![Schematic showing the interaction between the company API (application programming interface) and the consultant
+automated
+workflow.](https://wellcomeopenresearch.s3.amazonaws.com/manuscripts/20423/08572b94-ad7b-437b-9f0f-874956e03474_figure1.gif)
+
+**Background**: Requiring access to sensitive data can be a significant obstacle for the development of health models
+in the Health Economics & Outcomes Research (HEOR) setting. We demonstrate how health economic evaluation can be
+conducted with minimal transfer of data between parties, while automating reporting as new information becomes
+available.
+
+**Methods**: We developed an automated analysis and reporting pipeline for health economic modelling and made the
+source code openly available on a GitHub repository. The pipeline consists of three parts: An economic model is
+constructed by the consultant using pseudo data. On the data-owner side, an application programming interface (API) is
+hosted on a server. This API hosts all sensitive data, so that data does not have to be provided to the consultant. An
+automated workflow is created, which calls the API, retrieves results, and generates a report.
+
+**Results** : The application of modern data science tools and practices allows analyses of data without the need for
+direct access – negating the need to send sensitive data. In addition, the entire workflow can be largely automated:
+the analysis can be scheduled to run at defined time points (e.g. monthly), or when triggered by an event (e.g. an
+update to the underlying data or model code); results can be generated automatically and then be exported into a report.
+Documents no longer need to be revised manually.
+
+**Conclusions**: This example demonstrates that it is possible, within a HEOR setting, to separate the health economic
+model from the data, and automate the main steps of the analysis pipeline.
+
+### Biography
+
+Rob is a health economist based in Sheffield, UK. His research focuses on the methods used to estimate the costs and
+benefits of public health interventions, with a specific interest in microsimulation modelling in R. He is a expert
+advisor in Public Health Economics & Decision Science to the WHO-HEAT project. He is currently working at the Joint
+Biosecurity Centre to help inform the UK government response to the pandemic.
+
+
+## Wael Mohammed
+
+[Packaging cost-effectiveness models in R: A Tutorial](https://wellcomeopenresearch.org/articles/8-419)
+
+![Schematic of a typical model structure taking raw data and user inputs and using a set of functions to return results
+in the form of data, publication tables, and
+figures.](https://wellcomeopenresearch.s3.eu-west-1.amazonaws.com/manuscripts/21773/92d51709-7e6b-4167-903f-31d7ba03dc47_figure2.gif)
+
+**Background**: The use of programming languages such as R in health economics and decision science is increasing, and
+brings numerous benefits including increasing model development efficiency, improving transparency, and reducing human
+error. However, there is limited guidance on how to best develop models using R. So far, no clear consensus has emerged.
+
+**Methods**: We present the advantages of creating health economic models as R packages - structured collections of
+functions, data sets, tests, and documentation. Assuming an intermediate understanding of R, we provide a tutorial to
+demonstrate how to construct a basic R package for health economic evaluation. All source code used in or referenced
+by this paper is available under an open-source licence.
+
+**Case Study**: We use the Sick Sicker Model as a case study applying the steps from the tutorial to standardise model
+development, documentation and aid review. This can improve the distribution of code, thereby streamlining model
+development, and improving methods in health economic evaluation.
+
+**Conclusion**: R packages offer a valuable framework for enhancing the quality and transparency of health economic
+evaluation models. Embracing better, more standardised software development practices, while fostering a collaborative
+culture, has the potential to significantly improve the quality of health economic models, and, ultimately, support
+better decision making in healthcare.
+
+### Biography
+
+Wael is a health economist with a background in pharmacy and public health. In addition, he has experience in
+decision-analytic modelling, econometrics, and data science. He is currently pursuing a PhD in public health,
+economics and decision science at the University of Sheffield.
