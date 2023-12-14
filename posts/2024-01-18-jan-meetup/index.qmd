@@ -12,7 +12,7 @@ Mohammed of [Dark Peak Analytics](https://darkpeakanalytics.com/) and the Univer
 through two of their recent publications. Rob will show us how to automate Health Economic Evaluation with R without
 sharing sensitive data and Wael will guide us through a tutorial on R packaging for cost-effectiveness models.
 
-Meeting is 2024-01-08 17:00-18:30 in The Diamond G04 Workroom 1. Sign up
+Meeting is 2024-01-18 17:00-18:30 in The Diamond G04 Workroom 1. Sign up
 [here](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/297758319/).
 
 If you have any questions or inquires please get in touch with [Grace Accad](mailto:g.accad@sheffield.ac.uk) or [Neil
