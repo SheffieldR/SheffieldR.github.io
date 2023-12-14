@@ -13,7 +13,8 @@ through two of their recent publications. Rob will show us how to automate Healt
 sharing sensitive data and Wael will guide us through a tutorial on R packaging for cost-effectiveness models.
 
 Meeting is 2024-01-18 17:00-18:30 in The Diamond G04 Workroom 1. Sign up
-[here](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/297758319/).
+[here](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/297758319/). Remote attendance is possible using
+[Google Meet](https://meet.google.com/iqv-jzvh-tow).
 
 If you have any questions or enquiries please get in touch with [Grace Accad](mailto:g.accad@sheffield.ac.uk) or [Neil
 Shephard](mailto:n.shephard@sheffield.ac.uk).
