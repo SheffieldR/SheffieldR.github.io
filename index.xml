@@ -10,7 +10,64 @@
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Mon, 20 Nov 2023 17:30:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 18 Jan 2024 17:00:00 GMT</lastBuildDate>
+<item>
+  <title>SheffieldR : January 2024 Meetup</title>
+  <link>https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>SheffieldR User Group is back in January 2024 with a Health Economics special and two talks from Robert Smith and Wael Mohammed of <a href="https://darkpeakanalytics.com/">Dark Peak Analytics</a> and the University of Sheffield who will talk us through two of their recent publications. Rob will show us how to automate Health Economic Evaluation with R without sharing sensitive data and Wael will guide us through a tutorial on R packaging for cost-effectiveness models.</p>
+<p>Meeting is 2024-01-18 17:00-18:30 in The Diamond G04 Workroom 1. Sign up <a href="https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/297758319/">here</a>.</p>
+<p>If you have any questions or enquiries please get in touch with <a href="mailto:g.accad@sheffield.ac.uk">Grace Accad</a> or <a href="mailto:n.shephard@sheffield.ac.uk">Neil Shephard</a>.</p>
+<!--more-->
+<section id="robert-smith" class="level2">
+<h2 class="anchored" data-anchor-id="robert-smith">Robert Smith</h2>
+<p><a href="https://wellcomeopenresearch.org/articles/7-194">Living HTA: Automating Health Economic Evaluation with R</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/https:/wellcomeopenresearch.s3.amazonaws.com/manuscripts/20423/08572b94-ad7b-437b-9f0f-874956e03474_figure1.gif" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Schematic showing the interaction between the company API (application programming interface) and the consultant automated workflow.</figcaption>
+</figure>
+</div>
+<p><strong>Background</strong>: Requiring access to sensitive data can be a significant obstacle for the development of health models in the Health Economics &amp; Outcomes Research (HEOR) setting. We demonstrate how health economic evaluation can be conducted with minimal transfer of data between parties, while automating reporting as new information becomes available.</p>
+<p><strong>Methods</strong>: We developed an automated analysis and reporting pipeline for health economic modelling and made the source code openly available on a GitHub repository. The pipeline consists of three parts: An economic model is constructed by the consultant using pseudo data. On the data-owner side, an application programming interface (API) is hosted on a server. This API hosts all sensitive data, so that data does not have to be provided to the consultant. An automated workflow is created, which calls the API, retrieves results, and generates a report.</p>
+<p><strong>Results</strong> : The application of modern data science tools and practices allows analyses of data without the need for direct access – negating the need to send sensitive data. In addition, the entire workflow can be largely automated: the analysis can be scheduled to run at defined time points (e.g.&nbsp;monthly), or when triggered by an event (e.g.&nbsp;an update to the underlying data or model code); results can be generated automatically and then be exported into a report. Documents no longer need to be revised manually.</p>
+<p><strong>Conclusions</strong>: This example demonstrates that it is possible, within a HEOR setting, to separate the health economic model from the data, and automate the main steps of the analysis pipeline.</p>
+<section id="biography" class="level3">
+<h3 class="anchored" data-anchor-id="biography">Biography</h3>
+<p>Rob is a health economist based in Sheffield, UK. His research focuses on the methods used to estimate the costs and benefits of public health interventions, with a specific interest in microsimulation modelling in R. He is a expert advisor in Public Health Economics &amp; Decision Science to the WHO-HEAT project. He is currently working at the Joint Biosecurity Centre to help inform the UK government response to the pandemic.</p>
+</section>
+</section>
+<section id="wael-mohammed" class="level2">
+<h2 class="anchored" data-anchor-id="wael-mohammed">Wael Mohammed</h2>
+<p><a href="https://wellcomeopenresearch.org/articles/8-419">Packaging cost-effectiveness models in R: A Tutorial</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/https:/wellcomeopenresearch.s3.eu-west-1.amazonaws.com/manuscripts/21773/92d51709-7e6b-4167-903f-31d7ba03dc47_figure2.gif" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Schematic of a typical model structure taking raw data and user inputs and using a set of functions to return results in the form of data, publication tables, and figures.</figcaption>
+</figure>
+</div>
+<p><strong>Background</strong>: The use of programming languages such as R in health economics and decision science is increasing, and brings numerous benefits including increasing model development efficiency, improving transparency, and reducing human error. However, there is limited guidance on how to best develop models using R. So far, no clear consensus has emerged.</p>
+<p><strong>Methods</strong>: We present the advantages of creating health economic models as R packages - structured collections of functions, data sets, tests, and documentation. Assuming an intermediate understanding of R, we provide a tutorial to demonstrate how to construct a basic R package for health economic evaluation. All source code used in or referenced by this paper is available under an open-source licence.</p>
+<p><strong>Case Study</strong>: We use the Sick Sicker Model as a case study applying the steps from the tutorial to standardise model development, documentation and aid review. This can improve the distribution of code, thereby streamlining model development, and improving methods in health economic evaluation.</p>
+<p><strong>Conclusion</strong>: R packages offer a valuable framework for enhancing the quality and transparency of health economic evaluation models. Embracing better, more standardised software development practices, while fostering a collaborative culture, has the potential to significantly improve the quality of health economic models, and, ultimately, support better decision making in healthcare.</p>
+<section id="biography-1" class="level3">
+<h3 class="anchored" data-anchor-id="biography-1">Biography</h3>
+<p>Wael is a health economist with a background in pharmacy and public health. In addition, he has experience in decision-analytic modelling, econometrics, and data science. He is currently pursuing a PhD in public health, economics and decision science at the University of Sheffield.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/index.html</guid>
+  <pubDate>Thu, 18 Jan 2024 17:00:00 GMT</pubDate>
+  <media:content url="https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/image.png" medium="image" type="image/png" height="105" width="144"/>
+</item>
 <item>
   <title>SheffieldR : November Meetup</title>
   <link>https://SheffieldR.github.io/posts/2023-11-20-nov-meetup/index.html</link>
@@ -624,54 +681,6 @@
   <category>meetups</category>
   <guid>https://SheffieldR.github.io/posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html</guid>
   <pubDate>Wed, 17 Aug 2016 17:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>NBN Hack Results</title>
-  <link>https://SheffieldR.github.io/posts/2016-05-20-hack-results/2016-05-20-hack-results.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>In March we ran a series of hack events centred around the National Biodiversity Network’s data gateway. We teamed up with Sheffield Wildlife Trust to investigate the data and see what we might be able to learn. Thanks to Tom August’s <code>rnbn</code> package, it was a cinch to get the data which is kindly contributed by volunteers and organisations across the country.</p>
-<p>Our hack was organised around several projects selected after a pitch session. Attendees chose a team based on the project and collaborated using a shared <a href="https://docs.google.com/document/d/19ctbFk6Y5Dt_YMxSEoWz0bsoIHgmCN8jUsUs3TU2qKI/edit">HackPad</a> and pushed their code to <a href="https://github.com/SheffieldR/NBN_hack_series">a central GitHub repository</a>.</p>
-<!--more-->
-<section id="the-teams" class="level1">
-<h1>The Teams</h1>
-<section id="habitats-vs-biodiversity" class="level2">
-<h2 class="anchored" data-anchor-id="habitats-vs-biodiversity">Habitats vs Biodiversity</h2>
-<p>The Sheffield Wildlife Trust have compiled a wide variety of habitat data into shapefile spatial polygons. They would like to be able to integrate it with biodiversity data from the NBN to facilitate further analysis. So the aim of this project is to produce a simple shiny app through which the user can select species/taxa of interest, query the NBN for data and match it to spatial polygon data. The app would then output an analytical dataset that could then be used for further analysis. Outputs could therefore feed into the spatial analysis project.</p>
-<p>Repository link: <a href="https://github.com/SheffieldR/NBN_hack_series/tree/master/Habitats_Vs_Biodiversity">Habitats vs Biodiversity</a></p>
-</section>
-<section id="humans-vs-biodiversity" class="level2">
-<h2 class="anchored" data-anchor-id="humans-vs-biodiversity">Humans vs Biodiversity</h2>
-<p>This team sought to determine how Sheffield’s biodiversity had changed with Sheffield’s population. As Sheffield’s urban environments grow with the population, the team wanted to understand how local wildlife had changed over time. The team looked into measures that could be used to estimate population density, river quality from other open data sources alongside an estimate for biodiversity in the data from the NBN gateway.</p>
-<p>Repository link: <a href="https://github.com/SheffieldR/NBN_hack_series/tree/master/Humans_Vs_Biodiversity">Humans vs Biodiversity</a></p>
-</section>
-<section id="team-temporal" class="level2">
-<h2 class="anchored" data-anchor-id="team-temporal">Team Temporal</h2>
-<p>Team Temporal wanted to study how species were represented in the NBN Gateway data sets over time. The team aimed to build plots of records over time for species with more than 1000 records in the data set. Additionally, the team sought to apply <a href="https://github.com/BiologicalRecordsCentre/sparta/blob/master/R/telfer.R">Telfer’s change index</a> to produce a summary of the change over time for species in Sheffield.</p>
-<p>Repository link: <a href="https://github.com/SheffieldR/NBN_hack_series/tree/master/Team_Temporal">Team Temporal</a></p>
-</section>
-<section id="bird-bingo" class="level2">
-<h2 class="anchored" data-anchor-id="bird-bingo">Bird Bingo</h2>
-<p>Bird Bingo is a game where players are given a virtual “card” with pictures of several species they might see in their area. When they see one of their species they can check it off. The team used the NBN Gateway to get species the user was likely to see by querying the Gateway for local species in the bird TVK species group. The team used the <a href="http://eol.org">Encyclopedia of Life</a>’s API to get images for the selected species and presented the player’s card and handled checking off species using the <a href="http://shiny.rstudio.com">Shiny web framework</a>.</p>
-<p>Repository link: <a href="https://github.com/SheffieldR/NBN_hack_series/tree/master/BirdBingo">BirdBingo</a></p>
-</section>
-<section id="team-python" class="level2">
-<h2 class="anchored" data-anchor-id="team-python">Team Python</h2>
-<p>This team wrote an NBN Gateway package for Python a la <code>rnbn</code>.</p>
-<p>Repository link: <a href="https://github.com/lionfish0/pynbn">lionfish0/pynbn</a></p>
-<p>See the <a href="../../nbn-hack/">Hack details page</a> for details on the event including how to register. To get updates on the hack and our events, follow us on Twitter: <a href="https://twitter.com/Sheffield_R_"><span class="citation" data-cites="Sheffield">@Sheffield</span>_R_</a>.</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>hack</category>
-  <guid>https://SheffieldR.github.io/posts/2016-05-20-hack-results/2016-05-20-hack-results.html</guid>
-  <pubDate>Fri, 20 May 2016 19:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
