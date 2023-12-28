@@ -49,7 +49,7 @@ Documents no longer need to be revised manually.
 **Conclusions**: This example demonstrates that it is possible, within a HEOR setting, to separate the health economic
 model from the data, and automate the main steps of the analysis pipeline.
 
-### Biography
+### Biography - Robert Smith
 
 Rob is a health economist based in Sheffield, UK. His research focuses on the methods used to estimate the costs and
 benefits of public health interventions, with a specific interest in microsimulation modelling in R. He is a expert
@@ -82,7 +82,7 @@ evaluation models. Embracing better, more standardised software development prac
 culture, has the potential to significantly improve the quality of health economic models, and, ultimately, support
 better decision making in healthcare.
 
-### Biography
+### Biography - Wael Mohammed
 
 Wael is a health economist with a background in pharmacy and public health. In addition, he has experience in
 decision-analytic modelling, econometrics, and data science. He is currently pursuing a PhD in public health,

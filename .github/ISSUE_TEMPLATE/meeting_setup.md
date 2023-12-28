@@ -10,7 +10,7 @@ Steps to take when setting up a new meeting...
 
 + [ ] **Date** : YYYY-MM-DD
 + [ ] **Time** : HH-MM to HH-MM
-+ [ ] **Venue** : <LOCATION>
++ [ ] **Venue** : LOCATION
 + [ ] **Request details from speaker 1** : Request a summary of the talk and a speaker biography from speaker 1.
 + [ ] **Request details from speaker 2** : Request a summary of the talk and a speaker biography from speaker 2.
 + [ ] **Website Post** : Create a new post (see [README](https://github.com/SheffieldR/SheffieldR.github.io) for
