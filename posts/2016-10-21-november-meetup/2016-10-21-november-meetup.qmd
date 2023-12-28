@@ -3,7 +3,7 @@ layout: post
 title:  "November Sheffield R Meetup: Shaun Coutts and Lukas Drapal"
 date:   2016-10-21 15:30:00 +0000
 categories: meetups
-speakers: 
+speakers:
   Shaun Coutts:
     title: "Getting by with help from family and neighbours: spatially and phylogenetically lagged models in R (with a bit of JAGS)"
     remotematerial: https://github.com/ShaunCoutts/Shared-code

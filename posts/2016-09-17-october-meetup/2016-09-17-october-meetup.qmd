@@ -3,7 +3,7 @@ layout: post
 title:  "October Sheffield R Meetup: Mathew Hall and Mike Croucher"
 date:   2016-09-17 17:30:00 +0000
 categories: meetups
-speakers: 
+speakers:
   Mathew Hall:
     title: Jupyter Notebook
     localslides: /assets/slides/2016-10-jupyter-mathew-hall.pdf

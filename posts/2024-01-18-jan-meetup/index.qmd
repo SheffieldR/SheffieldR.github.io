@@ -56,7 +56,6 @@ benefits of public health interventions, with a specific interest in microsimula
 advisor in Public Health Economics & Decision Science to the WHO-HEAT project. He is currently working at the Joint
 Biosecurity Centre to help inform the UK government response to the pandemic.
 
-
 ## Wael Mohammed
 
 [Packaging cost-effectiveness models in R: A Tutorial](https://wellcomeopenresearch.org/articles/8-419)
