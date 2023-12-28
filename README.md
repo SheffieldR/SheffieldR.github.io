@@ -47,3 +47,17 @@ biography of the presenter(s). To create a new post follow the steps below.
 
 12. Announce the event details to the mailing list on
     [Meetup](https://www.meetup.com/sheffieldr-sheffield-r-users-group/).
+
+### Pre-commit
+
+This repository uses [pre-commit](https://pre-commit.com) to make various checks of files and lint the Markdown of
+`.qmd` files using [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2)  prior to committing changes.
+
+Ideally you should install and configure pre-commit locally so that changes are checked prior to pushing and making
+pull-requests, however [pre-commit.ci](https://pre-commit.ci) is used and checks pull-request prior to merging.
+
+If you are unfamiliar with pre-commit the following articles may be useful.
+
++ [RSE Sheffield - pre-commit : Protecting your future self](https://rse.shef.ac.uk/blog/pre-commit/)
++ [ns-rse - Pre-commit and R Packaging](https://ns-rse.github.io/posts/pre-commit-r/#windows) includes instructions for
+  setting up and configuring R and RStudio with pre-commit.
