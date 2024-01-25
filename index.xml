@@ -6,15 +6,16 @@
       version="2.0">
 <channel>
 <title>SheffieldR</title>
-<link>https://SheffieldR.github.io/index.html</link>
+<link>https://SheffieldR.github.io/</link>
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.4.549</generator>
 <lastBuildDate>Thu, 18 Jan 2024 17:00:00 GMT</lastBuildDate>
 <item>
   <title>SheffieldR : January 2024 Meetup</title>
-  <link>https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/index.html</link>
+  <link>https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -28,16 +29,16 @@
 <p><a href="https://wellcomeopenresearch.org/articles/7-194">Living HTA: Automating Health Economic Evaluation with R</a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/https:/wellcomeopenresearch.s3.amazonaws.com/manuscripts/20423/08572b94-ad7b-437b-9f0f-874956e03474_figure1.gif" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Schematic showing the interaction between the company API (application programming interface) and the consultant automated workflow.</figcaption>
+<p><img src="https://wellcomeopenresearch.s3.amazonaws.com/manuscripts/20423/08572b94-ad7b-437b-9f0f-874956e03474_figure1.gif" class="img-fluid figure-img"></p>
+<figcaption>Schematic showing the interaction between the company API (application programming interface) and the consultant automated workflow.</figcaption>
 </figure>
 </div>
 <p><strong>Background</strong>: Requiring access to sensitive data can be a significant obstacle for the development of health models in the Health Economics &amp; Outcomes Research (HEOR) setting. We demonstrate how health economic evaluation can be conducted with minimal transfer of data between parties, while automating reporting as new information becomes available.</p>
 <p><strong>Methods</strong>: We developed an automated analysis and reporting pipeline for health economic modelling and made the source code openly available on a GitHub repository. The pipeline consists of three parts: An economic model is constructed by the consultant using pseudo data. On the data-owner side, an application programming interface (API) is hosted on a server. This API hosts all sensitive data, so that data does not have to be provided to the consultant. An automated workflow is created, which calls the API, retrieves results, and generates a report.</p>
 <p><strong>Results</strong> : The application of modern data science tools and practices allows analyses of data without the need for direct access – negating the need to send sensitive data. In addition, the entire workflow can be largely automated: the analysis can be scheduled to run at defined time points (e.g.&nbsp;monthly), or when triggered by an event (e.g.&nbsp;an update to the underlying data or model code); results can be generated automatically and then be exported into a report. Documents no longer need to be revised manually.</p>
 <p><strong>Conclusions</strong>: This example demonstrates that it is possible, within a HEOR setting, to separate the health economic model from the data, and automate the main steps of the analysis pipeline.</p>
-<section id="biography" class="level3">
-<h3 class="anchored" data-anchor-id="biography">Biography</h3>
+<section id="biography---robert-smith" class="level3">
+<h3 class="anchored" data-anchor-id="biography---robert-smith">Biography - Robert Smith</h3>
 <p>Rob is a health economist based in Sheffield, UK. His research focuses on the methods used to estimate the costs and benefits of public health interventions, with a specific interest in microsimulation modelling in R. He is a expert advisor in Public Health Economics &amp; Decision Science to the WHO-HEAT project. He is currently working at the Joint Biosecurity Centre to help inform the UK government response to the pandemic.</p>
 </section>
 </section>
@@ -46,16 +47,16 @@
 <p><a href="https://wellcomeopenresearch.org/articles/8-419">Packaging cost-effectiveness models in R: A Tutorial</a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/https:/wellcomeopenresearch.s3.eu-west-1.amazonaws.com/manuscripts/21773/92d51709-7e6b-4167-903f-31d7ba03dc47_figure2.gif" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Schematic of a typical model structure taking raw data and user inputs and using a set of functions to return results in the form of data, publication tables, and figures.</figcaption>
+<p><img src="https://wellcomeopenresearch.s3.eu-west-1.amazonaws.com/manuscripts/21773/92d51709-7e6b-4167-903f-31d7ba03dc47_figure2.gif" class="img-fluid figure-img"></p>
+<figcaption>Schematic of a typical model structure taking raw data and user inputs and using a set of functions to return results in the form of data, publication tables, and figures.</figcaption>
 </figure>
 </div>
 <p><strong>Background</strong>: The use of programming languages such as R in health economics and decision science is increasing, and brings numerous benefits including increasing model development efficiency, improving transparency, and reducing human error. However, there is limited guidance on how to best develop models using R. So far, no clear consensus has emerged.</p>
 <p><strong>Methods</strong>: We present the advantages of creating health economic models as R packages - structured collections of functions, data sets, tests, and documentation. Assuming an intermediate understanding of R, we provide a tutorial to demonstrate how to construct a basic R package for health economic evaluation. All source code used in or referenced by this paper is available under an open-source licence.</p>
 <p><strong>Case Study</strong>: We use the Sick Sicker Model as a case study applying the steps from the tutorial to standardise model development, documentation and aid review. This can improve the distribution of code, thereby streamlining model development, and improving methods in health economic evaluation.</p>
 <p><strong>Conclusion</strong>: R packages offer a valuable framework for enhancing the quality and transparency of health economic evaluation models. Embracing better, more standardised software development practices, while fostering a collaborative culture, has the potential to significantly improve the quality of health economic models, and, ultimately, support better decision making in healthcare.</p>
-<section id="biography-1" class="level3">
-<h3 class="anchored" data-anchor-id="biography-1">Biography</h3>
+<section id="biography---wael-mohammed" class="level3">
+<h3 class="anchored" data-anchor-id="biography---wael-mohammed">Biography - Wael Mohammed</h3>
 <p>Wael is a health economist with a background in pharmacy and public health. In addition, he has experience in decision-analytic modelling, econometrics, and data science. He is currently pursuing a PhD in public health, economics and decision science at the University of Sheffield.</p>
 
 
@@ -64,14 +65,15 @@
 
  ]]></description>
   <category>meetups</category>
-  <guid>https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/index.html</guid>
+  <guid>https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/</guid>
   <pubDate>Thu, 18 Jan 2024 17:00:00 GMT</pubDate>
   <media:content url="https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/image.png" medium="image" type="image/png" height="105" width="144"/>
 </item>
 <item>
   <title>SheffieldR : November Meetup</title>
-  <link>https://SheffieldR.github.io/posts/2023-11-20-nov-meetup/index.html</link>
+  <link>https://SheffieldR.github.io/posts/2023-11-20-nov-meetup/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -81,7 +83,12 @@
 <!--more-->
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p><img src="https://SheffieldR.github.io/posts/2023-11-20-nov-meetup/image.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://SheffieldR.github.io/posts/2023-11-20-nov-meetup/image.png" class="img-fluid figure-img"></p>
+<figcaption>Sheffield LSOAs</figcaption>
+</figure>
+</div>
 <p>Join us for an exciting showcase where we’ll dive into two innovative R-Shiny projects. The first project introduces the fascinating world of mapping to investigate the dynamics of segregation among neighboring regions, a concept we fondly refer to as “social frontiers.” In the second project, we explore economic sectors with a focus on aiding South Yorkshire’s mayoral authority in their strategic growth planning endeavours.</p>
 <p>The burning question that currently occupies our minds: How can we leverage powerful tools like Shiny to assist other institutions, including local councils and mayoral offices, in streamlining their data analysis processes and preventing unnecessary duplication of effort? Be a part of this engaging exploration and discover how Shiny can be a game-changer in data analysis for various institutions. Don’t miss this opportunity to be part of the conversation and gain valuable insights into the future of data-driven decision-making.</p>
 <section id="biography" class="level3">
@@ -95,14 +102,15 @@
 
  ]]></description>
   <category>meetups</category>
-  <guid>https://SheffieldR.github.io/posts/2023-11-20-nov-meetup/index.html</guid>
+  <guid>https://SheffieldR.github.io/posts/2023-11-20-nov-meetup/</guid>
   <pubDate>Mon, 20 Nov 2023 17:30:00 GMT</pubDate>
   <media:content url="https://SheffieldR.github.io/posts/2023-11-20-nov-meetup/image.png" medium="image" type="image/png" height="118" width="144"/>
 </item>
 <item>
   <title>SheffieldR Reboot : Quarto for slides</title>
-  <link>https://SheffieldR.github.io/posts/2023-10-26-oct-meetup/index.html</link>
+  <link>https://SheffieldR.github.io/posts/2023-10-26-oct-meetup/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -111,8 +119,8 @@
 <p>Meeting is 2023-10-26 17:30-19:00 in LT02 (60), Arts Tower, Western Bank, Sheffield. Sign up <a href="https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/296493587/">here</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://SheffieldR.github.io/posts/2023-10-26-oct-meetup/https:/live.staticflickr.com/65535/53182749103_d03f3bbd0a_k.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption"><a href="https://flickr.com/photos/slackline/53182749103/"><em>Plants to Boot</em> Picture by Neil Shephard</a></figcaption>
+<p><img src="https://live.staticflickr.com/65535/53182749103_d03f3bbd0a_k.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://flickr.com/photos/slackline/53182749103/"><em>Plants to Boot</em> Picture by Neil Shephard</a></figcaption>
 </figure>
 </div>
 <!--more-->
@@ -136,7 +144,7 @@
 
  ]]></description>
   <category>meetups</category>
-  <guid>https://SheffieldR.github.io/posts/2023-10-26-oct-meetup/index.html</guid>
+  <guid>https://SheffieldR.github.io/posts/2023-10-26-oct-meetup/</guid>
   <pubDate>Thu, 26 Oct 2023 17:30:00 GMT</pubDate>
   <media:content url="https://live.staticflickr.com/65535/53182749103_d03f3bbd0a_k.jpg" medium="image" type="image/jpeg"/>
 </item>
@@ -148,10 +156,10 @@
 
 
 
+
 <p><em>NOTE: Because of the Easter holidays April’s meetup will be on the 2nd Tue of the month.</em></p>
 <p>This month we’ll be exploring <strong>rrtools</strong>, an implementation of R package structure, development tools and practices to a research workflow context.</p>
 <!--more-->
-<p><br></p>
 <p>Rrtools builds on functionality offered by packages like devtools and usethis, adapting and extending them to a research context. The package provides guidance, templates, and functions for making a basic compendium suitable for doing reproducible research with R and a convenient starting point for writing a journal article, report, or thesis.</p>
 <p><em>Useful features:</em></p>
 <ul>
@@ -161,11 +169,13 @@
 <li><p>Continuous Integration (testing) using <a href="https://docs.travis-ci.com/user/for-beginners">Travis</a>.</p></li>
 </ul>
 <p>In this joint session, Anna Krystalli will give an overview of the philosophy, key functions and resulting compendium structure while Dan Olner will walk us through using the tools to convert an existing research project to a reproducible research compendium.</p>
-<p><strong>Speaker Bios</strong></p>
+<section id="speaker-bio" class="level2">
+<h2 class="anchored" data-anchor-id="speaker-bio">Speaker Bio</h2>
 <p><a href="http://danolner.github.io/">Dan</a> is a researcher in the Sheffield Methods Institute working on a diverse bunch of projects, from modelling whether houses can see wind turbines or green space to making 3D prints of Census data to making monsters using a Kinect motion sensor. He also occasionally runs day workshops on data wrangling and visualisation in R.</p>
 <p><a href="http://annakrystalli.me/">Anna</a> is a Research Software Engineer at the University of Sheffield, helping researchers do more with their code and data.</p>
 
 
+</section>
 
  ]]></description>
   <category>meetups</category>
@@ -176,6 +186,7 @@
   <title>Docker and Interactive unit testing</title>
   <link>https://SheffieldR.github.io/posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -200,9 +211,10 @@
 
 
 
+
 <p>Welcome back to the Sheffield R Meetup! We’re kicking off 2018 with two great talks:</p>
 <!--more-->
-<p>Shaun Coutts will be giving a demonstration of using Stan via the rstan interface and launching jobs on iceberg and sharc.</p>
+<p>Shaun Coutts will be giving a demonstration of using Stan via the <a href="https://mc-stan.org/users/interfaces/rstan">rstan</a> interface and launching jobs on iceberg and sharc.</p>
 <p>Katjuša Koler will be talking about doing things differently using the Tidyverse:</p>
 <p>In this session, I will give an example of a workflow in base R and compare it to a tidyverse approach. Tidyverse is a system of packages (dplyr, ggplot2 etc.) used to manipulate, explore and visualize data. I will discuss the pros and cons of each workflow. This talk will be useful for beginners, as well as anyone considering making a bridge from base R to tidyverse.</p>
 <p>So two talks, one with Bayes R and one with Base R! We look forward to seeing you there.</p>
@@ -218,6 +230,7 @@
   <title>R coding social</title>
   <link>https://SheffieldR.github.io/posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -238,6 +251,7 @@
   <title>Managing projects with workflowr and Introduction to DiagrammeR</title>
   <link>https://SheffieldR.github.io/posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -275,8 +289,10 @@
 
 
 
+
 <p>We’ll be following up our introductory <strong>Celebrating Hacktoberfest</strong> session with drop-in sessions throughout October, so do join us if you’d like to get involved or learn more about open source!</p>
-<p><strong>Schedule for the rest of the month:</strong></p>
+<section id="schedule-for-the-rest-of-the-month" class="level2">
+<h2 class="anchored" data-anchor-id="schedule-for-the-rest-of-the-month">Schedule for the rest of the month</h2>
 <ul>
 <li><p><strong>Tu Oct 10 5:00 pm - 8:00 pm</strong> University of Sheffield, Diamond Meeting room 1</p></li>
 <li><p><strong>Tu Oct 17 5:30 pm - 8:30 pm</strong> University of Sheffield, Information Commons Collaboratory 1 ‐ 1.26</p></li>
@@ -285,16 +301,16 @@
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://SheffieldR.github.io/posts/2017-10-03-oct-meetup/https:/cloud.githubusercontent.com/assets/121322/18864038/31532b4a-8449-11e6-8701-97c00c95bf09.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Hacktoberfest banner</figcaption>
+<p><img src="https://cloud.githubusercontent.com/assets/121322/18864038/31532b4a-8449-11e6-8701-97c00c95bf09.png" class="img-fluid figure-img"></p>
+<figcaption>Hacktoberfest banner</figcaption>
 </figure>
 </div>
 <!--more-->
-<p><br></p>
 <p>It’s <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a> over on GitHub! a global celebration of open source intended to promote participation in open source projects.</p>
 <p>So this month we’re taking a break from talks and booked some group hackspaces at the University throughout the month to <strong>get involved in some open source projects requiring some #rstats help.</strong></p>
 <p>Anyone can benefit from getting involved, regardless of coding skill. At the very least, you’ll <strong>learn more about open source</strong> and <strong>how to contribute through online collaborative coding platforms like GitHub</strong>. But you never know, you might end up stumbling across the perfect project for you and ending up joining a community.</p>
 <p>You can choose to contribute as little or much as you like, from correcting typos, contributing ideas to discussions to building features! Make at least 4 contributions (pull requests) to any GitHub-hosted project between October 1 and October 31 to <strong>earn a limited edition Hacktoberfest T-shirt!</strong></p>
+</section>
 <section id="at-todays-meetup" class="level2">
 <h2 class="anchored" data-anchor-id="at-todays-meetup">At today’s meetup</h2>
 <p>We’ll take a look at <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=label%3Ahacktoberfest+state%3Aopen+type%3Aissue+language%3AR&amp;type=">Hacktoberfest R projects on GitHub</a> (many <a href="https://ropensci.org/">rOpenSci</a> packages requiring help!) and discuss how to use GitHub to contribute to projects e.g.&nbsp;how to make a pull request, best practice for contributing code etc.</p>
@@ -311,6 +327,7 @@
   <title>September Sheffield R Meetup: Object oriented systems in R + The Reproducible Thesis w/ Bookdown</title>
   <link>https://SheffieldR.github.io/posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -339,6 +356,7 @@
   <title>July Sheffield R Meetup: Thermal images and Object oriented systems in R</title>
   <link>https://SheffieldR.github.io/posts/2017-07-04-july-meetup/2017-07-04-july-meetup.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -374,6 +392,7 @@
 
 
 
+
 <p>This month Anna Krystalli will present a exploration of literate programming, following up from a discussion on literate programming techniques at our meetup in April, and Pete Dodd will tell us about building an open source decision tree package in R.</p>
 <section id="literate-programming-with-rmarkdown" class="level2">
 <h2 class="anchored" data-anchor-id="literate-programming-with-rmarkdown">Literate programming with Rmarkdown</h2>
@@ -401,6 +420,7 @@
 
 
 
+
 <p>This month we’ll be learning from Théo Michelot how to make R go faster using a couple of techniques.</p>
 <section id="using-c-to-speed-up-r-code" class="level2">
 <h2 class="anchored" data-anchor-id="using-c-to-speed-up-r-code">Using C++ to speed up R code</h2>
@@ -420,6 +440,7 @@
   <title>April Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning</title>
   <link>https://SheffieldR.github.io/posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -451,35 +472,44 @@
 
 
 
+
 <p>In March we held our first R coding surgery and social, a chance for our members to meet, greet, learn from and collaborate with fellow R users.</p>
-<section id="in-attendance" class="level4">
-<h4 class="anchored" data-anchor-id="in-attendance">In attendance</h4>
+<section id="in-attendance" class="level2">
+<h2 class="anchored" data-anchor-id="in-attendance">In attendance</h2>
 <p>Tamora, Eoghan, Kassandra, Alison, Mat, Chris, José</p>
 </section>
-<section id="topics" class="level4">
-<h4 class="anchored" data-anchor-id="topics">Topics</h4>
-<section id="data-storage-alison" class="level5">
-<h5 class="anchored" data-anchor-id="data-storage-alison">Data storage (Alison)</h5>
-<p><strong>Problem</strong></p>
+<section id="topics" class="level2">
+<h2 class="anchored" data-anchor-id="topics">Topics</h2>
+<section id="data-storage-alison" class="level3">
+<h3 class="anchored" data-anchor-id="data-storage-alison">Data storage (Alison)</h3>
+<!-- markdownlint-disable MD024 -->
+<section id="problem" class="level4">
+<h4 class="anchored" data-anchor-id="problem">Problem</h4>
 <ul>
 <li>Storing data of different lengths.</li>
 </ul>
-<p><strong>Answer</strong></p>
+</section>
+<section id="answer" class="level4">
+<h4 class="anchored" data-anchor-id="answer">Answer</h4>
 <ul>
 <li>Use list columns: allows arbitrary length vectors.</li>
 <li>See <a href="https://www.rstudio.com/resources/videos/happy-r-users-purrr-tutorial/">Charlotte Wickham presentation on tidy data at R Studio conference 2017</a>.</li>
 </ul>
 </section>
-<section id="spatio-temporal-time-series-kassandra" class="level5">
-<h5 class="anchored" data-anchor-id="spatio-temporal-time-series-kassandra">Spatio-temporal time series (Kassandra)</h5>
-<p><strong>Problem</strong></p>
+</section>
+<section id="spatio-temporal-time-series-kassandra" class="level3">
+<h3 class="anchored" data-anchor-id="spatio-temporal-time-series-kassandra">Spatio-temporal time series (Kassandra)</h3>
+<section id="problem-1" class="level4">
+<h4 class="anchored" data-anchor-id="problem-1">Problem</h4>
 <ul>
 <li>Lots of observations in some areas/directions, few elsewhere.</li>
 <li>Time series of environmental variables.</li>
 <li>Relate observed distribution with methane flux.</li>
 <li>Time series has gaps - how to handle?</li>
 </ul>
-<p><strong>Answer</strong></p>
+</section>
+<section id="answer-1" class="level4">
+<h4 class="anchored" data-anchor-id="answer-1">Answer</h4>
 <ul>
 <li>Can create an even time series - add NAs where observations missing</li>
 <li>Raster layers as time, environmental variable single point time series</li>
@@ -487,13 +517,17 @@
 <li>Loading raster data into R: use <code>raster</code> package, load data and specify projection string (unless data is GEO tiff, in that case it’s in the metadata).</li>
 </ul>
 </section>
-<section id="optimisation-alison" class="level5">
-<h5 class="anchored" data-anchor-id="optimisation-alison">Optimisation (Alison)</h5>
-<p><strong>Problem</strong></p>
+</section>
+<section id="optimisation-alison" class="level3">
+<h3 class="anchored" data-anchor-id="optimisation-alison">Optimisation (Alison)</h3>
+<section id="problem-2" class="level4">
+<h4 class="anchored" data-anchor-id="problem-2">Problem</h4>
 <ul>
 <li>Profiling and how to make the loop quicker.</li>
 </ul>
-<p><strong>Answer</strong></p>
+</section>
+<section id="answer-2" class="level4">
+<h4 class="anchored" data-anchor-id="answer-2">Answer</h4>
 <ul>
 <li>Apply lineprof/profvis to profile whole sections of program/script. See <a href="http://adv-r.had.co.nz/Profiling.html">Hadley’s profiling guide</a>.</li>
 <li>Might be possible to use closures to precalculate distributions.</li>
@@ -501,45 +535,55 @@
 <li>Use JAGS or stan - parallelisable implementations.</li>
 </ul>
 </section>
-<section id="live-demo-chris" class="level5">
-<h5 class="anchored" data-anchor-id="live-demo-chris">Live demo (Chris)</h5>
+<section id="live-demo-chris" class="level4">
+<h4 class="anchored" data-anchor-id="live-demo-chris">Live demo (Chris)</h4>
 <ul>
 <li><a href="http://sheffieldr.github.io/assets/material/2017-03/ListColumnDemo.R">Live code demo of list columns</a>.</li>
-<li>Use saveRDS(), readRDS() as alternative to store as text.</li>
+<li>Use <code>saveRDS()</code>, <code>readRDS()</code> as alternative to store as text.</li>
 <li>Might be problems with speed - use profiling to compare with text storage.</li>
 </ul>
 </section>
-<section id="eeg-processing-josé" class="level5">
-<h5 class="anchored" data-anchor-id="eeg-processing-josé">EEG processing (José)</h5>
-<p><strong>Problem</strong></p>
+</section>
+<section id="eeg-processing-josé" class="level3">
+<h3 class="anchored" data-anchor-id="eeg-processing-josé">EEG processing (José)</h3>
+<section id="problem-3" class="level4">
+<h4 class="anchored" data-anchor-id="problem-3">Problem</h4>
 <ul>
 <li>Getting raw data into format required for R package for signal processing.</li>
 <li>Bad documentation!</li>
 </ul>
-<p><strong>Answer</strong></p>
+</section>
+<section id="answer-3" class="level4">
+<h4 class="anchored" data-anchor-id="answer-3">Answer</h4>
 <ul>
 <li>Use Matlab with manufacturer software?</li>
 </ul>
 </section>
-<section id="data-handling-kassandra" class="level5">
-<h5 class="anchored" data-anchor-id="data-handling-kassandra">Data handling (Kassandra)</h5>
-<p><strong>Problem</strong></p>
+</section>
+<section id="data-handling-kassandra" class="level3">
+<h3 class="anchored" data-anchor-id="data-handling-kassandra">Data handling (Kassandra)</h3>
+<section id="problem-4" class="level4">
+<h4 class="anchored" data-anchor-id="problem-4">Problem</h4>
 <ul>
 <li>Problem with large data - can she write all objects together?</li>
 </ul>
-<p><strong>Answer</strong></p>
+</section>
+<section id="answe" class="level4">
+<h4 class="anchored" data-anchor-id="answe">Answe</h4>
 <ul>
 <li>Need to be able to write sequentially - plugin for R to speak to database e.g.&nbsp;RSQLite or use RDS.</li>
 <li>Sparse matrix?</li>
 <li>R ArcGIS interface?</li>
 </ul>
 </section>
-<section id="profiling-update-alison" class="level5">
-<h5 class="anchored" data-anchor-id="profiling-update-alison">Profiling update (Alison)</h5>
+</section>
+<section id="profiling-update-alison" class="level3">
+<h3 class="anchored" data-anchor-id="profiling-update-alison">Profiling update (Alison)</h3>
 <ul>
 <li>Constant matrix each time - copy on modify?</li>
 <li>Avoid assignment of matrices within for loop (nested).</li>
 </ul>
+<!-- markdownlint-enable MD024 -->
 
 
 </section>
@@ -554,6 +598,7 @@
   <title>February Sheffield R Meetup: Martin Garlovsky and Christopher Hopkinson</title>
   <link>https://SheffieldR.github.io/posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -587,6 +632,7 @@
 
 
 
+
 <p>This month we’ll be learning about R’s capabilities for wrangling and handling spatial data and how Sky Betting and Gaming does data science.</p>
 <p>Dan Olner from the Sheffield Methods Institute will be sharing his experience from some recent work on spatial analysis:</p>
 <section id="doing-spatial-stuff-with-r-the-magic-and-the-messiness-with-an-example-applying-it-to-windfarmhouse-price-interaction" class="level2">
@@ -611,6 +657,7 @@
   <title>November Sheffield R Meetup: Shaun Coutts and Lukas Drapal</title>
   <link>https://SheffieldR.github.io/posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -642,6 +689,7 @@
 
 
 
+
 <p>At this month’s meeting we’ll be talking about how R interacts with different languages and technologies.</p>
 <p>Our very own Mat Hall will give us a crash course in using R with Jupyter notebooks for interactive reproducible and collaborative research.</p>
 <p>We’ll also hear from Mike Croucher, who is an EPSRC Research Software Engineering Fellow working at The University of Sheffield. Mike specialises in assisting researchers to produce better quality software. He is co-founder of The University of Sheffield’s Research Software Engineering group and plays a major role in the Sheffield Open Data Science Initiative. In September Mike was involved in organising the first ever Research Software Engineering conference.</p>
@@ -659,6 +707,7 @@
   <title>September Sheffield R Meetup: Alison Parton and Jeremy Oakley</title>
   <link>https://SheffieldR.github.io/posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html</link>
   <description><![CDATA[ 
+
 
 
 
