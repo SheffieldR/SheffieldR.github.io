@@ -3,7 +3,7 @@ layout: post
 title:  "February Sheffield R Meetup: Martin Garlovsky and Christopher Hopkinson"
 date:   2017-02-01 10:30:00 +0000
 categories: meetups
-speakers: 
+speakers:
   Martin Garlovsky:
     title: "Survival analysis with coxme"
   Christopher Hopkinson:

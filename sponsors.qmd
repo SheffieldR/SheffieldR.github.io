@@ -14,13 +14,16 @@ about:
 
 ::: {layout="[1, 1]"}
 
-[![](/www/RConsortium.png){.fragment width="300" height="200"}](https://www.r-consortium.org)
+[![The R Consorium](/www/RConsortium.png){.fragment width="300" height="200"}](https://www.r-consortium.org)
+<!-- markdownlint-disable MD013 -->
+[![Research Software Engineering at The University of Sheffield](https://rse.shef.ac.uk/assets/images/logo/rse-logoonly-stroke.png){.fragment width="80" height="80"}](https://rse.shef.ac.uk)
+<!-- markdownlint-enable MD013 -->
 
-[![](https://rse.shef.ac.uk/assets/images/logo/rse-logoonly-stroke.png){.fragment width="80" height="80"}](https://rse.shef.ac.uk)
 :::
 
 ::: {style="text-align: left;"}
 
-We are happy to be supported by the [R Consortium](https://www.r-consortium.org)'s R User Group Support program and [University of Sheffield Research Software Engineering](http://rse.shef.ac.uk/).
+We are happy to be supported by the [R Consortium](https://www.r-consortium.org)'s R User Group Support program and
+[University of Sheffield Research Software Engineering](http://rse.shef.ac.uk/).
 
 :::
