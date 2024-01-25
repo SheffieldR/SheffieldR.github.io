@@ -19,7 +19,7 @@ Meeting is 2023-11-20 17:30-19:00 in 107 Workroom 4, 38 Mappin Street. Sign up
 
 ## Summary
 
-![](image.png)
+![Sheffield LSOAs](image.png)
 
 Join us for an exciting showcase where we'll dive into two innovative R-Shiny projects. The first project introduces the
 fascinating world of mapping to investigate the dynamics of segregation among neighboring regions, a concept we fondly

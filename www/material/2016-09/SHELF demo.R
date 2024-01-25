@@ -1,6 +1,6 @@
 library(SHELF)
 
-## Elicit judgements from two experts individually 
+## Elicit judgements from two experts individually
 # Expert 1 states P(X<30)=0.25, P(X<40)=0.5, P(X<50)=0.75
 # Expert 2 states P(X<20)=0.25, P(X<25)=0.5, P(X<35)=0.75
 # Both experts state 0<X<100.
