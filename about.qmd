@@ -13,9 +13,13 @@ about:
 
 ---
 
+::: {style="text-align: left;"}
+
 We are the Sheffield R group. We meet roughly every month to learn about and discuss R, the pandemic threw a spanner in
 the works of that but we're looking to get meetings back up and running with some degree of regularity.
 
 Meetings are advertised on our [Meetup page](http://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/)
 
 Slides and other material from our meetups is available on our GitHub account [SheffieldR](https://github.com/SheffieldR/).
+
+:::
