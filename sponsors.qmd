@@ -21,5 +21,9 @@ about:
 
 :::
 
+::: {style="text-align: left;"}
+
 We are happy to be supported by the [R Consortium](https://www.r-consortium.org)'s R User Group Support program and
 [University of Sheffield Research Software Engineering](http://rse.shef.ac.uk/).
+
+:::
