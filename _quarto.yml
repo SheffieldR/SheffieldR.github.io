@@ -27,6 +27,9 @@ website:
         href: https://twitter.com/Sheffield_R_
       - icon: rss
         href: index.xml
+      - icon: mastodon
+        href: https://fosstodon.org/@sheffieldr
+        rel: me
 format:
   html:
     theme: pulse
