@@ -23,7 +23,7 @@ Delve into the dynamic world of the [{targets}](https://books.ropensci.org/targe
 to streamline and enhance your data science and analysis workflows.
 
 targets is not just another package; it's a game-changer for reproducibility, efficiency, and scalability in your R
-projects. Developed to manage complex dependency graphs, Targets automates the execution of your analyses, making it
+projects. Developed to manage complex dependency graphs, targets automates the execution of your analyses, making it
 easier to track changes.
 
 In this session we'll introduce the targets package, discuss why it's useful and explore the core features of the
