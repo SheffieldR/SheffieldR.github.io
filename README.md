@@ -12,7 +12,7 @@ biography of the presenter(s). To create a new post follow the steps below.
 
 1. Create an
    [issue](https://github.com/SheffieldR/SheffieldR.github.io/issues?asignees=&labels=meeting&projects=&template=meetin_setup.md&title=)
-   filling in the details and assign the issue to yourself.
+   filling in the details for room booking, speakers, calendar and meet links and assign the issue to yourself.
 
 2. Clone this repository locally.
 
