@@ -17,7 +17,7 @@ If you have any questions or enquiries please email us [sheffieldr@sheffield.ac.
 
 <!--more-->
 
-## Simon Rolph
+## Dive into [{targets}](https://books.ropensci.org/targets)
 
 Delve into the dynamic world of the [{targets}](https://books.ropensci.org/targets) R package—a powerful tool designed
 to streamline and enhance your data science and analysis workflows.
