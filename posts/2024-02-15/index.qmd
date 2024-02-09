@@ -7,7 +7,7 @@ image: image.jpg
 excerpt_separator: <!--more-->
 ---
 
-Apologies for the short notice but we have a volunteer, Simon Rolph, and so have scheduled another talk.
+Apologies for the short notice but thanks to Simon Rolph, who has [volunteered to give a talk](https://docs.google.com/forms/d/e/1FAIpQLSfjbSGzIHs71YCxD_2knDg126q7m0ywFwF7rspqyVpmZolxpg/viewform), we have scheduled a meeting for February.
 
 Meeting is 2024-02-15 17:30-19:00 in Hicks Building LT9. Sign up via
 [Meetup](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/299095698/). Remote attendance is possible
