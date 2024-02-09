@@ -17,7 +17,7 @@ If you have any questions or enquiries please get in touch with [Grace Accad](ma
 
 <!--more-->
 
-## Simon Rolf
+## Simon Rolph
 
 
 Delve into the dynamic world of the [{targets}](https://books.ropensci.org/targets) R package—a powerful tool designed to streamline and enhance your data science and analysis workflows.
