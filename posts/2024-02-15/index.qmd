@@ -19,7 +19,6 @@ If you have any questions or enquiries please email us [sheffieldr@sheffield.ac.
 
 ## Simon Rolph
 
-
 Delve into the dynamic world of the [{targets}](https://books.ropensci.org/targets) R package—a powerful tool designed to streamline and enhance your data science and analysis workflows.
 
 Targets is not just another package; it's a game-changer for reproducibility, efficiency, and scalability in your R projects. Developed to manage complex dependency graphs, Targets automates the execution of your analyses, making it easier to track changes
