@@ -31,6 +31,6 @@ targets package by defining a basic pipeline.
 
 ### Biography - Simon Rolph
 
-Rob is a Data Scientist at the [UK Centre for Ecology and Hydrology](https://www.ceh.ac.uk/) where he works to enhance
+Simon is a Data Scientist at the [UK Centre for Ecology and Hydrology](https://www.ceh.ac.uk/) where he works to enhance
 our understanding of biodiversity and contribute to informed environmental decision-making. Technology is his enabler:
 data science methods, research software best practices, and digital engagements help him achieve these goals.
