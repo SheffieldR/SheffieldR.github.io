@@ -3,7 +3,7 @@ layout: post
 title:  "SheffieldR : February 2024 Meetup"
 date:   2024-02-15 17:30:00 +0000
 categories: meetups
-image: image.jpg
+image: image.png
 excerpt_separator: <!--more-->
 ---
 
