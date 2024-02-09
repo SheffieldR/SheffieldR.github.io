@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "SheffieldR : February 2024 Meetup"
+date:   2024-02-15 17:30:00 +0000
+categories: meetups
+image: image.jpg
+excerpt_separator: <!--more-->
+---
+
+Apologies for the short notice but we have a volunteer, Simon Rolph, and so have scheduled another talk.
+
+Meeting is 2024-02-15 17:30-19:00 in Hicks Building LT9. Sign up via
+[Meetup](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/299095698/). Remote attendance is possible
+using [Google Meet](meet.google.com/ahi-irru-rvx).
+
+If you have any questions or enquiries please get in touch with [Grace Accad](mailto:g.accad@sheffield.ac.uk) or [Neil Shephard](mailto:n.shephard@sheffield.ac.uk).
+
+<!--more-->
+
+## Simon Rolf
+
+
+Delve into the dynamic world of the [{targets}](https://books.ropensci.org/targets) R package—a powerful tool designed to streamline and enhance your data science and analysis workflows.
+
+Targets is not just another package; it's a game-changer for reproducibility, efficiency, and scalability in your R projects. Developed to manage complex dependency graphs, Targets automates the execution of your analyses, making it easier to track changes
+
+In this session we'll introduce the targets package, discuss why it's useful and explore the core features of the targets package by defining a basic pipeline.
+
+### Biography - Simon Rolph
+
+Rob is a Data Scientist at the [UK Centre for Ecology and Hydrology](https://www.ceh.ac.uk/) where he works to enhance
+our understanding of biodiversity and contribute to informed environmental decision-making. Technology is his enabler:
+data science methods, research software best practices, and digital engagements help him achieve these goals.
