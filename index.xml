@@ -10,7 +10,39 @@
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
 <generator>quarto-1.4.549</generator>
-<lastBuildDate>Thu, 18 Jan 2024 17:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 15 Feb 2024 17:30:00 GMT</lastBuildDate>
+<item>
+  <title>SheffieldR : February 2024 Meetup</title>
+  <link>https://SheffieldR.github.io/posts/2024-02-15/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Apologies for the short notice but thanks to Simon Rolph, who has <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjbSGzIHs71YCxD_2knDg126q7m0ywFwF7rspqyVpmZolxpg/viewform">volunteered to give a talk</a>, we have scheduled a meeting for February.</p>
+<p>Meeting is 2024-02-15 17:30-19:00 in Hicks Building LT9. Sign up via <a href="https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/299095698/">Meetup</a>. Remote attendance is possible using <a href="meet.google.com/ahi-irru-rvx">Google Meet</a>.</p>
+<p>If you have any questions or enquiries please email us <a href="mailto:sheffieldr@sheffield.ac.uk">sheffieldr@sheffield.ac.uk</a>.</p>
+<!--more-->
+<section id="dive-into-targets" class="level2">
+<h2 class="anchored" data-anchor-id="dive-into-targets">Dive into <a href="https://books.ropensci.org/targets">{targets}</a></h2>
+<p>Delve into the dynamic world of the <a href="https://books.ropensci.org/targets">{targets}</a> R package—a powerful tool designed to streamline and enhance your data science and analysis workflows.</p>
+<p>targets is not just another package; it’s a game-changer for reproducibility, efficiency, and scalability in your R projects. Developed to manage complex dependency graphs, targets automates the execution of your analyses, making it easier to track changes.</p>
+<p>In this session we’ll introduce the targets package, discuss why it’s useful and explore the core features of the targets package by defining a basic pipeline.</p>
+<section id="biography---simon-rolph" class="level3">
+<h3 class="anchored" data-anchor-id="biography---simon-rolph">Biography - Simon Rolph</h3>
+<p>Simon is a Data Scientist at the <a href="https://www.ceh.ac.uk/">UK Centre for Ecology and Hydrology</a> where he works to enhance our understanding of biodiversity and contribute to informed environmental decision-making. Technology is his enabler: data science methods, research software best practices, and digital engagements help him achieve these goals.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2024-02-15/</guid>
+  <pubDate>Thu, 15 Feb 2024 17:30:00 GMT</pubDate>
+  <media:content url="https://SheffieldR.github.io/posts/2024-02-15/image.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>SheffieldR : January 2024 Meetup</title>
   <link>https://SheffieldR.github.io/posts/2024-01-18-jan-meetup/</link>
@@ -702,34 +734,6 @@
   <category>meetups</category>
   <guid>https://SheffieldR.github.io/posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html</guid>
   <pubDate>Sat, 17 Sep 2016 17:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>September Sheffield R Meetup: Alison Parton and Jeremy Oakley</title>
-  <link>https://SheffieldR.github.io/posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>After the summer break, Sheffield R group is back with a couple of great talks to kick off the new season.</p>
-<p>Our beginner’s talk this month, presented by Alison Parton, is:</p>
-<section id="can-you-trust-the-humble-statistician-an-intro-to-unit-testing-in-r" class="level2">
-<h2 class="anchored" data-anchor-id="can-you-trust-the-humble-statistician-an-intro-to-unit-testing-in-r">Can you trust the humble statistician? An intro to unit testing in R</h2>
-<p>“<em>You’ve slaved away converting the awesome methods you’ve concocted into R code. It runs without any nasty red errors so you’ve not missed an end bracket, but are they all really in the right place? I’ll be telling beginners what I’ve learnt after dipping my toes into the world of unit testing in R, and (hopefully) getting the veterans to assist in my quest for reliable code.</em>”</p>
-</section>
-<section id="shelf-an-r-package-for-expert-elicitation" class="level2">
-<h2 class="anchored" data-anchor-id="shelf-an-r-package-for-expert-elicitation">SHELF: an R package for expert elicitation</h2>
-<p>For our expert talk we welcome Professor Jeremy Oakley who will introduce SHELF, an R package containing tools to support the Sheffield Elicitation Framework (SHELF). This is a toolkit for eliciting probability distributions from experts, translating an expert’s judgements about the characteristics of a distribution for a parameter of interest into a range of parametric distributions and providing visual and summary feedback. SHELF also provides methods for interactive plotting and elicitation, weighting for multiple expert elicitation and a graphical interface for the roulette elicitation method.</p>
-<p>Hope to see you there!</p>
-
-
-</section>
-
- ]]></description>
-  <category>meetups</category>
-  <guid>https://SheffieldR.github.io/posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html</guid>
-  <pubDate>Wed, 17 Aug 2016 17:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
