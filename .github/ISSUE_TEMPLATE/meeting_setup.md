@@ -30,7 +30,7 @@ Steps to take when setting up a new meeting...
       Calendar links.
 + [ ] **Announce on NHS-R Slack** : If you are a member you can announce the event on the [NHS-R
       Slack](https://nhsrcommunity.slack.com/).
- + [ ] **Announce on Sheffield Digital Slack** : If you are a member you can announce the event on the [Sheffield Digital
++ [ ] **Announce on Sheffield Digital Slack** : If you are a member you can announce the event on the [Sheffield Digital
       Slack](https://sheffielddigital.slack.com).
- + [ ] **Announce to the Staff Roundup** : Submit [a form]( https://docs.google.com/forms/d/e/1FAIpQLSdmgw3vSjOiLXYbJ9vwnm47RFm_bjlIfmxMVnVD7YQ57SEQbA/viewform ) to announce the event on the staff round-up.
- + [ ] **Announce on the University Website** : Submit [a form]( https://www.sheffield.ac.uk/whatson/submit ) to announce the event on the University's Whats on public page.
++ [ ] **Announce to the Staff Roundup** : Submit [a form]( https://docs.google.com/forms/d/e/1FAIpQLSdmgw3vSjOiLXYbJ9vwnm47RFm_bjlIfmxMVnVD7YQ57SEQbA/viewform ) to announce the event on the staff round-up.
++ [ ] **Announce on the University Website** : Submit [a form]( https://www.sheffield.ac.uk/whatson/submit ) to announce the event on the University's Whats on public page.
