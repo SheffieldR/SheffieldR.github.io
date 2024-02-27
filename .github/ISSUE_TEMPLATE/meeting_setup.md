@@ -17,9 +17,9 @@ Steps to take when setting up a new meeting.
 + [ ] **Request details from speaker 2** : Request a summary of the talk and a speaker biography from speaker 2.
 + [ ] **Create Calendar Event** : Create a calendar event in Google Calendar. (Calendar Link can be found under _More
       Actions > Publish  Event_).
-      + [ ] Google Meet Settings : Meeting access type set to Open
-      + [ ] Google Meet Link :
-      + [ ] Calendar Link :
+  + [ ] Google Meet Settings : Meeting access type set to Open
+  + [ ] Google Meet Link :
+  + [ ] Calendar Link :
 + [ ] **Website Post** : Create a new post (see [README](https://github.com/SheffieldR/SheffieldR.github.io) for
       instructions) with details of the talk(s) and speaker(s) biographies. Include both the Google Meet and Calendar
       Link in the web-page.
