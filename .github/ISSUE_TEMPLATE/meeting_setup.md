@@ -38,7 +38,7 @@ should be used as it is the primary source for organising the group.
 + [ ] **RSE Mailing List** : Announce the meeting on the [RSE Sheffield Mailing
       List](https://groups.google.com/a/sheffield.ac.uk/g/RSE-group)) mailing list including both the Google Meet and
       Calendar links.
-+ [ ] **University Website - WhatsOn** : Submit [a form]( https://www.sheffield.ac.uk/whatson/submit ) with details of 
++ [ ] **University Website - WhatsOn** : Submit [a form]( https://www.sheffield.ac.uk/whatson/submit ) with details of
       the event to announce on the University's Whats on public page.
 + [ ] **Announce to the Staff Roundup** : Submit [a form](
       https://docs.google.com/forms/d/e/1FAIpQLSdmgw3vSjOiLXYbJ9vwnm47RFm_bjlIfmxMVnVD7YQ57SEQbA/viewform ) to announce
