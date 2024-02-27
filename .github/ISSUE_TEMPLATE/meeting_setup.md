@@ -6,7 +6,9 @@ labels: 'meeting'
 assignees: ''
 ---
 
-Steps to take when setting up a new meeting...
+Steps to take when setting up a new meeting.
+
+## Setup
 
 + [ ] **Date** : YYYY-MM-DD
 + [ ] **Time** : HH-MM to HH-MM
@@ -21,11 +23,21 @@ Steps to take when setting up a new meeting...
 + [ ] **Website Post** : Create a new post (see [README](https://github.com/SheffieldR/SheffieldR.github.io) for
       instructions) with details of the talk(s) and speaker(s) biographies. Include both the Google Meet and Calendar
       Link in the web-page.
-+ [ ] **Announce on Meetup Mailing List** : Announce the meeting on the [Meetup SheffieldR User
+
+## Announcements
+
+Announcements of forthcoming events can be made in a number of places, at a bare minimum the _Meetup Mailing List_
+should be used as it is the primary source for organising the group.
+
++ [ ] **Meetup Mailing List** : Announce the meeting on the [Meetup SheffieldR User
       Group](https://www.meetup.com/sheffieldr-sheffield-r-users-group/) mailing list including both the Google Meet and
       Calendar links.
-+ [ ] **Announce on RSE Mailing List** : Announce the meeting on the [RSE Sheffield Mailing
++ [ ] **RSE Mailing List** : Announce the meeting on the [RSE Sheffield Mailing
       List](https://groups.google.com/a/sheffield.ac.uk/g/RSE-group)) mailing list including both the Google Meet and
       Calendar links.
-+ [ ] **Announce on NHS-R Slack** : If you are a member you can announce the event on the [NHS-R
++ [ ] **WhatsOn** : Contact [WhatsOn](https://www.sheffield.ac.uk/whatson/contact) with details of the
+      event.
++ [ ] **NHS-R Slack** : If you are a member you can announce the event on the [NHS-R
       Slack](https://nhsrcommunity.slack.com/).
++ [ ] **Sheffield Digital Slack** : If you are a member you can announce the event on [Sheffield.digital
+      Slack](https://sheffield.digital/slack/).
