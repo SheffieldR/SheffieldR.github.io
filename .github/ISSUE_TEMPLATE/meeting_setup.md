@@ -6,7 +6,8 @@ labels: 'meeting'
 assignees: ''
 ---
 
-Steps to take when setting up a new meeting.
+Steps to take when setting up a new meeting. Ideally setup and announcements should be made at least two weeks in
+advance. The longer the notification period the more likely it is that people will be able to attend.
 
 ## Setup
 
@@ -30,7 +31,9 @@ Steps to take when setting up a new meeting.
 ## Announcements
 
 Announcements of forthcoming events can be made in a number of places, at a bare minimum the _Meetup Mailing List_
-should be used as it is the primary source for organising the group.
+should be used as it is the primary source for organising the group. These should be made at least two weeks in advance
+to maximise the notification period and increase attendance but reminders can be sent out closer to the time if required
+(e.g. to the Meetup Mailing List).
 
 + [ ] **Meetup Mailing List** : Announce the meeting on the [Meetup SheffieldR User
       Group](https://www.meetup.com/sheffieldr-sheffield-r-users-group/) mailing list including both the Google Meet and
@@ -38,12 +41,12 @@ should be used as it is the primary source for organising the group.
 + [ ] **RSE Mailing List** : Announce the meeting on the [RSE Sheffield Mailing
       List](https://groups.google.com/a/sheffield.ac.uk/g/RSE-group)) mailing list including both the Google Meet and
       Calendar links.
-+ [ ] **University Website - WhatsOn** : Submit [a form]( https://www.sheffield.ac.uk/whatson/submit ) with details of
-      the event to announce on the University's Whats on public page.
-+ [ ] **Announce to the Staff Roundup** : Submit [a form](
-      https://docs.google.com/forms/d/e/1FAIpQLSdmgw3vSjOiLXYbJ9vwnm47RFm_bjlIfmxMVnVD7YQ57SEQbA/viewform ) to announce
++ [ ] **University Website - What's On** : Submit [a form]( https://www.sheffield.ac.uk/whatson/submit ) with details of
+      the event to announce on the University's What's on public page. This should be done at least two weeks in advance.
++ [ ] **Staff Roundup** : Submit [a form](
+      https://docs.google.com/forms/d/e/1FAIpQLSdmgw3vSjOiLXYbJ9vwnm47RFm_bjlIfmxMVnVD7YQ57SEQbA/viewform) to announce
       the event on the staff round-up.
 + [ ] **NHS-R Slack** : If you are a member you can announce the event on the [NHS-R
       Slack](https://nhsrcommunity.slack.com/).
-+ [ ] **Sheffield Digital Slack** : If you are a member you can announce the event on [Sheffield.digital
-      Slack](https://sheffield.digital/slack/).
++ [ ] **Sheffield Digital Slack** : If you are a member you can announce the event on the [Sheffield Digital
+      Slack](https://sheffield.digital/slack).
