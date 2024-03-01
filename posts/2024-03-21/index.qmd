@@ -10,7 +10,16 @@ excerpt_separator: <!--more-->
 This March meetup see's a slight deviation from the normal format of the SheffieldR meetups as we are inviting you to
 bring your data, code, R knowledge and enthusiasm along to help each other out in a "Hackathon" style meeting.
 
-![This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [https://doi.org/10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](https://the-turing-way.netlify.app/_images/communication.jpg)
+![This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI:
+[https://doi.org/10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](https://the-turing-way.netlify.app/_images/communication.jpg)
+
+
+Meeting is 2024-03-21 17:30-19:00 in the [Portobello Centre](https://www.openstreetmap.org/way/174114141), Seminar Room
+C02 B (just off Mappin Street). Sign up is via
+[Meetup](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/299525846/). Unfortunately we won't be running remote attendance this time because of the nature of
+the meeting.
+
+If you have any questions or enquiries please email us [sheffieldr@sheffield.ac.uk](mailto:sheffieldr@sheffield.ac.uk).
 
 <!--more-->
 
