@@ -48,6 +48,27 @@ biography of the presenter(s). To create a new post follow the steps below.
 13. Announce the event details to the mailing list on
     [Meetup](https://www.meetup.com/sheffieldr-sheffield-r-users-group/).
 
+14. Add an image to the post in the YAML header and inline before the `<!--more-->` delimiter.
+
+### Images
+
+A useful source of images to use in posts are those produced for [The Turing
+Way](https://the-turing-way.netlify.app/). Many can be found in the DOI
+[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807) note there are different versions (linked from the
+right hand side). Note however that these are the original images and are quite large files and so they can take a while
+to load. An alternative option is to use the URL for the images in the GitHub repository for The Turing Way website
+where [smaller versions of the images](https://github.com/the-turing-way/the-turing-way/tree/main/book/website/figures)
+can be found, or you can use the URL from the image as hosted on the website itself (_Right Click > Copy Image Address_)
+
+Regardless of the image source you should include the appropriate caption for the image which cites the images
+correctly. For convenience you can copy and paste the Markdown below, replacing the `<insert_image_url>` with the URL of
+the image.
+
+``` markdown
+![This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI:
+[https://doi.org/10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](<insert_image_url)
+```
+
 ### Pre-commit
 
 This repository uses [pre-commit](https://pre-commit.com) to make various checks of files and lint the Markdown of

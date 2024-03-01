@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "SheffieldR : Bring your Data and Code"
+date:   2024-03-21 17:30:00 +0000
+categories: meetups
+image: https://the-turing-way.netlify.app/_images/communication.jpg
+excerpt_separator: <!--more-->
+---
+
+This March meetup see's a slight deviation from the normal format of the SheffieldR meetups as we are inviting you to
+bring your data, code, R knowledge and enthusiasm along to help each other out in a "Hackathon" style meeting.
+
+![This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [https://doi.org/10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](https://the-turing-way.netlify.app/_images/communication.jpg)
+
+<!--more-->
+
+Maybe you've a problem using [renv](https://rstudio.github.io/renv/articles/renv.html) to manage your packages or you're
+stuck with a particular data wrangling problem or haven't worked out the perfect layout of your graph then bring your
+data and code along and see if there is someone who can help you solve your problem. Whether that is using the
+[Tidyverse](https://www.tidyverse.org), [data.table](https://rdatatable.gitlab.io/data.table/),
+[ggplot2](https://ggplot2.tidyverse.org) or base graphics.
+
+Obviously we'll need people with experience to come and help others solve their problems, but even if you're just
+starting out on your R journey you will know something to contribute.
+
+If you'd like to come along we've setup a short
+[form](https://docs.google.com/forms/d/e/1FAIpQLSffiI7o68QcFngrirJ7YrjGgJfduwtv0UWJDQeNQLLKUDQmzA/viewform?pli=1) for
+you to indicate what areas you are looking for assistance with or can help others with.
+
+## Reprex
+
+Its possible that the section of code you are having trouble with is part of a larger workflow. To make it easier for
+people to understand the problem and offer assistance it would be beneficial if you are able to abstract out the problem
+to what is know as a Minimal "_Reproducible Example_" often shortened to the portmanteau "_reprex_". There is advice on
+[How to create a Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example) on Stack
+Overflow and there is also the R package [{reprex}](https://reprex.tidyverse.org/) which helps "_prepare reproducible
+example code via the clipboard_".
+
+## Data Security and Sensitivity
+
+If your problem involves sensitive data then please be mindful of this. See the University of Sheffield [Information
+Security Training](https://infosecurity.shef.ac.uk/training_courses/online/protecting-research-data) pages, in
+particular the training on _Protecting Research Data_, _Protecting Personal Data_ and _Protecting Information_. If you
+are not a student or member of staff at The University of Sheffield please refer to your institution or employers
+guidelines on data security.
