@@ -15,8 +15,8 @@ bring your data, code, R knowledge and enthusiasm along to help each other out i
 
 Meeting is 2024-03-21 17:30-19:00 in the [Portobello Centre](https://www.openstreetmap.org/way/174114141), Seminar Room
 C02 B (just off Mappin Street). Sign up is via
-[Meetup](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/299525846/). Unfortunately we won't be running remote attendance this time because of the nature of
-the meeting.
+[Meetup](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/299525846/). Unfortunately we won't be running
+remote attendance this time because of the nature of the meeting.
 
 If you have any questions or enquiries please email us [sheffieldr@sheffield.ac.uk](mailto:sheffieldr@sheffield.ac.uk).
 
