@@ -43,9 +43,6 @@ to maximise the notification period and increase attendance but reminders can be
       Calendar links.
 + [ ] **University Website - What's On** : Submit [a form]( https://www.sheffield.ac.uk/whatson/submit ) with details of
       the event to announce on the University's What's on public page. This should be done at least two weeks in advance.
-+ [ ] **Staff Roundup** : Submit [a form](
-      https://docs.google.com/forms/d/e/1FAIpQLSdmgw3vSjOiLXYbJ9vwnm47RFm_bjlIfmxMVnVD7YQ57SEQbA/viewform) to announce
-      the event on the staff round-up.
 + [ ] **NHS-R Slack** : If you are a member you can announce the event on the [NHS-R
       Slack](https://nhsrcommunity.slack.com/).
 + [ ] **Sheffield Digital Slack** : If you are a member you can announce the event on the [Sheffield Digital
