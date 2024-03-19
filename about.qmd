@@ -10,6 +10,12 @@ about:
     - icon: github
       text: Github
       href: https://github.com/SheffieldR
+    - icon: slack
+      text: Slack
+      href: https://sheffieldr.slack.com
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/@sheffieldr
 
 ---
 
