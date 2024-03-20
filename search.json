@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "www/slide_templates_revealjs.html#sample-slides",
+    "href": "www/slide_templates_revealjs.html#sample-slides",
+    "title": "Title",
+    "section": "Sample Slides",
+    "text": "Sample Slides\nBullet Points can have pauses between them.\n\nOne\nTwo\nThree\n\n\n\nFour"
+  },
+  {
+    "objectID": "www/slide_templates_revealjs.html#we-can-have-columns",
+    "href": "www/slide_templates_revealjs.html#we-can-have-columns",
+    "title": "Title",
+    "section": "We can have columns",
+    "text": "We can have columns\n\n\nInclude images locally \n\nOr directly from the web"
+  },
+  {
+    "objectID": "www/slide_templates_revealjs.html#code-blocks",
+    "href": "www/slide_templates_revealjs.html#code-blocks",
+    "title": "Title",
+    "section": "Code Blocks",
+    "text": "Code Blocks\nWe can include code blocks and highlight specific rows.\nlibrary(dplyr)\nlibrary(ggplot)\n\ndata(mtcars)\nhead(mtcars) |&gt; print()"
+  },
+  {
+    "objectID": "www/slide_templates_revealjs.html#executable-code-blocks",
+    "href": "www/slide_templates_revealjs.html#executable-code-blocks",
+    "title": "Title",
+    "section": "Executable Code Blocks",
+    "text": "Executable Code Blocks\nWe can also run code blocks and show the output rather than the code\n#| echo: false\nlibrary(dplyr)\nlibrary(ggplot)\n\ndata(mtcars)\nhead(mtcars) |&gt; print()"
+  },
+  {
+    "objectID": "www/slide_templates_revealjs.html#yaml-header",
+    "href": "www/slide_templates_revealjs.html#yaml-header",
+    "title": "Title",
+    "section": "YAML Header",
+    "text": "YAML Header\nThe YAML Header contains most configuration options.\n---\ntitle: Title\nauthor: \"Author Name\"\nemail: Email\nformat:\n  revealjs:\n    theme: sky\n    incremental: true\n    embed-resources: true\n    logo: \"SheffieldR_footer.png\"\n    footer: \"https://SheffieldR.github.io\"\n---"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "We are the Sheffield R group. We meet roughly every month to learn about and discuss R, the pandemic threw a spanner in the works of that but we’re looking to get meetings back up and running with some degree of regularity.\nMeetings are advertised on our Meetup page\nSlides and other material from our meetups is available on our GitHub account SheffieldR."
+  },
+  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
@@ -7,109 +49,53 @@
     "text": "If you are thinking of, or have been invited to give a talk, you can use the Quarto template below as a basis for your slides.\nQuarto RevealJS Template"
   },
   {
-    "objectID": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html",
-    "href": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html",
-    "title": "Managing projects with workflowr and Introduction to DiagrammeR",
+    "objectID": "posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html",
+    "href": "posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html",
+    "title": "Stan and the Tidyverse",
     "section": "",
-    "text": "We’re back to our regular schedule after last month’s Hacktoberfest fun. Join us for talks on managing your projects with workflowr and a brief introduction to the visualisation tool, DiagrammeR."
+    "text": "Welcome back to the Sheffield R Meetup! We’re kicking off 2018 with two great talks:\n\nShaun Coutts will be giving a demonstration of using Stan via the rstan interface and launching jobs on iceberg and sharc.\nKatjuša Koler will be talking about doing things differently using the Tidyverse:\nIn this session, I will give an example of a workflow in base R and compare it to a tidyverse approach. Tidyverse is a system of packages (dplyr, ggplot2 etc.) used to manipulate, explore and visualize data. I will discuss the pros and cons of each workflow. This talk will be useful for beginners, as well as anyone considering making a bridge from base R to tidyverse.\nSo two talks, one with Bayes R and one with Base R! We look forward to seeing you there."
   },
   {
-    "objectID": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#managing-projects-with-workflow",
-    "href": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#managing-projects-with-workflow",
-    "title": "Managing projects with workflowr and Introduction to DiagrammeR",
-    "section": "Managing projects with workflow",
-    "text": "Managing projects with workflow\nIn this session I’ll do a walk through of using package workflowr to organise and document projects including some best practice tips and tricks.\nAnna Krystalli has a background in marine macroecology. Now she works as a Research Software Engineer at the University of Sheffield, helping researchers do more with their code and data."
-  },
-  {
-    "objectID": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#introduction-to-diagrammer",
-    "href": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#introduction-to-diagrammer",
-    "title": "Managing projects with workflowr and Introduction to DiagrammeR",
-    "section": "Introduction to DiagrammeR",
-    "text": "Introduction to DiagrammeR\nIn this session I’ll give a brief introduction to DiagrammeR, a package for creating and visualising network graphs and diagrams, with built-in support for a range of formats. I’ll demonstrate how to create a data-driven network diagram using data on trade in endangered species.\nTamora James is a PhD researcher in the Department of Animal and Plant Sciences at the University of Sheffield. Her work involves modelling populations of vulnerable bird species to determine effective conservation interventions."
-  },
-  {
-    "objectID": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#sheffield-r-users-group-needs-you",
-    "href": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#sheffield-r-users-group-needs-you",
-    "title": "Managing projects with workflowr and Introduction to DiagrammeR",
-    "section": "Sheffield R Users Group needs you",
-    "text": "Sheffield R Users Group needs you\nWe rely on members of the Sheffield R community to speak at our meetups and try to offer a mix of “beginners” and “expert” level talks. If you’d like to share a 15 minute informal slide-talk on a topic of your choosing (broadly ‘something cool I’ve done related to R that others would benefit from hearing about’) then we’d love to hear from you!\nLet us know by filling in our speaker sign up form."
-  },
-  {
-    "objectID": "posts/2015-10-27-october-meetup/2015-10-27-october-meetup.html",
-    "href": "posts/2015-10-27-october-meetup/2015-10-27-october-meetup.html",
-    "title": "October Sheffield R Meetup: Git, GitHub, and Shiny apps",
+    "objectID": "posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html",
+    "href": "posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html",
+    "title": "rrtools: Tools for Writing Reproducible Research in R",
     "section": "",
-    "text": "This month we will be taking a look at integrating git and github use with R. Git is a great tool to help you manage your code using version control - helping avoid that annoying situation where you have 8 different pieces of code and can’t remember which one you should be using! Github then allows you to share your code and documentation, which can be a great way to disseminate your work and help others to reproduce it (as per the philosophy of open science). We also plan on using it in the upcoming Biodiversity hack event! Feel free to bring your laptops along if you want to dabble as we go!\nAlso, Anna Krystalli is going to demonstrate a great example of a Shiny app which she has built, allowing easy visualisation and tabulation of data from a large database of bird species.\nFinally - for those of you interested in participating in the Biodiversity hack early next year, we would be really happy if you could fill in this very short survey. This info will help us to plan when and how the event will be structured - this doesn’t commit you to attending.\nMaterial from the Git workshop is available on GitHub: {% include icon-github.html username=“mathew-hall” %} / SheffieldR. During the session, some attendees made their own pull requests to our workshop repository. Code for Anna’s Shiny app is available on her GitHub page at {% include icon-github.html username=“annakrystalli” %} / birds."
+    "text": "NOTE: Because of the Easter holidays April’s meetup will be on the 2nd Tue of the month.\nThis month we’ll be exploring rrtools, an implementation of R package structure, development tools and practices to a research workflow context.\nRrtools builds on functionality offered by packages like devtools and usethis, adapting and extending them to a research context. The package provides guidance, templates, and functions for making a basic compendium suitable for doing reproducible research with R and a convenient starting point for writing a journal article, report, or thesis.\nUseful features:\nIn this joint session, Anna Krystalli will give an overview of the philosophy, key functions and resulting compendium structure while Dan Olner will walk us through using the tools to convert an existing research project to a reproducible research compendium."
   },
   {
-    "objectID": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html",
-    "href": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html",
-    "title": "Celebrating Hacktoberfest… #rstats style!",
+    "objectID": "posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html#speaker-bio",
+    "href": "posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html#speaker-bio",
+    "title": "rrtools: Tools for Writing Reproducible Research in R",
+    "section": "Speaker Bio",
+    "text": "Speaker Bio\nDan is a researcher in the Sheffield Methods Institute working on a diverse bunch of projects, from modelling whether houses can see wind turbines or green space to making 3D prints of Census data to making monsters using a Kinect motion sensor. He also occasionally runs day workshops on data wrangling and visualisation in R.\nAnna is a Research Software Engineer at the University of Sheffield, helping researchers do more with their code and data."
+  },
+  {
+    "objectID": "posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html",
+    "href": "posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html",
+    "title": "Docker and Interactive unit testing",
     "section": "",
-    "text": "We’ll be following up our introductory Celebrating Hacktoberfest session with drop-in sessions throughout October, so do join us if you’d like to get involved or learn more about open source!"
+    "text": "In this month’s meetup, Mark Dunning will give a general introduction to the Docker container platform and Phil Mike Jones will introduce strategies for interactive unit testing.\n\nMark Dunning (@DrMarkDunning) will give a general introduction to the Docker container platform and present a couple of R-related examples in which he used it to distribute course materials and supplementary materials for a paper. Mark joined Sheffield University in October 2017 to set up a Bioinformatics Core facility, having previously worked for Cancer Research UK in Cambridge after completing his PhD. The Sheffield Bioinformatics Core provides support on the analysis and interpretation of biological datasets as well as a programme of training courses. Mark is an R and open-science enthusiast and has contributed software to the popular Bioconductor project and developed and delivered numerous training courses on R.\nPhil Mike Jones (@philmikejones) will talk us through some interactive unit testing using examples from his package, rakeR, and his reproducible PhD thesis. Phil is a research associate in the Centre for Criminological Research based in the School of Law at the University of Sheffield, working on the “Long-term impacts of ‘Thatcherism’: crime, politics and inequality” project. He has just finished a PhD in human geography at the University of Sheffield, entitled ‘A Spatial Microsimulation Analysis of Health Inequalities and Health Resilience’."
   },
   {
-    "objectID": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html#schedule-for-the-rest-of-the-month",
-    "href": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html#schedule-for-the-rest-of-the-month",
-    "title": "Celebrating Hacktoberfest… #rstats style!",
-    "section": "Schedule for the rest of the month",
-    "text": "Schedule for the rest of the month\n\nTu Oct 10 5:00 pm - 8:00 pm University of Sheffield, Diamond Meeting room 1\nTu Oct 17 5:30 pm - 8:30 pm University of Sheffield, Information Commons Collaboratory 1 ‐ 1.26\nTu Oct 24 5:30 pm - 8:30 pm University of Sheffield, Diamond Meeting room 1\nTu Oct 31 5:30 pm - 8:30 pm University of Sheffield, Diamond Meeting room 1 - Halloween Hacktoberfest!\n\n\n\n\nHacktoberfest banner\n\n\n\nIt’s Hacktoberfest over on GitHub! a global celebration of open source intended to promote participation in open source projects.\nSo this month we’re taking a break from talks and booked some group hackspaces at the University throughout the month to get involved in some open source projects requiring some #rstats help.\nAnyone can benefit from getting involved, regardless of coding skill. At the very least, you’ll learn more about open source and how to contribute through online collaborative coding platforms like GitHub. But you never know, you might end up stumbling across the perfect project for you and ending up joining a community.\nYou can choose to contribute as little or much as you like, from correcting typos, contributing ideas to discussions to building features! Make at least 4 contributions (pull requests) to any GitHub-hosted project between October 1 and October 31 to earn a limited edition Hacktoberfest T-shirt!"
-  },
-  {
-    "objectID": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html#at-todays-meetup",
-    "href": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html#at-todays-meetup",
-    "title": "Celebrating Hacktoberfest… #rstats style!",
-    "section": "At today’s meetup",
-    "text": "At today’s meetup\nWe’ll take a look at Hacktoberfest R projects on GitHub (many rOpenSci packages requiring help!) and discuss how to use GitHub to contribute to projects e.g. how to make a pull request, best practice for contributing code etc."
-  },
-  {
-    "objectID": "posts/2024-01-18-jan-meetup/index.html",
-    "href": "posts/2024-01-18-jan-meetup/index.html",
-    "title": "SheffieldR : January 2024 Meetup",
+    "objectID": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html",
+    "href": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html",
+    "title": "June Sheffield R Meetup: Literate programming and Writing a decision tree package for R",
     "section": "",
-    "text": "SheffieldR User Group is back in January 2024 with a Health Economics special and two talks from Robert Smith and Wael Mohammed of Dark Peak Analytics and the University of Sheffield who will talk us through two of their recent publications. Rob will show us how to automate Health Economic Evaluation with R without sharing sensitive data and Wael will guide us through a tutorial on R packaging for cost-effectiveness models.\nMeeting is 2024-01-18 17:00-18:30 in The Diamond G04 Workroom 1. Sign up here. Remote attendance is possible using Google Meet.\nIf you have any questions or enquiries please get in touch with Grace Accad or Neil Shephard."
+    "text": "This month Anna Krystalli will present a exploration of literate programming, following up from a discussion on literate programming techniques at our meetup in April, and Pete Dodd will tell us about building an open source decision tree package in R."
   },
   {
-    "objectID": "posts/2024-01-18-jan-meetup/index.html#robert-smith",
-    "href": "posts/2024-01-18-jan-meetup/index.html#robert-smith",
-    "title": "SheffieldR : January 2024 Meetup",
-    "section": "Robert Smith",
-    "text": "Robert Smith\nLiving HTA: Automating Health Economic Evaluation with R\n\n\n\nSchematic showing the interaction between the company API (application programming interface) and the consultant automated workflow.\n\n\nBackground: Requiring access to sensitive data can be a significant obstacle for the development of health models in the Health Economics & Outcomes Research (HEOR) setting. We demonstrate how health economic evaluation can be conducted with minimal transfer of data between parties, while automating reporting as new information becomes available.\nMethods: We developed an automated analysis and reporting pipeline for health economic modelling and made the source code openly available on a GitHub repository. The pipeline consists of three parts: An economic model is constructed by the consultant using pseudo data. On the data-owner side, an application programming interface (API) is hosted on a server. This API hosts all sensitive data, so that data does not have to be provided to the consultant. An automated workflow is created, which calls the API, retrieves results, and generates a report.\nResults : The application of modern data science tools and practices allows analyses of data without the need for direct access – negating the need to send sensitive data. In addition, the entire workflow can be largely automated: the analysis can be scheduled to run at defined time points (e.g. monthly), or when triggered by an event (e.g. an update to the underlying data or model code); results can be generated automatically and then be exported into a report. Documents no longer need to be revised manually.\nConclusions: This example demonstrates that it is possible, within a HEOR setting, to separate the health economic model from the data, and automate the main steps of the analysis pipeline.\n\nBiography - Robert Smith\nRob is a health economist based in Sheffield, UK. His research focuses on the methods used to estimate the costs and benefits of public health interventions, with a specific interest in microsimulation modelling in R. He is a expert advisor in Public Health Economics & Decision Science to the WHO-HEAT project. He is currently working at the Joint Biosecurity Centre to help inform the UK government response to the pandemic."
+    "objectID": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html#literate-programming-with-rmarkdown",
+    "href": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html#literate-programming-with-rmarkdown",
+    "title": "June Sheffield R Meetup: Literate programming and Writing a decision tree package for R",
+    "section": "Literate programming with Rmarkdown",
+    "text": "Literate programming with Rmarkdown\nIn this session we’ll explore the various options and strategies for literate programming and dynamic report generation in R and Rmarkdown. This session will make use of the literate programming packages knitr and Rmarkdown."
   },
   {
-    "objectID": "posts/2024-01-18-jan-meetup/index.html#wael-mohammed",
-    "href": "posts/2024-01-18-jan-meetup/index.html#wael-mohammed",
-    "title": "SheffieldR : January 2024 Meetup",
-    "section": "Wael Mohammed",
-    "text": "Wael Mohammed\nPackaging cost-effectiveness models in R: A Tutorial\n\n\n\nSchematic of a typical model structure taking raw data and user inputs and using a set of functions to return results in the form of data, publication tables, and figures.\n\n\nBackground: The use of programming languages such as R in health economics and decision science is increasing, and brings numerous benefits including increasing model development efficiency, improving transparency, and reducing human error. However, there is limited guidance on how to best develop models using R. So far, no clear consensus has emerged.\nMethods: We present the advantages of creating health economic models as R packages - structured collections of functions, data sets, tests, and documentation. Assuming an intermediate understanding of R, we provide a tutorial to demonstrate how to construct a basic R package for health economic evaluation. All source code used in or referenced by this paper is available under an open-source licence.\nCase Study: We use the Sick Sicker Model as a case study applying the steps from the tutorial to standardise model development, documentation and aid review. This can improve the distribution of code, thereby streamlining model development, and improving methods in health economic evaluation.\nConclusion: R packages offer a valuable framework for enhancing the quality and transparency of health economic evaluation models. Embracing better, more standardised software development practices, while fostering a collaborative culture, has the potential to significantly improve the quality of health economic models, and, ultimately, support better decision making in healthcare.\n\nBiography - Wael Mohammed\nWael is a health economist with a background in pharmacy and public health. In addition, he has experience in decision-analytic modelling, econometrics, and data science. He is currently pursuing a PhD in public health, economics and decision science at the University of Sheffield."
-  },
-  {
-    "objectID": "posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html",
-    "href": "posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html",
-    "title": "R coding social",
-    "section": "",
-    "text": "In the run up to the festive season we’d like to invite Sheffield R users to come and join us for an R coding social! Come along for a chance to meet and greet fellow R users in Sheffield. If you have a coding problem to discuss, feel free to bring it along and take advantage of the wealth of R coding knowledge available!\n\nWe’ll start with a round of introductions, allowing people briefly to introduce themselves. After going around the room, there will be the opportunity for attendees to share code they’ve been working on and want help with / want feedback on / want to present.\nCome with a topic you want to discuss or with something you’ve done that you want to tell everyone about, or just come to listen and contribute as much or as little as you want."
-  },
-  {
-    "objectID": "posts/2024-03-21/index.html",
-    "href": "posts/2024-03-21/index.html",
-    "title": "SheffieldR : Bring your Data and Code",
-    "section": "",
-    "text": "This March meetup see’s a slight deviation from the normal format of the SheffieldR meetups as we are inviting you to bring your data, code, R knowledge and enthusiasm along to help each other out in a “Hackathon” style meeting.\nMeeting is 2024-03-21 17:30-19:00 in the Portobello Centre, Seminar Room C02 B (just off Mappin Street). Sign up is via Meetup. Unfortunately we won’t be running remote attendance this time because of the nature of the meeting.\nIf you have any questions or enquiries please email us sheffieldr@sheffield.ac.uk.\nMaybe you’ve a problem using renv to manage your packages or you’re stuck with a particular data wrangling problem or haven’t worked out the perfect layout of your graph then bring your data and code along and see if there is someone who can help you solve your problem. Whether that is using the Tidyverse, data.table, ggplot2 or base graphics.\nObviously we’ll need people with experience to come and help others solve their problems, but even if you’re just starting out on your R journey you will know something to contribute.\nIf you’d like to come along we’ve setup a short form for you to indicate what areas you are looking for assistance with or can help others with."
-  },
-  {
-    "objectID": "posts/2024-03-21/index.html#reprex",
-    "href": "posts/2024-03-21/index.html#reprex",
-    "title": "SheffieldR : Bring your Data and Code",
-    "section": "Reprex",
-    "text": "Reprex\nIts possible that the section of code you are having trouble with is part of a larger workflow. To make it easier for people to understand the problem and offer assistance it would be beneficial if you are able to abstract out the problem to what is know as a Minimal “Reproducible Example” often shortened to the portmanteau “reprex”. There is advice on How to create a Minimal, Reproducible Example on Stack Overflow and there is also the R package {reprex} which helps “prepare reproducible example code via the clipboard”."
-  },
-  {
-    "objectID": "posts/2024-03-21/index.html#data-security-and-sensitivity",
-    "href": "posts/2024-03-21/index.html#data-security-and-sensitivity",
-    "title": "SheffieldR : Bring your Data and Code",
-    "section": "Data Security and Sensitivity",
-    "text": "Data Security and Sensitivity\nIf your problem involves sensitive data then please be mindful of this. See the University of Sheffield Information Security Training pages, in particular the training on Protecting Research Data, Protecting Personal Data and Protecting Information. If you are not a student or member of staff at The University of Sheffield please refer to your institution or employers guidelines on data security."
+    "objectID": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html#writing-a-decision-tree-package-for-r",
+    "href": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html#writing-a-decision-tree-package-for-r",
+    "title": "June Sheffield R Meetup: Literate programming and Writing a decision tree package for R",
+    "section": "Writing a decision tree package for R",
+    "text": "Writing a decision tree package for R\nDecision trees are a class of model widely used in health economic modelling. A tree (in the mathematical sense) has probabilities associated with branches leaving a node to describe the chances of a set of potential outcomes. In health economics, costs and health consequences are also associated with outcomes. By way of example, clinical diagnostic algorithms based on a sequence of symptom screens and diagnostic tests map particularly naturally into this framework. There are proprietary packages to develop, visualize and analyse such models, but nothing open-source and user-friendly. We describe an attempt to develop a package with a simple syntax for decision tree models in R based on the DOT language, which allows visualization, as well as considerable flexibility in analysis approach.\nWe hope to see you there!\nThe SheffieldR team"
   },
   {
     "objectID": "posts/2016-08-17-september-meetup/2016-08-17-september-meetup.html",
@@ -147,13 +133,6 @@
     "text": "Using C++ to speed up R code\nR is a very handy tool for data analysis, but it can be computationally quite slow. When analysing large data sets, or using complex models, it can be desirable to speed things up. For this reason, it has become increasingly common to combine R code with C++ code. C++ is a compiled programming language, which makes it much faster than R in some cases. I will first talk about Rcpp, an R package which makes it very simple to call C++ functions from an R script. Then, I will talk about the Template Model Builder (TMB), an R package which uses automatic differentiation in C++ to speed up the numerical evaluation of a function (typically, a likelihood function), thus making techniques such as maximum likelihood estimation very fast. I will show that these do not require a strong programming background, and that it is quite easy for someone familiar with R to use Rcpp and TMB. I will compare the three approaches with examples of code.\nWe hope to see you there!\nThe SheffieldR team"
   },
   {
-    "objectID": "posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html",
-    "href": "posts/2018-02-06-feb-meetup/2018-02-06-feb-meetup.html",
-    "title": "Stan and the Tidyverse",
-    "section": "",
-    "text": "Welcome back to the Sheffield R Meetup! We’re kicking off 2018 with two great talks:\n\nShaun Coutts will be giving a demonstration of using Stan via the rstan interface and launching jobs on iceberg and sharc.\nKatjuša Koler will be talking about doing things differently using the Tidyverse:\nIn this session, I will give an example of a workflow in base R and compare it to a tidyverse approach. Tidyverse is a system of packages (dplyr, ggplot2 etc.) used to manipulate, explore and visualize data. I will discuss the pros and cons of each workflow. This talk will be useful for beginners, as well as anyone considering making a bridge from base R to tidyverse.\nSo two talks, one with Bayes R and one with Base R! We look forward to seeing you there."
-  },
-  {
     "objectID": "posts/2016-01-28-hack/2016-01-28-hack.html",
     "href": "posts/2016-01-28-hack/2016-01-28-hack.html",
     "title": "National Biodiversity Hack Event",
@@ -161,137 +140,67 @@
     "text": "We’re running a hackathon event over three sessions in March. The hack will focus on the National Biodiversity Network’s data to collaboratively develop outputs that benefit the public, Council or local wildlife organisations.\nSee the Hack details page for details on the event including how to register. To get updates on the hack and our events, follow us on Twitter: @Sheffield_R_."
   },
   {
-    "objectID": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html",
-    "href": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html",
-    "title": "April Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning",
+    "objectID": "posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html",
+    "href": "posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html",
+    "title": "October Sheffield R Meetup: Mathew Hall and Mike Croucher",
     "section": "",
-    "text": "This month’s talks cover ensembles in machine learning and using R notebooks as a learning tool."
+    "text": "At this month’s meeting we’ll be talking about how R interacts with different languages and technologies.\nOur very own Mat Hall will give us a crash course in using R with Jupyter notebooks for interactive reproducible and collaborative research.\nWe’ll also hear from Mike Croucher, who is an EPSRC Research Software Engineering Fellow working at The University of Sheffield. Mike specialises in assisting researchers to produce better quality software. He is co-founder of The University of Sheffield’s Research Software Engineering group and plays a major role in the Sheffield Open Data Science Initiative. In September Mike was involved in organising the first ever Research Software Engineering conference.\nWe look forward to seeing you there!\nThe SheffieldR team"
   },
   {
-    "objectID": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html#wisdom-of-the-crowd-ensembles-in-machine-learning-and-the-factors-that-influence-them",
-    "href": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html#wisdom-of-the-crowd-ensembles-in-machine-learning-and-the-factors-that-influence-them",
-    "title": "April Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning",
-    "section": "“Wisdom of the crowd”: Ensembles in machine learning, and the factors that influence them",
-    "text": "“Wisdom of the crowd”: Ensembles in machine learning, and the factors that influence them\nPieter Wessels will present a brief discussion on Ensembles, including popular algorithms for creating same engine Ensembles (bagging, boosting, etc), multiple engine Ensembles, the factors that influence Ensembles, including diversity between members and a brief introduction to one measure of diversity."
-  },
-  {
-    "objectID": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html#teaching-with-r-notebook",
-    "href": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html#teaching-with-r-notebook",
-    "title": "April Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning",
-    "section": "Teaching with R Notebook",
-    "text": "Teaching with R Notebook\nDuncan Gillespie will speak about the pros and cons of using R notebooks as a learning tool in an introductory R course.\nWe hope to see you there!\nThe SheffieldR team"
-  },
-  {
-    "objectID": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html",
-    "href": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html",
-    "title": "March Sheffield R Meetup: Code surgery and social",
+    "objectID": "posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html",
+    "href": "posts/2017-12-05-dec-meetup/2017-12-05-dec-meetup.html",
+    "title": "R coding social",
     "section": "",
-    "text": "In March we held our first R coding surgery and social, a chance for our members to meet, greet, learn from and collaborate with fellow R users."
+    "text": "In the run up to the festive season we’d like to invite Sheffield R users to come and join us for an R coding social! Come along for a chance to meet and greet fellow R users in Sheffield. If you have a coding problem to discuss, feel free to bring it along and take advantage of the wealth of R coding knowledge available!\n\nWe’ll start with a round of introductions, allowing people briefly to introduce themselves. After going around the room, there will be the opportunity for attendees to share code they’ve been working on and want help with / want feedback on / want to present.\nCome with a topic you want to discuss or with something you’ve done that you want to tell everyone about, or just come to listen and contribute as much or as little as you want."
   },
   {
-    "objectID": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html#in-attendance",
-    "href": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html#in-attendance",
-    "title": "March Sheffield R Meetup: Code surgery and social",
-    "section": "In attendance",
-    "text": "In attendance\nTamora, Eoghan, Kassandra, Alison, Mat, Chris, José"
-  },
-  {
-    "objectID": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html#topics",
-    "href": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html#topics",
-    "title": "March Sheffield R Meetup: Code surgery and social",
-    "section": "Topics",
-    "text": "Topics\n\nData storage (Alison)\n\n\nProblem\n\nStoring data of different lengths.\n\n\n\nAnswer\n\nUse list columns: allows arbitrary length vectors.\nSee Charlotte Wickham presentation on tidy data at R Studio conference 2017.\n\n\n\n\nSpatio-temporal time series (Kassandra)\n\nProblem\n\nLots of observations in some areas/directions, few elsewhere.\nTime series of environmental variables.\nRelate observed distribution with methane flux.\nTime series has gaps - how to handle?\n\n\n\nAnswer\n\nCan create an even time series - add NAs where observations missing\nRaster layers as time, environmental variable single point time series\nList columns again!\nLoading raster data into R: use raster package, load data and specify projection string (unless data is GEO tiff, in that case it’s in the metadata).\n\n\n\n\nOptimisation (Alison)\n\nProblem\n\nProfiling and how to make the loop quicker.\n\n\n\nAnswer\n\nApply lineprof/profvis to profile whole sections of program/script. See Hadley’s profiling guide.\nMight be possible to use closures to precalculate distributions.\nUse C++ via Rcpp.\nUse JAGS or stan - parallelisable implementations.\n\n\n\nLive demo (Chris)\n\nLive code demo of list columns.\nUse saveRDS(), readRDS() as alternative to store as text.\nMight be problems with speed - use profiling to compare with text storage.\n\n\n\n\nEEG processing (José)\n\nProblem\n\nGetting raw data into format required for R package for signal processing.\nBad documentation!\n\n\n\nAnswer\n\nUse Matlab with manufacturer software?\n\n\n\n\nData handling (Kassandra)\n\nProblem\n\nProblem with large data - can she write all objects together?\n\n\n\nAnswe\n\nNeed to be able to write sequentially - plugin for R to speak to database e.g. RSQLite or use RDS.\nSparse matrix?\nR ArcGIS interface?\n\n\n\n\nProfiling update (Alison)\n\nConstant matrix each time - copy on modify?\nAvoid assignment of matrices within for loop (nested)."
-  },
-  {
-    "objectID": "posts/2015-11-24-november-meetup/2015-11-24-november-meetup.html",
-    "href": "posts/2015-11-24-november-meetup/2015-11-24-november-meetup.html",
-    "title": "November Sheffield R Meetup: Matt Aldridge",
+    "objectID": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html",
+    "href": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html",
+    "title": "Celebrating Hacktoberfest… #rstats style!",
     "section": "",
-    "text": "This month we are delighted to welcome a guest speaker Matt Aldridge from Mango Solutions - a company which specialises in data analysis/science, training and consultancy using R. You may know them as they organise the Effective Applications of the R Language (EARL) conferences in the UK and US. Matt’s talk will be titled “The Changing Face of R” and will be accessible to all regardless of experience or background - it will certainly be interesting in how R is being used to shape data analysis away from the academic ivory tower!"
+    "text": "We’ll be following up our introductory Celebrating Hacktoberfest session with drop-in sessions throughout October, so do join us if you’d like to get involved or learn more about open source!"
   },
   {
-    "objectID": "posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html",
-    "href": "posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html",
-    "title": "January Sheffield R Meetup: Happy New-ish YeaR!",
+    "objectID": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html#schedule-for-the-rest-of-the-month",
+    "href": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html#schedule-for-the-rest-of-the-month",
+    "title": "Celebrating Hacktoberfest… #rstats style!",
+    "section": "Schedule for the rest of the month",
+    "text": "Schedule for the rest of the month\n\nTu Oct 10 5:00 pm - 8:00 pm University of Sheffield, Diamond Meeting room 1\nTu Oct 17 5:30 pm - 8:30 pm University of Sheffield, Information Commons Collaboratory 1 ‐ 1.26\nTu Oct 24 5:30 pm - 8:30 pm University of Sheffield, Diamond Meeting room 1\nTu Oct 31 5:30 pm - 8:30 pm University of Sheffield, Diamond Meeting room 1 - Halloween Hacktoberfest!\n\n\n\n\nHacktoberfest banner\n\n\n\nIt’s Hacktoberfest over on GitHub! a global celebration of open source intended to promote participation in open source projects.\nSo this month we’re taking a break from talks and booked some group hackspaces at the University throughout the month to get involved in some open source projects requiring some #rstats help.\nAnyone can benefit from getting involved, regardless of coding skill. At the very least, you’ll learn more about open source and how to contribute through online collaborative coding platforms like GitHub. But you never know, you might end up stumbling across the perfect project for you and ending up joining a community.\nYou can choose to contribute as little or much as you like, from correcting typos, contributing ideas to discussions to building features! Make at least 4 contributions (pull requests) to any GitHub-hosted project between October 1 and October 31 to earn a limited edition Hacktoberfest T-shirt!"
+  },
+  {
+    "objectID": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html#at-todays-meetup",
+    "href": "posts/2017-10-03-oct-meetup/2017-10-03-oct-meetup.html#at-todays-meetup",
+    "title": "Celebrating Hacktoberfest… #rstats style!",
+    "section": "At today’s meetup",
+    "text": "At today’s meetup\nWe’ll take a look at Hacktoberfest R projects on GitHub (many rOpenSci packages requiring help!) and discuss how to use GitHub to contribute to projects e.g. how to make a pull request, best practice for contributing code etc."
+  },
+  {
+    "objectID": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html",
+    "href": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html",
+    "title": "Managing projects with workflowr and Introduction to DiagrammeR",
     "section": "",
-    "text": "This month we will be talking in more detail about our upcoming NBN Biodiversity Hack event, which will be held over the first 3 weeks of March. Paul and Anna will share some of our experiences from the Open Data Sheffield #hackthemarine event held earlier this month, and we will bounce around any ideas the group may have for exciting analyses and visualisations using the biodiversity data.\nBut that’s not all! We are delighted to have a talk from Dan Pollard from UoS Health Economics and Decision Science. He will be introducing the Zelig package, which can be used to both estimate statistical models but also conduct simulations from the results; ideal for building data driven computer models."
+    "text": "We’re back to our regular schedule after last month’s Hacktoberfest fun. Join us for talks on managing your projects with workflowr and a brief introduction to the visualisation tool, DiagrammeR."
   },
   {
-    "objectID": "slides.html",
-    "href": "slides.html",
-    "title": "Slides",
-    "section": "",
-    "text": "Here you will find links to slides from previous meetings\n\n\n\nSpeaker\nDate\nSlides\n\n\n\n\nNeil Shephard\n2023-10-26\nQuarto for RevealJS Slides\n\n\nRob Smith\n2020-02-04\nR for Decision Science\n\n\nThéo Michelot\n2017-05-02\nUsing C++ to speed up R code\n\n\nPieter Wessels\n2017-04-04\n“Wisdom of the crowd” : Ensembles in Machine Learning and the factors that influence them\n\n\nJames Waterhouse and Darell Taylor\n2016-11-16\nData Juggling at SkyBet\n\n\nLukas Drapal\n2016-10-21\nComplete (and win) on Kaggle\n\n\nMatt Hall\n2016-09-17\nR with Jupyter Notebooks for Interactive and Collaborative Research\n\n\nAlison Parton\n2016-08-17\nCan you trust the humble statistician? An intro to unit testing in R\n\n\nJeremy Oakley\n2016-08-17\nSHELF: an R package for expert elicitation"
+    "objectID": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#managing-projects-with-workflow",
+    "href": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#managing-projects-with-workflow",
+    "title": "Managing projects with workflowr and Introduction to DiagrammeR",
+    "section": "Managing projects with workflow",
+    "text": "Managing projects with workflow\nIn this session I’ll do a walk through of using package workflowr to organise and document projects including some best practice tips and tricks.\nAnna Krystalli has a background in marine macroecology. Now she works as a Research Software Engineer at the University of Sheffield, helping researchers do more with their code and data."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "We are the Sheffield R group. We meet roughly every month to learn about and discuss R, the pandemic threw a spanner in the works of that but we’re looking to get meetings back up and running with some degree of regularity.\nMeetings are advertised on our Meetup page\nSlides and other material from our meetups is available on our GitHub account SheffieldR."
+    "objectID": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#introduction-to-diagrammer",
+    "href": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#introduction-to-diagrammer",
+    "title": "Managing projects with workflowr and Introduction to DiagrammeR",
+    "section": "Introduction to DiagrammeR",
+    "text": "Introduction to DiagrammeR\nIn this session I’ll give a brief introduction to DiagrammeR, a package for creating and visualising network graphs and diagrams, with built-in support for a range of formats. I’ll demonstrate how to create a data-driven network diagram using data on trade in endangered species.\nTamora James is a PhD researcher in the Department of Animal and Plant Sciences at the University of Sheffield. Her work involves modelling populations of vulnerable bird species to determine effective conservation interventions."
   },
   {
-    "objectID": "sponsors.html",
-    "href": "sponsors.html",
-    "title": "Sponsors",
-    "section": "",
-    "text": "We are happy to be supported by the R Consortium’s R User Group Support program and University of Sheffield Research Software Engineering."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SheffieldR",
-    "section": "",
-    "text": "SheffieldR : Bring your Data and Code\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSheffieldR : February 2024 Meetup\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSheffieldR : January 2024 Meetup\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSheffieldR : November Meetup\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nNov 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSheffieldR Reboot : Quarto for slides\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nOct 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nrrtools: Tools for Writing Reproducible Research in R\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nApr 10, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nDocker and Interactive unit testing\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nMar 6, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nStan and the Tidyverse\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nFeb 6, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nR coding social\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nDec 5, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nManaging projects with workflowr and Introduction to DiagrammeR\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nNov 7, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nCelebrating Hacktoberfest… #rstats style!\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nOct 3, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember Sheffield R Meetup: Object oriented systems in R + The Reproducible Thesis w/ Bookdown\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nSep 5, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nJuly Sheffield R Meetup: Thermal images and Object oriented systems in R\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nJul 4, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nJune Sheffield R Meetup: Literate programming and Writing a decision tree package for R\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nJun 6, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nMay Sheffield R Meetup: Making R Faster\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nMay 2, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nApril Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nApr 4, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nMarch Sheffield R Meetup: Code surgery and social\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nMar 7, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary Sheffield R Meetup: Martin Garlovsky and Christopher Hopkinson\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nFeb 1, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nDecember Sheffield R Meetup: Dan Olner, James Waterhouse and Darrell Taylor\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nNov 16, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nNovember Sheffield R Meetup: Shaun Coutts and Lukas Drapal\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nOct 21, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nOctober Sheffield R Meetup: Mathew Hall and Mike Croucher\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nSep 17, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember Sheffield R Meetup: Alison Parton and Jeremy Oakley\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nAug 17, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nNBN Hack Results\n\n\n\n\n\n\nhack\n\n\n\n\n\n\n\n\n\nMay 20, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nNational Biodiversity Hack Event\n\n\n\n\n\n\nhack\n\n\n\n\n\n\n\n\n\nJan 27, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary Sheffield R Meetup: Happy New-ish YeaR!\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nJan 26, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nNovember Sheffield R Meetup: Matt Aldridge\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nNov 24, 2015\n\n\n\n\n\n\n\n\n\n\n\n\nOctober Sheffield R Meetup: Git, GitHub, and Shiny apps\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nOct 27, 2015\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "www/slide_templates_revealjs.html#sample-slides",
-    "href": "www/slide_templates_revealjs.html#sample-slides",
-    "title": "Title",
-    "section": "Sample Slides",
-    "text": "Sample Slides\nBullet Points can have pauses between them.\n\nOne\nTwo\nThree\n\n\n\nFour"
-  },
-  {
-    "objectID": "www/slide_templates_revealjs.html#we-can-have-columns",
-    "href": "www/slide_templates_revealjs.html#we-can-have-columns",
-    "title": "Title",
-    "section": "We can have columns",
-    "text": "We can have columns\n\n\nInclude images locally \n\nOr directly from the web"
-  },
-  {
-    "objectID": "www/slide_templates_revealjs.html#code-blocks",
-    "href": "www/slide_templates_revealjs.html#code-blocks",
-    "title": "Title",
-    "section": "Code Blocks",
-    "text": "Code Blocks\nWe can include code blocks and highlight specific rows.\nlibrary(dplyr)\nlibrary(ggplot)\n\ndata(mtcars)\nhead(mtcars) |&gt; print()"
-  },
-  {
-    "objectID": "www/slide_templates_revealjs.html#executable-code-blocks",
-    "href": "www/slide_templates_revealjs.html#executable-code-blocks",
-    "title": "Title",
-    "section": "Executable Code Blocks",
-    "text": "Executable Code Blocks\nWe can also run code blocks and show the output rather than the code\n#| echo: false\nlibrary(dplyr)\nlibrary(ggplot)\n\ndata(mtcars)\nhead(mtcars) |&gt; print()"
-  },
-  {
-    "objectID": "www/slide_templates_revealjs.html#yaml-header",
-    "href": "www/slide_templates_revealjs.html#yaml-header",
-    "title": "Title",
-    "section": "YAML Header",
-    "text": "YAML Header\nThe YAML Header contains most configuration options.\n---\ntitle: Title\nauthor: \"Author Name\"\nemail: Email\nformat:\n  revealjs:\n    theme: sky\n    incremental: true\n    embed-resources: true\n    logo: \"SheffieldR_footer.png\"\n    footer: \"https://SheffieldR.github.io\"\n---"
-  },
-  {
-    "objectID": "posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html",
-    "href": "posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html",
-    "title": "rrtools: Tools for Writing Reproducible Research in R",
-    "section": "",
-    "text": "NOTE: Because of the Easter holidays April’s meetup will be on the 2nd Tue of the month.\nThis month we’ll be exploring rrtools, an implementation of R package structure, development tools and practices to a research workflow context.\nRrtools builds on functionality offered by packages like devtools and usethis, adapting and extending them to a research context. The package provides guidance, templates, and functions for making a basic compendium suitable for doing reproducible research with R and a convenient starting point for writing a journal article, report, or thesis.\nUseful features:\nIn this joint session, Anna Krystalli will give an overview of the philosophy, key functions and resulting compendium structure while Dan Olner will walk us through using the tools to convert an existing research project to a reproducible research compendium."
-  },
-  {
-    "objectID": "posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html#speaker-bio",
-    "href": "posts/2018-04-10-apr-meetup/2018-04-10-apr-meetup.html#speaker-bio",
-    "title": "rrtools: Tools for Writing Reproducible Research in R",
-    "section": "Speaker Bio",
-    "text": "Speaker Bio\nDan is a researcher in the Sheffield Methods Institute working on a diverse bunch of projects, from modelling whether houses can see wind turbines or green space to making 3D prints of Census data to making monsters using a Kinect motion sensor. He also occasionally runs day workshops on data wrangling and visualisation in R.\nAnna is a Research Software Engineer at the University of Sheffield, helping researchers do more with their code and data."
+    "objectID": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#sheffield-r-users-group-needs-you",
+    "href": "posts/2017-11-07-nov-meetup/2017-11-07-nov-meetup.html#sheffield-r-users-group-needs-you",
+    "title": "Managing projects with workflowr and Introduction to DiagrammeR",
+    "section": "Sheffield R Users Group needs you",
+    "text": "Sheffield R Users Group needs you\nWe rely on members of the Sheffield R community to speak at our meetups and try to offer a mix of “beginners” and “expert” level talks. If you’d like to share a 15 minute informal slide-talk on a topic of your choosing (broadly ‘something cool I’ve done related to R that others would benefit from hearing about’) then we’d love to hear from you!\nLet us know by filling in our speaker sign up form."
   },
   {
     "objectID": "posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html",
@@ -308,46 +217,11 @@
     "text": "Doing spatial stuff with R: the magic and the messiness (with an example applying it to windfarm/house-price interaction)\n\nR has grown into an amazing tool for wrangling and analysing spatial data. It can do some awesome things with borderline magical ease. I’ll cover some of the introductory essentials to doing spatial stuff before looking at a project using R (and other tools including QGIS) that analysed the price impact of wind turbines on house prices in Scotland. (Spoiler: couldn’t find anything significant; see link below.) This project’s story is more about the real-world messiness of getting R spatial analysis to do what you want it to.\nhttp://www.climatexchange.org.uk/reducing-emissions/impact-wind-farms-property-prices/ https://github.com/SheffieldMethodsInstitute/windfarmsHousePrices\n\nWe will also be joined by James Waterhouse (Head of Data Science) and Darrell Taylor (Principal Data Engineer) from Sky Betting and Gaming who will talk about Data Juggling at SkyBet: A brief look inside the data science toolbox at Sky Betting and Gaming.\nWe look forward to seeing you at the Red Deer on 6 December! Location details are on our meetup event.\nThe SheffieldR team"
   },
   {
-    "objectID": "posts/2016-05-20-hack-results/2016-05-20-hack-results.html",
-    "href": "posts/2016-05-20-hack-results/2016-05-20-hack-results.html",
-    "title": "NBN Hack Results",
+    "objectID": "posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html",
+    "href": "posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html",
+    "title": "November Sheffield R Meetup: Shaun Coutts and Lukas Drapal",
     "section": "",
-    "text": "In March we ran a series of hack events centred around the National Biodiversity Network’s data gateway. We teamed up with Sheffield Wildlife Trust to investigate the data and see what we might be able to learn. Thanks to Tom August’s rnbn package, it was a cinch to get the data which is kindly contributed by volunteers and organisations across the country.\nOur hack was organised around several projects selected after a pitch session. Attendees chose a team based on the project and collaborated using a shared HackPad and pushed their code to a central GitHub repository."
-  },
-  {
-    "objectID": "posts/2016-05-20-hack-results/2016-05-20-hack-results.html#the-teams",
-    "href": "posts/2016-05-20-hack-results/2016-05-20-hack-results.html#the-teams",
-    "title": "NBN Hack Results",
-    "section": "The Teams",
-    "text": "The Teams\n\nHabitats vs Biodiversity\nThe Sheffield Wildlife Trust have compiled a wide variety of habitat data into shapefile spatial polygons. They would like to be able to integrate it with biodiversity data from the NBN to facilitate further analysis. So the aim of this project is to produce a simple shiny app through which the user can select species/taxa of interest, query the NBN for data and match it to spatial polygon data. The app would then output an analytical dataset that could then be used for further analysis. Outputs could therefore feed into the spatial analysis project.\nRepository link: Habitats vs Biodiversity\n\n\nHumans vs Biodiversity\nThis team sought to determine how Sheffield’s biodiversity had changed with Sheffield’s population. As Sheffield’s urban environments grow with the population, the team wanted to understand how local wildlife had changed over time. The team looked into measures that could be used to estimate population density, river quality from other open data sources alongside an estimate for biodiversity in the data from the NBN gateway.\nRepository link: Humans vs Biodiversity\n\n\nTeam Temporal\nTeam Temporal wanted to study how species were represented in the NBN Gateway data sets over time. The team aimed to build plots of records over time for species with more than 1000 records in the data set. Additionally, the team sought to apply Telfer’s change index to produce a summary of the change over time for species in Sheffield.\nRepository link: Team Temporal\n\n\nBird Bingo\nBird Bingo is a game where players are given a virtual “card” with pictures of several species they might see in their area. When they see one of their species they can check it off. The team used the NBN Gateway to get species the user was likely to see by querying the Gateway for local species in the bird TVK species group. The team used the Encyclopedia of Life’s API to get images for the selected species and presented the player’s card and handled checking off species using the Shiny web framework.\nRepository link: BirdBingo\n\n\nTeam Python\nThis team wrote an NBN Gateway package for Python a la rnbn.\nRepository link: lionfish0/pynbn\nSee the Hack details page for details on the event including how to register. To get updates on the hack and our events, follow us on Twitter: @Sheffield_R_."
-  },
-  {
-    "objectID": "posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html",
-    "href": "posts/2018-03-06-mar-meetup/2018-03-06-mar-meetup.html",
-    "title": "Docker and Interactive unit testing",
-    "section": "",
-    "text": "In this month’s meetup, Mark Dunning will give a general introduction to the Docker container platform and Phil Mike Jones will introduce strategies for interactive unit testing.\n\nMark Dunning (@DrMarkDunning) will give a general introduction to the Docker container platform and present a couple of R-related examples in which he used it to distribute course materials and supplementary materials for a paper. Mark joined Sheffield University in October 2017 to set up a Bioinformatics Core facility, having previously worked for Cancer Research UK in Cambridge after completing his PhD. The Sheffield Bioinformatics Core provides support on the analysis and interpretation of biological datasets as well as a programme of training courses. Mark is an R and open-science enthusiast and has contributed software to the popular Bioconductor project and developed and delivered numerous training courses on R.\nPhil Mike Jones (@philmikejones) will talk us through some interactive unit testing using examples from his package, rakeR, and his reproducible PhD thesis. Phil is a research associate in the Centre for Criminological Research based in the School of Law at the University of Sheffield, working on the “Long-term impacts of ‘Thatcherism’: crime, politics and inequality” project. He has just finished a PhD in human geography at the University of Sheffield, entitled ‘A Spatial Microsimulation Analysis of Health Inequalities and Health Resilience’."
-  },
-  {
-    "objectID": "posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html",
-    "href": "posts/2016-09-17-october-meetup/2016-09-17-october-meetup.html",
-    "title": "October Sheffield R Meetup: Mathew Hall and Mike Croucher",
-    "section": "",
-    "text": "At this month’s meeting we’ll be talking about how R interacts with different languages and technologies.\nOur very own Mat Hall will give us a crash course in using R with Jupyter notebooks for interactive reproducible and collaborative research.\nWe’ll also hear from Mike Croucher, who is an EPSRC Research Software Engineering Fellow working at The University of Sheffield. Mike specialises in assisting researchers to produce better quality software. He is co-founder of The University of Sheffield’s Research Software Engineering group and plays a major role in the Sheffield Open Data Science Initiative. In September Mike was involved in organising the first ever Research Software Engineering conference.\nWe look forward to seeing you there!\nThe SheffieldR team"
-  },
-  {
-    "objectID": "posts/2023-11-20-nov-meetup/index.html",
-    "href": "posts/2023-11-20-nov-meetup/index.html",
-    "title": "SheffieldR : November Meetup",
-    "section": "",
-    "text": "After October’s Reboot, we are back with another Meetup this 20th November for a showcase using Shiny to illuminate the power of data-driven insights. Join us as we delve into the world of interactive data visualization, with hands-on demonstrations, insightful discussions, and practical use cases that will empower you to harness the potential of Shiny in your own projects.\nMeeting is 2023-11-20 17:30-19:00 in 107 Workroom 4, 38 Mappin Street. Sign up here."
-  },
-  {
-    "objectID": "posts/2023-11-20-nov-meetup/index.html#summary",
-    "href": "posts/2023-11-20-nov-meetup/index.html#summary",
-    "title": "SheffieldR : November Meetup",
-    "section": "Summary",
-    "text": "Summary\n\n\n\nSheffield LSOAs\n\n\nJoin us for an exciting showcase where we’ll dive into two innovative R-Shiny projects. The first project introduces the fascinating world of mapping to investigate the dynamics of segregation among neighboring regions, a concept we fondly refer to as “social frontiers.” In the second project, we explore economic sectors with a focus on aiding South Yorkshire’s mayoral authority in their strategic growth planning endeavours.\nThe burning question that currently occupies our minds: How can we leverage powerful tools like Shiny to assist other institutions, including local councils and mayoral offices, in streamlining their data analysis processes and preventing unnecessary duplication of effort? Be a part of this engaging exploration and discover how Shiny can be a game-changer in data analysis for various institutions. Don’t miss this opportunity to be part of the conversation and gain valuable insights into the future of data-driven decision-making.\n\nBiography\nDr Dan Olner is a policy fellow with Y-PERN, the Yorkshire Policy Engagement and Research Network, working closely with SMYCA in their business, growth and skills team on all things spatial, data and regional. His background is in spatial analysis, spatial economics, data science and politics. He has an interest in using data analysis to address sustainability and net zero issues. More info at Danoler!\nIf you have any questions or inquires please get in touch with Grace Accad or Neil Shephard/"
+    "text": "At this month’s meeting we’ll be talking about modelling, inference, and prediction.\nShaun Coutts joins us to talk about his experience with R and JAGS:\n\nI am a quantitative ecologist who uses statistical, analytical and simulation models to look at pressing environmental issues such as invasive species and wildlife harvest. I am currently a post doc at the University of Sheffield modelling the evolution of herbicide resistance. I also use these approaches to address a wide range of topics such as population dynamics, community ecology, dispersal ecology, optimal population management, and social-economic systems. I am also interested in how far population models for one species or area can be extrapolated to others, and if so, how it should be done.\n\nLukas Drapal will introduce us to the online machine learning competition site kaggle:\n\nKaggle is a great place to learn data science by doing. Kaggle hosts machine learning competitions and has a very active community that share their techniques and tips. In this talk I describe how Kaggle works, share best practises and dive into challenges of a competition that we won among more than 1500 teams - Allstate Purchase Prediction Challenge.\n\nWe look forward to seeing you at the Red Deer on 1 November! Location details are on our meetup event.\nThe SheffieldR team"
   },
   {
     "objectID": "posts/2023-10-26-oct-meetup/index.html",
@@ -371,11 +245,60 @@
     "text": "Quarto for RevealJS Slides\nThe evolution of literate programming continues with Quarto which builds on the widely popular RMarkdown. Powered by Pandoc under the hood it continues to provide many popular document structures such as books, journal articles, Beamer articles and websites, but extends these further introducing new document structures such as blogs and RevealJS slide presentations. Further support is now available for more programming languages beyond R including Python, Julia and the JavaScript data analysis language Observable.\nNeil Shephard is a Research Software Engineer within the Department of Computer Science, will guide you through how to use a GitHub Template for Quarto RevealJS slides to create and publish them to GitHub Pages.\nYou can view the slides that were presented here and if you wanted to try making slides yourself you can use the Quarto RevealJS Template that was demoed. The talk/slides cover the material that is on the front README.md. If you find any mistakes please do report an issue.\n\nSpeaker Biography\nNeil is a Research Software Engineer at the University of Sheffield. His career has been varied with time as a Genetic Epidemiologist, Medical Statistician working on Clinical Trials and time in industry working as a Data Scientist in a startup tech company. He combines his knowledge and experience to help researchers at the University of Sheffield improve the quality and openness of their code and data."
   },
   {
-    "objectID": "posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html",
-    "href": "posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html",
-    "title": "November Sheffield R Meetup: Shaun Coutts and Lukas Drapal",
+    "objectID": "sponsors.html",
+    "href": "sponsors.html",
+    "title": "Sponsors",
     "section": "",
-    "text": "At this month’s meeting we’ll be talking about modelling, inference, and prediction.\nShaun Coutts joins us to talk about his experience with R and JAGS:\n\nI am a quantitative ecologist who uses statistical, analytical and simulation models to look at pressing environmental issues such as invasive species and wildlife harvest. I am currently a post doc at the University of Sheffield modelling the evolution of herbicide resistance. I also use these approaches to address a wide range of topics such as population dynamics, community ecology, dispersal ecology, optimal population management, and social-economic systems. I am also interested in how far population models for one species or area can be extrapolated to others, and if so, how it should be done.\n\nLukas Drapal will introduce us to the online machine learning competition site kaggle:\n\nKaggle is a great place to learn data science by doing. Kaggle hosts machine learning competitions and has a very active community that share their techniques and tips. In this talk I describe how Kaggle works, share best practises and dive into challenges of a competition that we won among more than 1500 teams - Allstate Purchase Prediction Challenge.\n\nWe look forward to seeing you at the Red Deer on 1 November! Location details are on our meetup event.\nThe SheffieldR team"
+    "text": "We are happy to be supported by the R Consortium’s R User Group Support program and University of Sheffield Research Software Engineering."
+  },
+  {
+    "objectID": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html",
+    "href": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html",
+    "title": "March Sheffield R Meetup: Code surgery and social",
+    "section": "",
+    "text": "In March we held our first R coding surgery and social, a chance for our members to meet, greet, learn from and collaborate with fellow R users."
+  },
+  {
+    "objectID": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html#in-attendance",
+    "href": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html#in-attendance",
+    "title": "March Sheffield R Meetup: Code surgery and social",
+    "section": "In attendance",
+    "text": "In attendance\nTamora, Eoghan, Kassandra, Alison, Mat, Chris, José"
+  },
+  {
+    "objectID": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html#topics",
+    "href": "posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html#topics",
+    "title": "March Sheffield R Meetup: Code surgery and social",
+    "section": "Topics",
+    "text": "Topics\n\nData storage (Alison)\n\n\nProblem\n\nStoring data of different lengths.\n\n\n\nAnswer\n\nUse list columns: allows arbitrary length vectors.\nSee Charlotte Wickham presentation on tidy data at R Studio conference 2017.\n\n\n\n\nSpatio-temporal time series (Kassandra)\n\nProblem\n\nLots of observations in some areas/directions, few elsewhere.\nTime series of environmental variables.\nRelate observed distribution with methane flux.\nTime series has gaps - how to handle?\n\n\n\nAnswer\n\nCan create an even time series - add NAs where observations missing\nRaster layers as time, environmental variable single point time series\nList columns again!\nLoading raster data into R: use raster package, load data and specify projection string (unless data is GEO tiff, in that case it’s in the metadata).\n\n\n\n\nOptimisation (Alison)\n\nProblem\n\nProfiling and how to make the loop quicker.\n\n\n\nAnswer\n\nApply lineprof/profvis to profile whole sections of program/script. See Hadley’s profiling guide.\nMight be possible to use closures to precalculate distributions.\nUse C++ via Rcpp.\nUse JAGS or stan - parallelisable implementations.\n\n\n\nLive demo (Chris)\n\nLive code demo of list columns.\nUse saveRDS(), readRDS() as alternative to store as text.\nMight be problems with speed - use profiling to compare with text storage.\n\n\n\n\nEEG processing (José)\n\nProblem\n\nGetting raw data into format required for R package for signal processing.\nBad documentation!\n\n\n\nAnswer\n\nUse Matlab with manufacturer software?\n\n\n\n\nData handling (Kassandra)\n\nProblem\n\nProblem with large data - can she write all objects together?\n\n\n\nAnswe\n\nNeed to be able to write sequentially - plugin for R to speak to database e.g. RSQLite or use RDS.\nSparse matrix?\nR ArcGIS interface?\n\n\n\n\nProfiling update (Alison)\n\nConstant matrix each time - copy on modify?\nAvoid assignment of matrices within for loop (nested)."
+  },
+  {
+    "objectID": "posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html",
+    "href": "posts/2016-01-26-january-meetup/2016-01-26-january-meetup.html",
+    "title": "January Sheffield R Meetup: Happy New-ish YeaR!",
+    "section": "",
+    "text": "This month we will be talking in more detail about our upcoming NBN Biodiversity Hack event, which will be held over the first 3 weeks of March. Paul and Anna will share some of our experiences from the Open Data Sheffield #hackthemarine event held earlier this month, and we will bounce around any ideas the group may have for exciting analyses and visualisations using the biodiversity data.\nBut that’s not all! We are delighted to have a talk from Dan Pollard from UoS Health Economics and Decision Science. He will be introducing the Zelig package, which can be used to both estimate statistical models but also conduct simulations from the results; ideal for building data driven computer models."
+  },
+  {
+    "objectID": "posts/2024-03-21/index.html",
+    "href": "posts/2024-03-21/index.html",
+    "title": "SheffieldR : Bring your Data and Code",
+    "section": "",
+    "text": "This March meetup see’s a slight deviation from the normal format of the SheffieldR meetups as we are inviting you to bring your data, code, R knowledge and enthusiasm along to help each other out in a “Hackathon” style meeting.\nMeeting is 2024-03-21 17:30-19:00 in the Portobello Centre, Seminar Room C02 B (just off Mappin Street). Sign up is via Meetup. Unfortunately we won’t be running remote attendance this time because of the nature of the meeting.\nIf you have any questions or enquiries please email us sheffieldr@sheffield.ac.uk.\nMaybe you’ve a problem using renv to manage your packages or you’re stuck with a particular data wrangling problem or haven’t worked out the perfect layout of your graph then bring your data and code along and see if there is someone who can help you solve your problem. Whether that is using the Tidyverse, data.table, ggplot2 or base graphics.\nObviously we’ll need people with experience to come and help others solve their problems, but even if you’re just starting out on your R journey you will know something to contribute.\nIf you’d like to come along we’ve setup a short form for you to indicate what areas you are looking for assistance with or can help others with."
+  },
+  {
+    "objectID": "posts/2024-03-21/index.html#reprex",
+    "href": "posts/2024-03-21/index.html#reprex",
+    "title": "SheffieldR : Bring your Data and Code",
+    "section": "Reprex",
+    "text": "Reprex\nIts possible that the section of code you are having trouble with is part of a larger workflow. To make it easier for people to understand the problem and offer assistance it would be beneficial if you are able to abstract out the problem to what is know as a Minimal “Reproducible Example” often shortened to the portmanteau “reprex”. There is advice on How to create a Minimal, Reproducible Example on Stack Overflow and there is also the R package {reprex} which helps “prepare reproducible example code via the clipboard”."
+  },
+  {
+    "objectID": "posts/2024-03-21/index.html#data-security-and-sensitivity",
+    "href": "posts/2024-03-21/index.html#data-security-and-sensitivity",
+    "title": "SheffieldR : Bring your Data and Code",
+    "section": "Data Security and Sensitivity",
+    "text": "Data Security and Sensitivity\nIf your problem involves sensitive data then please be mindful of this. See the University of Sheffield Information Security Training pages, in particular the training on Protecting Research Data, Protecting Personal Data and Protecting Information. If you are not a student or member of staff at The University of Sheffield please refer to your institution or employers guidelines on data security."
   },
   {
     "objectID": "posts/2024-02-15/index.html",
@@ -390,6 +313,48 @@
     "title": "SheffieldR : February 2024 Meetup",
     "section": "Dive into {targets}",
     "text": "Dive into {targets}\nDelve into the dynamic world of the {targets} R package—a powerful tool designed to streamline and enhance your data science and analysis workflows.\ntargets is not just another package; it’s a game-changer for reproducibility, efficiency, and scalability in your R projects. Developed to manage complex dependency graphs, targets automates the execution of your analyses, making it easier to track changes.\nIn this session we’ll introduce the targets package, discuss why it’s useful and explore the core features of the targets package by defining a basic pipeline.\n\nBiography - Simon Rolph\nSimon is a Data Scientist at the UK Centre for Ecology and Hydrology where he works to enhance our understanding of biodiversity and contribute to informed environmental decision-making. Technology is his enabler: data science methods, research software best practices, and digital engagements help him achieve these goals."
+  },
+  {
+    "objectID": "posts/2024-01-18-jan-meetup/index.html",
+    "href": "posts/2024-01-18-jan-meetup/index.html",
+    "title": "SheffieldR : January 2024 Meetup",
+    "section": "",
+    "text": "SheffieldR User Group is back in January 2024 with a Health Economics special and two talks from Robert Smith and Wael Mohammed of Dark Peak Analytics and the University of Sheffield who will talk us through two of their recent publications. Rob will show us how to automate Health Economic Evaluation with R without sharing sensitive data and Wael will guide us through a tutorial on R packaging for cost-effectiveness models.\nMeeting is 2024-01-18 17:00-18:30 in The Diamond G04 Workroom 1. Sign up here. Remote attendance is possible using Google Meet.\nIf you have any questions or enquiries please get in touch with Grace Accad or Neil Shephard."
+  },
+  {
+    "objectID": "posts/2024-01-18-jan-meetup/index.html#robert-smith",
+    "href": "posts/2024-01-18-jan-meetup/index.html#robert-smith",
+    "title": "SheffieldR : January 2024 Meetup",
+    "section": "Robert Smith",
+    "text": "Robert Smith\nLiving HTA: Automating Health Economic Evaluation with R\n\n\n\nSchematic showing the interaction between the company API (application programming interface) and the consultant automated workflow.\n\n\nBackground: Requiring access to sensitive data can be a significant obstacle for the development of health models in the Health Economics & Outcomes Research (HEOR) setting. We demonstrate how health economic evaluation can be conducted with minimal transfer of data between parties, while automating reporting as new information becomes available.\nMethods: We developed an automated analysis and reporting pipeline for health economic modelling and made the source code openly available on a GitHub repository. The pipeline consists of three parts: An economic model is constructed by the consultant using pseudo data. On the data-owner side, an application programming interface (API) is hosted on a server. This API hosts all sensitive data, so that data does not have to be provided to the consultant. An automated workflow is created, which calls the API, retrieves results, and generates a report.\nResults : The application of modern data science tools and practices allows analyses of data without the need for direct access – negating the need to send sensitive data. In addition, the entire workflow can be largely automated: the analysis can be scheduled to run at defined time points (e.g. monthly), or when triggered by an event (e.g. an update to the underlying data or model code); results can be generated automatically and then be exported into a report. Documents no longer need to be revised manually.\nConclusions: This example demonstrates that it is possible, within a HEOR setting, to separate the health economic model from the data, and automate the main steps of the analysis pipeline.\n\nBiography - Robert Smith\nRob is a health economist based in Sheffield, UK. His research focuses on the methods used to estimate the costs and benefits of public health interventions, with a specific interest in microsimulation modelling in R. He is a expert advisor in Public Health Economics & Decision Science to the WHO-HEAT project. He is currently working at the Joint Biosecurity Centre to help inform the UK government response to the pandemic."
+  },
+  {
+    "objectID": "posts/2024-01-18-jan-meetup/index.html#wael-mohammed",
+    "href": "posts/2024-01-18-jan-meetup/index.html#wael-mohammed",
+    "title": "SheffieldR : January 2024 Meetup",
+    "section": "Wael Mohammed",
+    "text": "Wael Mohammed\nPackaging cost-effectiveness models in R: A Tutorial\n\n\n\nSchematic of a typical model structure taking raw data and user inputs and using a set of functions to return results in the form of data, publication tables, and figures.\n\n\nBackground: The use of programming languages such as R in health economics and decision science is increasing, and brings numerous benefits including increasing model development efficiency, improving transparency, and reducing human error. However, there is limited guidance on how to best develop models using R. So far, no clear consensus has emerged.\nMethods: We present the advantages of creating health economic models as R packages - structured collections of functions, data sets, tests, and documentation. Assuming an intermediate understanding of R, we provide a tutorial to demonstrate how to construct a basic R package for health economic evaluation. All source code used in or referenced by this paper is available under an open-source licence.\nCase Study: We use the Sick Sicker Model as a case study applying the steps from the tutorial to standardise model development, documentation and aid review. This can improve the distribution of code, thereby streamlining model development, and improving methods in health economic evaluation.\nConclusion: R packages offer a valuable framework for enhancing the quality and transparency of health economic evaluation models. Embracing better, more standardised software development practices, while fostering a collaborative culture, has the potential to significantly improve the quality of health economic models, and, ultimately, support better decision making in healthcare.\n\nBiography - Wael Mohammed\nWael is a health economist with a background in pharmacy and public health. In addition, he has experience in decision-analytic modelling, econometrics, and data science. He is currently pursuing a PhD in public health, economics and decision science at the University of Sheffield."
+  },
+  {
+    "objectID": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html",
+    "href": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html",
+    "title": "April Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning",
+    "section": "",
+    "text": "This month’s talks cover ensembles in machine learning and using R notebooks as a learning tool."
+  },
+  {
+    "objectID": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html#wisdom-of-the-crowd-ensembles-in-machine-learning-and-the-factors-that-influence-them",
+    "href": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html#wisdom-of-the-crowd-ensembles-in-machine-learning-and-the-factors-that-influence-them",
+    "title": "April Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning",
+    "section": "“Wisdom of the crowd”: Ensembles in machine learning, and the factors that influence them",
+    "text": "“Wisdom of the crowd”: Ensembles in machine learning, and the factors that influence them\nPieter Wessels will present a brief discussion on Ensembles, including popular algorithms for creating same engine Ensembles (bagging, boosting, etc), multiple engine Ensembles, the factors that influence Ensembles, including diversity between members and a brief introduction to one measure of diversity."
+  },
+  {
+    "objectID": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html#teaching-with-r-notebook",
+    "href": "posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html#teaching-with-r-notebook",
+    "title": "April Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning",
+    "section": "Teaching with R Notebook",
+    "text": "Teaching with R Notebook\nDuncan Gillespie will speak about the pros and cons of using R notebooks as a learning tool in an introductory R course.\nWe hope to see you there!\nThe SheffieldR team"
   },
   {
     "objectID": "posts/2017-07-04-july-meetup/2017-07-04-july-meetup.html",
@@ -413,18 +378,18 @@
     "text": "Object oriented systems in R\nObject Oriented programming is commonplace in many languages. It is a useful way to organise code. R has some special flavours of Object Oriented programming. Understanding these will help you understand R better and write better software.\nWe hope to see you there!\nThe SheffieldR team"
   },
   {
-    "objectID": "posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html",
-    "href": "posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html",
-    "title": "September Sheffield R Meetup: Object oriented systems in R + The Reproducible Thesis w/ Bookdown",
+    "objectID": "posts/2016-05-20-hack-results/2016-05-20-hack-results.html",
+    "href": "posts/2016-05-20-hack-results/2016-05-20-hack-results.html",
+    "title": "NBN Hack Results",
     "section": "",
-    "text": "We’ve got an exciting pair of talks for you this month!\n\nFirst up, Chris Hopkinson, self-described Data Lover, will be talking us through Object oriented systems in R:\n“Object Oriented programming is commonplace in many languages. It is a useful way to organise code. R has some special flavours of Object Oriented programming. Understanding these will help you understand R better and write better software.”\nThen, we have Phil Mike Jones, a geographer about to complete his PhD in computational human geography + a research associate at the Centre for Criminological Research at the School of Law,who will be discussing his journey in writing a Reproducible Thesis with Bookdown.\n“My PhD thesis is completely reproducible (except a few items that cannot be downloaded without website credentials) and this has saved me no end of headaches now I’m preparing to submit. Supervisor (or boss) asked for some changes? No problem: change the data, run the code, and sit back as all figures and calculations are automatically updated. I probably don’t need to remind you that reproducibility is also the hallmark of the scientific method.\nIn this session, I’ll share some tips that I discovered along the way and hopefully, at least some will be helpful for your projects. A completely reproducible project might not be possible or practical for you, but reproducibility is a scale so all projects could benefit from at least some of this advice.”\nHope to see you there.\nThe SheffieldR team"
+    "text": "In March we ran a series of hack events centred around the National Biodiversity Network’s data gateway. We teamed up with Sheffield Wildlife Trust to investigate the data and see what we might be able to learn. Thanks to Tom August’s rnbn package, it was a cinch to get the data which is kindly contributed by volunteers and organisations across the country.\nOur hack was organised around several projects selected after a pitch session. Attendees chose a team based on the project and collaborated using a shared HackPad and pushed their code to a central GitHub repository."
   },
   {
-    "objectID": "posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html#welcome-back-to-a-new-season-of-r-user-group-meetups",
-    "href": "posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html#welcome-back-to-a-new-season-of-r-user-group-meetups",
-    "title": "September Sheffield R Meetup: Object oriented systems in R + The Reproducible Thesis w/ Bookdown",
-    "section": "",
-    "text": "We’ve got an exciting pair of talks for you this month!\n\nFirst up, Chris Hopkinson, self-described Data Lover, will be talking us through Object oriented systems in R:\n“Object Oriented programming is commonplace in many languages. It is a useful way to organise code. R has some special flavours of Object Oriented programming. Understanding these will help you understand R better and write better software.”\nThen, we have Phil Mike Jones, a geographer about to complete his PhD in computational human geography + a research associate at the Centre for Criminological Research at the School of Law,who will be discussing his journey in writing a Reproducible Thesis with Bookdown.\n“My PhD thesis is completely reproducible (except a few items that cannot be downloaded without website credentials) and this has saved me no end of headaches now I’m preparing to submit. Supervisor (or boss) asked for some changes? No problem: change the data, run the code, and sit back as all figures and calculations are automatically updated. I probably don’t need to remind you that reproducibility is also the hallmark of the scientific method.\nIn this session, I’ll share some tips that I discovered along the way and hopefully, at least some will be helpful for your projects. A completely reproducible project might not be possible or practical for you, but reproducibility is a scale so all projects could benefit from at least some of this advice.”\nHope to see you there.\nThe SheffieldR team"
+    "objectID": "posts/2016-05-20-hack-results/2016-05-20-hack-results.html#the-teams",
+    "href": "posts/2016-05-20-hack-results/2016-05-20-hack-results.html#the-teams",
+    "title": "NBN Hack Results",
+    "section": "The Teams",
+    "text": "The Teams\n\nHabitats vs Biodiversity\nThe Sheffield Wildlife Trust have compiled a wide variety of habitat data into shapefile spatial polygons. They would like to be able to integrate it with biodiversity data from the NBN to facilitate further analysis. So the aim of this project is to produce a simple shiny app through which the user can select species/taxa of interest, query the NBN for data and match it to spatial polygon data. The app would then output an analytical dataset that could then be used for further analysis. Outputs could therefore feed into the spatial analysis project.\nRepository link: Habitats vs Biodiversity\n\n\nHumans vs Biodiversity\nThis team sought to determine how Sheffield’s biodiversity had changed with Sheffield’s population. As Sheffield’s urban environments grow with the population, the team wanted to understand how local wildlife had changed over time. The team looked into measures that could be used to estimate population density, river quality from other open data sources alongside an estimate for biodiversity in the data from the NBN gateway.\nRepository link: Humans vs Biodiversity\n\n\nTeam Temporal\nTeam Temporal wanted to study how species were represented in the NBN Gateway data sets over time. The team aimed to build plots of records over time for species with more than 1000 records in the data set. Additionally, the team sought to apply Telfer’s change index to produce a summary of the change over time for species in Sheffield.\nRepository link: Team Temporal\n\n\nBird Bingo\nBird Bingo is a game where players are given a virtual “card” with pictures of several species they might see in their area. When they see one of their species they can check it off. The team used the NBN Gateway to get species the user was likely to see by querying the Gateway for local species in the bird TVK species group. The team used the Encyclopedia of Life’s API to get images for the selected species and presented the player’s card and handled checking off species using the Shiny web framework.\nRepository link: BirdBingo\n\n\nTeam Python\nThis team wrote an NBN Gateway package for Python a la rnbn.\nRepository link: lionfish0/pynbn\nSee the Hack details page for details on the event including how to register. To get updates on the hack and our events, follow us on Twitter: @Sheffield_R_."
   },
   {
     "objectID": "posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html",
@@ -448,25 +413,53 @@
     "text": "Non-Standard Evaluation, or why R is a little unusual\nAnalyst and data lover, Christopher Hopkinson, will be delving into the bowels of the R language to try to understand how R evaluates our code and when this may lead to unexpected results.\nIf this topic is of interest, you might like to have a read of Hadley’s Advanced R book.\nHope to see you there!\nWe look forward to seeing you at the Red Deer on 7 February! Location details are on our meetup event.\nThe SheffieldR team"
   },
   {
-    "objectID": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html",
-    "href": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html",
-    "title": "June Sheffield R Meetup: Literate programming and Writing a decision tree package for R",
+    "objectID": "posts/2015-10-27-october-meetup/2015-10-27-october-meetup.html",
+    "href": "posts/2015-10-27-october-meetup/2015-10-27-october-meetup.html",
+    "title": "October Sheffield R Meetup: Git, GitHub, and Shiny apps",
     "section": "",
-    "text": "This month Anna Krystalli will present a exploration of literate programming, following up from a discussion on literate programming techniques at our meetup in April, and Pete Dodd will tell us about building an open source decision tree package in R."
+    "text": "This month we will be taking a look at integrating git and github use with R. Git is a great tool to help you manage your code using version control - helping avoid that annoying situation where you have 8 different pieces of code and can’t remember which one you should be using! Github then allows you to share your code and documentation, which can be a great way to disseminate your work and help others to reproduce it (as per the philosophy of open science). We also plan on using it in the upcoming Biodiversity hack event! Feel free to bring your laptops along if you want to dabble as we go!\nAlso, Anna Krystalli is going to demonstrate a great example of a Shiny app which she has built, allowing easy visualisation and tabulation of data from a large database of bird species.\nFinally - for those of you interested in participating in the Biodiversity hack early next year, we would be really happy if you could fill in this very short survey. This info will help us to plan when and how the event will be structured - this doesn’t commit you to attending.\nMaterial from the Git workshop is available on GitHub: {% include icon-github.html username=“mathew-hall” %} / SheffieldR. During the session, some attendees made their own pull requests to our workshop repository. Code for Anna’s Shiny app is available on her GitHub page at {% include icon-github.html username=“annakrystalli” %} / birds."
   },
   {
-    "objectID": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html#literate-programming-with-rmarkdown",
-    "href": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html#literate-programming-with-rmarkdown",
-    "title": "June Sheffield R Meetup: Literate programming and Writing a decision tree package for R",
-    "section": "Literate programming with Rmarkdown",
-    "text": "Literate programming with Rmarkdown\nIn this session we’ll explore the various options and strategies for literate programming and dynamic report generation in R and Rmarkdown. This session will make use of the literate programming packages knitr and Rmarkdown."
+    "objectID": "posts/2023-11-20-nov-meetup/index.html",
+    "href": "posts/2023-11-20-nov-meetup/index.html",
+    "title": "SheffieldR : November Meetup",
+    "section": "",
+    "text": "After October’s Reboot, we are back with another Meetup this 20th November for a showcase using Shiny to illuminate the power of data-driven insights. Join us as we delve into the world of interactive data visualization, with hands-on demonstrations, insightful discussions, and practical use cases that will empower you to harness the potential of Shiny in your own projects.\nMeeting is 2023-11-20 17:30-19:00 in 107 Workroom 4, 38 Mappin Street. Sign up here."
   },
   {
-    "objectID": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html#writing-a-decision-tree-package-for-r",
-    "href": "posts/2017-06-06-june-meetup/2017-06-06-june-meetup.html#writing-a-decision-tree-package-for-r",
-    "title": "June Sheffield R Meetup: Literate programming and Writing a decision tree package for R",
-    "section": "Writing a decision tree package for R",
-    "text": "Writing a decision tree package for R\nDecision trees are a class of model widely used in health economic modelling. A tree (in the mathematical sense) has probabilities associated with branches leaving a node to describe the chances of a set of potential outcomes. In health economics, costs and health consequences are also associated with outcomes. By way of example, clinical diagnostic algorithms based on a sequence of symptom screens and diagnostic tests map particularly naturally into this framework. There are proprietary packages to develop, visualize and analyse such models, but nothing open-source and user-friendly. We describe an attempt to develop a package with a simple syntax for decision tree models in R based on the DOT language, which allows visualization, as well as considerable flexibility in analysis approach.\nWe hope to see you there!\nThe SheffieldR team"
+    "objectID": "posts/2023-11-20-nov-meetup/index.html#summary",
+    "href": "posts/2023-11-20-nov-meetup/index.html#summary",
+    "title": "SheffieldR : November Meetup",
+    "section": "Summary",
+    "text": "Summary\n\n\n\nSheffield LSOAs\n\n\nJoin us for an exciting showcase where we’ll dive into two innovative R-Shiny projects. The first project introduces the fascinating world of mapping to investigate the dynamics of segregation among neighboring regions, a concept we fondly refer to as “social frontiers.” In the second project, we explore economic sectors with a focus on aiding South Yorkshire’s mayoral authority in their strategic growth planning endeavours.\nThe burning question that currently occupies our minds: How can we leverage powerful tools like Shiny to assist other institutions, including local councils and mayoral offices, in streamlining their data analysis processes and preventing unnecessary duplication of effort? Be a part of this engaging exploration and discover how Shiny can be a game-changer in data analysis for various institutions. Don’t miss this opportunity to be part of the conversation and gain valuable insights into the future of data-driven decision-making.\n\nBiography\nDr Dan Olner is a policy fellow with Y-PERN, the Yorkshire Policy Engagement and Research Network, working closely with SMYCA in their business, growth and skills team on all things spatial, data and regional. His background is in spatial analysis, spatial economics, data science and politics. He has an interest in using data analysis to address sustainability and net zero issues. More info at Danoler!\nIf you have any questions or inquires please get in touch with Grace Accad or Neil Shephard/"
+  },
+  {
+    "objectID": "posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html",
+    "href": "posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html",
+    "title": "September Sheffield R Meetup: Object oriented systems in R + The Reproducible Thesis w/ Bookdown",
+    "section": "",
+    "text": "We’ve got an exciting pair of talks for you this month!\n\nFirst up, Chris Hopkinson, self-described Data Lover, will be talking us through Object oriented systems in R:\n“Object Oriented programming is commonplace in many languages. It is a useful way to organise code. R has some special flavours of Object Oriented programming. Understanding these will help you understand R better and write better software.”\nThen, we have Phil Mike Jones, a geographer about to complete his PhD in computational human geography + a research associate at the Centre for Criminological Research at the School of Law,who will be discussing his journey in writing a Reproducible Thesis with Bookdown.\n“My PhD thesis is completely reproducible (except a few items that cannot be downloaded without website credentials) and this has saved me no end of headaches now I’m preparing to submit. Supervisor (or boss) asked for some changes? No problem: change the data, run the code, and sit back as all figures and calculations are automatically updated. I probably don’t need to remind you that reproducibility is also the hallmark of the scientific method.\nIn this session, I’ll share some tips that I discovered along the way and hopefully, at least some will be helpful for your projects. A completely reproducible project might not be possible or practical for you, but reproducibility is a scale so all projects could benefit from at least some of this advice.”\nHope to see you there.\nThe SheffieldR team"
+  },
+  {
+    "objectID": "posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html#welcome-back-to-a-new-season-of-r-user-group-meetups",
+    "href": "posts/2017-09-05-sept-meetup/2017-09-05-sept-meetup.html#welcome-back-to-a-new-season-of-r-user-group-meetups",
+    "title": "September Sheffield R Meetup: Object oriented systems in R + The Reproducible Thesis w/ Bookdown",
+    "section": "",
+    "text": "We’ve got an exciting pair of talks for you this month!\n\nFirst up, Chris Hopkinson, self-described Data Lover, will be talking us through Object oriented systems in R:\n“Object Oriented programming is commonplace in many languages. It is a useful way to organise code. R has some special flavours of Object Oriented programming. Understanding these will help you understand R better and write better software.”\nThen, we have Phil Mike Jones, a geographer about to complete his PhD in computational human geography + a research associate at the Centre for Criminological Research at the School of Law,who will be discussing his journey in writing a Reproducible Thesis with Bookdown.\n“My PhD thesis is completely reproducible (except a few items that cannot be downloaded without website credentials) and this has saved me no end of headaches now I’m preparing to submit. Supervisor (or boss) asked for some changes? No problem: change the data, run the code, and sit back as all figures and calculations are automatically updated. I probably don’t need to remind you that reproducibility is also the hallmark of the scientific method.\nIn this session, I’ll share some tips that I discovered along the way and hopefully, at least some will be helpful for your projects. A completely reproducible project might not be possible or practical for you, but reproducibility is a scale so all projects could benefit from at least some of this advice.”\nHope to see you there.\nThe SheffieldR team"
+  },
+  {
+    "objectID": "posts/2015-11-24-november-meetup/2015-11-24-november-meetup.html",
+    "href": "posts/2015-11-24-november-meetup/2015-11-24-november-meetup.html",
+    "title": "November Sheffield R Meetup: Matt Aldridge",
+    "section": "",
+    "text": "This month we are delighted to welcome a guest speaker Matt Aldridge from Mango Solutions - a company which specialises in data analysis/science, training and consultancy using R. You may know them as they organise the Effective Applications of the R Language (EARL) conferences in the UK and US. Matt’s talk will be titled “The Changing Face of R” and will be accessible to all regardless of experience or background - it will certainly be interesting in how R is being used to shape data analysis away from the academic ivory tower!"
+  },
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Slides",
+    "section": "",
+    "text": "Here you will find links to slides from previous meetings\n\n\n\nSpeaker\nDate\nSlides\n\n\n\n\nNeil Shephard\n2023-10-26\nQuarto for RevealJS Slides\n\n\nRob Smith\n2020-02-04\nR for Decision Science\n\n\nThéo Michelot\n2017-05-02\nUsing C++ to speed up R code\n\n\nPieter Wessels\n2017-04-04\n“Wisdom of the crowd” : Ensembles in Machine Learning and the factors that influence them\n\n\nJames Waterhouse and Darell Taylor\n2016-11-16\nData Juggling at SkyBet\n\n\nLukas Drapal\n2016-10-21\nComplete (and win) on Kaggle\n\n\nMatt Hall\n2016-09-17\nR with Jupyter Notebooks for Interactive and Collaborative Research\n\n\nAlison Parton\n2016-08-17\nCan you trust the humble statistician? An intro to unit testing in R\n\n\nJeremy Oakley\n2016-08-17\nSHELF: an R package for expert elicitation"
   },
   {
     "objectID": "codeofconduct.html",
@@ -516,5 +509,12 @@
     "title": "Code of Conduct",
     "section": "",
     "text": "If you have concerns about attending an event and believe another individual may be present who poses a risk, please contact the organisers or fill this form in advance. We will take precautions to ensure your safety and comfort, including providing an escort, briefing onsite staff, and taking measures to prevent contact between you and the potential harasser."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SheffieldR",
+    "section": "",
+    "text": "SheffieldR : Bring your Data and Code\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nMar 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSheffieldR : February 2024 Meetup\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSheffieldR : January 2024 Meetup\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nJan 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSheffieldR : November Meetup\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nNov 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nSheffieldR Reboot : Quarto for slides\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nOct 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nrrtools: Tools for Writing Reproducible Research in R\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nApr 10, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nDocker and Interactive unit testing\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nMar 6, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nStan and the Tidyverse\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nFeb 6, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nR coding social\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nDec 5, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nManaging projects with workflowr and Introduction to DiagrammeR\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nNov 7, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nCelebrating Hacktoberfest… #rstats style!\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nOct 3, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember Sheffield R Meetup: Object oriented systems in R + The Reproducible Thesis w/ Bookdown\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nSep 5, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nJuly Sheffield R Meetup: Thermal images and Object oriented systems in R\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nJul 4, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nJune Sheffield R Meetup: Literate programming and Writing a decision tree package for R\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nJun 6, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nMay Sheffield R Meetup: Making R Faster\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nMay 2, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nApril Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nApr 4, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nMarch Sheffield R Meetup: Code surgery and social\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nMar 7, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nFebruary Sheffield R Meetup: Martin Garlovsky and Christopher Hopkinson\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nFeb 1, 2017\n\n\n\n\n\n\n\n\n\n\n\n\nDecember Sheffield R Meetup: Dan Olner, James Waterhouse and Darrell Taylor\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nNov 16, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nNovember Sheffield R Meetup: Shaun Coutts and Lukas Drapal\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nOct 21, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nOctober Sheffield R Meetup: Mathew Hall and Mike Croucher\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nSep 17, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember Sheffield R Meetup: Alison Parton and Jeremy Oakley\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nAug 17, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nNBN Hack Results\n\n\n\n\n\n\nhack\n\n\n\n\n\n\n\n\n\nMay 20, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nNational Biodiversity Hack Event\n\n\n\n\n\n\nhack\n\n\n\n\n\n\n\n\n\nJan 27, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nJanuary Sheffield R Meetup: Happy New-ish YeaR!\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nJan 26, 2016\n\n\n\n\n\n\n\n\n\n\n\n\nNovember Sheffield R Meetup: Matt Aldridge\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nNov 24, 2015\n\n\n\n\n\n\n\n\n\n\n\n\nOctober Sheffield R Meetup: Git, GitHub, and Shiny apps\n\n\n\n\n\n\nmeetups\n\n\n\n\n\n\n\n\n\nOct 27, 2015\n\n\n\n\n\n\nNo matching items"
   }
 ]
