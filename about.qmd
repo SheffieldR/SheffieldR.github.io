@@ -4,12 +4,18 @@ image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
+    - icon: twitter-x
       text: Twitter
       href: https://twitter.com/Sheffield_R_
     - icon: github
       text: Github
       href: https://github.com/SheffieldR
+    - icon: slack
+      text: Slack
+      href: https://sheffieldr.slack.com
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/@sheffieldr
 
 ---
 
