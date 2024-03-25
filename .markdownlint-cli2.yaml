@@ -12,5 +12,6 @@ globs:
 - "*.qmd"
 ignores:
 - "_site/**/*.qmd"
+- ".github/ISSUE_TEMPLATE/*.md"
 # Fix any fixable errors
 fix: true
