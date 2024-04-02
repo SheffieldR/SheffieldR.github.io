@@ -23,13 +23,11 @@ If you have any questions or enquiries please email us [sheffieldr\@sheffield.ac
 
 ![Profiling](image.png)
 
-
-
 ### Biography - Daniel Brady
 
 [Dr Daniel Brady](https://rse.shef.ac.uk/contact/dan-brady/) is a Research Software Engineer in the RSE team at the University of Sheffield. His background is in Cognitive Neuroscience, completing his PhD at Goldsmiths in 2016. Since then he has worked as a Research Fellow at Birkbeck and the University of Surrey and as Research Technician at the University of Reading. He has experience of writing research software and analysis pipelines using R, Python and Julia. He is also a keen advocate of open and reproducible research practices.
 
-## R Strategies for Health Data Pipelines 
+## R Strategies for Health Data Pipelines
 
 In this session, we delve into the intricate world of health data. Our discussion encompasses crucial aspects such as data packaging, ensuring data integrity, and handling sensitive health data securely.
 
