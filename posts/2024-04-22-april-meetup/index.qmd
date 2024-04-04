@@ -30,6 +30,17 @@ If you have any questions or enquiries please email us [sheffieldr\@sheffield.ac
 
 ![Profiling](image.png)
 
+Nobody likes slow code, luckily most programming languages provide you with tools to help you analyse and enhance
+your code’s performance and R is no exception.
+
+In this session we’ll cover some of the tools and strategies available in the R ecosystem to optimise your code. We’ll
+start by giving a brief introduction to profiling, and then we’ll use the
+[`{profvis}`](https://rstudio.github.io/profvis/) to profile some code to determine which parts are taking up the most
+execution time. Then we’ll move on to discuss potential strategies that reduce execution time, and we’ll use the
+[`{bench}`](https://bench.r-lib.org/) to compare these different strategies against one another to find the best
+performing solution.
+
+
 ### Biography - Daniel Brady
 
 [Dr Daniel Brady](https://rse.shef.ac.uk/contact/dan-brady/) is a Research Software Engineer in the RSE team at the
@@ -45,8 +56,8 @@ data packaging, ensuring data integrity, and handling sensitive health data secu
 
 Navigating the complexities of health data, we address the challenges associated with the arrival of unforeseen data
 volumes. With a focus on scalability, we examine techniques to handle unexpectedly large data sets using packages like
-[{arrow}](https://arrow.apache.org/docs/r/) and [{DuckDB}](https://duckdb.org/docs/api/r.html) and
-[{dplyr}](https://dplyr.tidyverse.org/).
+[`{arrow}`](https://arrow.apache.org/docs/r/) and [`{DuckDB}`](https://duckdb.org/docs/api/r.html) and
+[`{dplyr}`](https://dplyr.tidyverse.org/).
 
 ### Biography - Joe Heffer
 
