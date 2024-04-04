@@ -9,8 +9,56 @@
 <link>https://SheffieldR.github.io/</link>
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
-<generator>quarto-1.4.551</generator>
-<lastBuildDate>Thu, 21 Mar 2024 17:30:00 GMT</lastBuildDate>
+<generator>quarto-1.4.553</generator>
+<lastBuildDate>Mon, 22 Apr 2024 12:00:00 GMT</lastBuildDate>
+<item>
+  <title>SheffieldR : April 2024 Meetup</title>
+  <link>https://SheffieldR.github.io/posts/2024-04-22-april-meetup/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Join us for the April edition of SheffieldR User Group, where we continue to explore the exciting world of R programming and its applications. This month, we’re thrilled to feature two insightful talks from experts in the field.</p>
+<p>Our first speaker, Daniel Brady, will delve into the intricacies of profiling and code optimization in R. Discover how to streamline your code for improved efficiency and performance, as Dan shares practical tips and techniques to enhance your programming skills.</p>
+<p>Following Dan’s presentation, we’ll hear from Joe Heffer, who will introduce us to strategies used in R while implementing a pipeline. Dive into the world of health data as Joe walks us through packaging, ensuring data integrity, and handling sensitive data securely through the development and implementation of a pipeline.</p>
+<p>Meeting is 2024-04-22 12:00-1:30 in <a href="https://www.openstreetmap.org/relation/16201517">Regent Court</a>, John Pemberton LT B (40). Sign up <a href="https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/300164087/">here</a>. Remote attendance is possible using <a href="https://meet.google.com/xka-dxah-sqf">Google Meet</a>.</p>
+<p>If you have any questions or enquiries please email us <a href="mailto:sheffieldr@sheffield.ac.uk">sheffieldr@sheffield.ac.uk</a>.</p>
+<!--more-->
+<section id="profiling-and-optimising-your-r-code" class="level2">
+<h2 class="anchored" data-anchor-id="profiling-and-optimising-your-r-code">Profiling and optimising your R code</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://SheffieldR.github.io/posts/2024-04-22-april-meetup/image.png" class="img-fluid figure-img"></p>
+<figcaption>Profiling</figcaption>
+</figure>
+</div>
+<p>Nobody likes slow code, luckily most programming languages provide you with tools to help you analyse and enhance your code’s performance and R is no exception.</p>
+<p>In this session we’ll cover some of the tools and strategies available in the R ecosystem to optimise your code. We’ll start by giving a brief introduction to profiling, and then we’ll use the <a href="https://rstudio.github.io/profvis/"><code>{profvis}</code></a> to profile some code to determine which parts are taking up the most execution time. Then we’ll move on to discuss potential strategies that reduce execution time, and we’ll use the <a href="https://bench.r-lib.org/"><code>{bench}</code></a> to compare these different strategies against one another to find the best performing solution.</p>
+<section id="biography---daniel-brady" class="level3">
+<h3 class="anchored" data-anchor-id="biography---daniel-brady">Biography - Daniel Brady</h3>
+<p><a href="https://rse.shef.ac.uk/contact/dan-brady/">Dr Daniel Brady</a> is a Research Software Engineer in the RSE team at the University of Sheffield. His background is in Cognitive Neuroscience, completing his PhD at Goldsmiths in 2016. Since then he has worked as a Research Fellow at Birkbeck and the University of Surrey and as Research Technician at the University of Reading. He has experience of writing research software and analysis pipelines using R, Python and Julia. He is also a keen advocate of open and reproducible research practices.</p>
+</section>
+</section>
+<section id="r-strategies-for-health-data-pipelines" class="level2">
+<h2 class="anchored" data-anchor-id="r-strategies-for-health-data-pipelines">R Strategies for Health Data Pipelines</h2>
+<p>In this session, we delve into the intricate world of health data. Our discussion encompasses crucial aspects such as data packaging, ensuring data integrity, and handling sensitive health data securely.</p>
+<p>Navigating the complexities of health data, we address the challenges associated with the arrival of unforeseen data volumes. With a focus on scalability, we examine techniques to handle unexpectedly large data sets using packages like <a href="https://arrow.apache.org/docs/r/"><code>{arrow}</code></a> and <a href="https://duckdb.org/docs/api/r.html"><code>{DuckDB}</code></a> and <a href="https://dplyr.tidyverse.org/"><code>{dplyr}</code></a>.</p>
+<section id="biography---joe-heffer" class="level3">
+<h3 class="anchored" data-anchor-id="biography---joe-heffer">Biography - Joe Heffer</h3>
+<p>Dr Joe Heffer is a Research Data Engineer at the University of Sheffield where he has worked on various project across the University. He actively assists researchers in leveraging data engineering techniques to uncover insights and drive impactful research outcomes. Additionally, Joe advocates for best practices and fosters an open community of collaboration among researchers and data professionals.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2024-04-22-april-meetup/</guid>
+  <pubDate>Mon, 22 Apr 2024 12:00:00 GMT</pubDate>
+  <media:content url="https://SheffieldR.github.io/posts/2024-04-22-april-meetup/image.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
 <item>
   <title>SheffieldR : Bring your Data and Code</title>
   <link>https://SheffieldR.github.io/posts/2024-03-21/</link>
@@ -723,34 +771,6 @@
   <category>meetups</category>
   <guid>https://SheffieldR.github.io/posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html</guid>
   <pubDate>Wed, 16 Nov 2016 10:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>November Sheffield R Meetup: Shaun Coutts and Lukas Drapal</title>
-  <link>https://SheffieldR.github.io/posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>At this month’s meeting we’ll be talking about modelling, inference, and prediction.</p>
-<p>Shaun Coutts joins us to talk about his experience with R and JAGS:</p>
-<blockquote class="blockquote">
-<p>I am a quantitative ecologist who uses statistical, analytical and simulation models to look at pressing environmental issues such as invasive species and wildlife harvest. I am currently a post doc at the University of Sheffield modelling the evolution of herbicide resistance. I also use these approaches to address a wide range of topics such as population dynamics, community ecology, dispersal ecology, optimal population management, and social-economic systems. I am also interested in how far population models for one species or area can be extrapolated to others, and if so, how it should be done.</p>
-</blockquote>
-<p>Lukas Drapal will introduce us to the online machine learning competition site <a href="http://kaggle.com">kaggle</a>:</p>
-<blockquote class="blockquote">
-<p>Kaggle is a great place to learn data science by doing. Kaggle hosts machine learning competitions and has a very active community that share their techniques and tips. In this talk I describe how Kaggle works, share best practises and dive into challenges of a competition that we won among more than 1500 teams - Allstate Purchase Prediction Challenge.</p>
-</blockquote>
-<p>We look forward to seeing you at the Red Deer on 1 November! Location details are on our <a href="https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/events/235018288/">meetup event</a>.</p>
-<p>The SheffieldR team</p>
-
-
-
- ]]></description>
-  <category>meetups</category>
-  <guid>https://SheffieldR.github.io/posts/2016-10-21-november-meetup/2016-10-21-november-meetup.html</guid>
-  <pubDate>Fri, 21 Oct 2016 15:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
