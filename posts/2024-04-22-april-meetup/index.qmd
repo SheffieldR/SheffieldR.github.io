@@ -40,7 +40,6 @@ execution time. Then we’ll move on to discuss potential strategies that reduce
 [`{bench}`](https://bench.r-lib.org/) to compare these different strategies against one another to find the best
 performing solution.
 
-
 ### Biography - Daniel Brady
 
 [Dr Daniel Brady](https://rse.shef.ac.uk/contact/dan-brady/) is a Research Software Engineer in the RSE team at the
