@@ -42,12 +42,11 @@ to maximise the notification period and increase attendance but reminders can be
 + [ ] **Royal Statistical Society Sheffield Local Group** Contact the [RSS Sheffield Local](https://rss.org.uk/membership/rss-groups-and-committees/groups/sheffield/) group and ask them to disseminate details of the meeting (contacts are currently [Esther Herbert](mailto:e.herbert@sheffield.ac.uk) but may change over time).
 
 
-## Post Event 
+## Post Event
 
 + [ ] **Add material**: If the speakers had slides, ask them for the slides and add them under "SheffieldR.github.io/posts
 /date of meet up/"
-+ [ ] **Send post event message**: From the meetup page, go to the event page, at the right hand side click on "Orgnaizer Tools" then on "Contact Attendees".  
++ [ ] **Send post event message**: From the meetup page, go to the event page, at the right hand side click on "Orgnaizer Tools" then on "Contact Attendees".
   + [ ] Choose: Members who RSVPed Yes for this Meetup
-  + [ ] Write the Subject and Message 
+  + [ ] Write the Subject and Message
   + [ ] Link the slides that were previously uploaded to the folder of the event
-
