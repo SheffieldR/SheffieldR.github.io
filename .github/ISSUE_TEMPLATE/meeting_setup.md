@@ -41,6 +41,16 @@ to maximise the notification period and increase attendance but reminders can be
 + [ ] **Sheffield Digital Slack** : If you are a member you can announce the event on the [Sheffield Digital Slack](https://sheffield.digital/slack).
 + [ ] **Royal Statistical Society Sheffield Local Group** Contact the [RSS Sheffield Local](https://rss.org.uk/membership/rss-groups-and-committees/groups/sheffield/) group and ask them to disseminate details of the meeting (contacts are currently [Esther Herbert](mailto:e.herbert@sheffield.ac.uk) but may change over time).
 
+## During the Event 
+
+During the event, a couple of tasks are needed and it would be helpful if organisers can share tasks. If you'd like to help out, tick the task and put you name next to it. 
+
++ [ ] Update Schedule Slides: Modify the schedule and add the speaker's slides if they send it before hand 
++ [ ] Pre Set up: Arrive to the room a bit earlier to make sure the projectors are all working
++ [ ] Facilitator: Introduce speakers, facilitate Q&A, and mention feedback form and volunteer form.
++ [ ] Hybrid: Log into the Google Meet and make sure the slides and voice are in order for online attendees. Also monitor the chat and relay the questions to the speakers
++ [ ] Media: Snap a couple of pictures of the speakers with their consent to upload on the meetup page.  
+
 
 ## Post Event
 
