@@ -54,7 +54,7 @@ During the event, a couple of tasks are needed and it would be helpful if organi
 
 ## Post Event
 
-+ [ ] **Add material**: If the speakers had slides, ask them for the slides and add them under "SheffieldR.github.io/posts
++ [ ] **Add material to web-page**: Add a link to slides to the post under `SheffieldR.github.io/posts/yyyy-mm-dd/index.qmd`. If the speaker hosted the slides on GitHub pages or Google Slides this can just be a standard link to the URL (although it may be desirable to make a PDF of Google Slides and include it on the site). If the speakers had slides as a PDF of PowerPoint slides request a copy and place them in the same directory as the web-page adding a link to `index.qmd`. 
 /date of meet up/"
 + [ ] **Send post event message**: From the meetup page, go to the event page, at the right hand side click on "Orgnaizer Tools" then on "Contact Attendees".
   + [ ] Choose: Members who RSVPed Yes for this Meetup
