@@ -25,7 +25,7 @@ How to Participate:
 
 After the event, join us for drinks at the The University Arms pub, it's a great opportunity to continue the conversation, network, and relax with fellow R enthusiasts.
 
-Meeting is on Friday 21st of June at 4:00-5:30 in [The Diamond](https://www.openstreetmap.org/relation/16098200#map=19/53.38161/-1.48201), Workroom 3 Diamond, 32 Leavygreave Rd, Broomhall, Sheffield S3 7RD
+Meeting is on Friday 21st of June at 4:00-5:30 in F20 [Hicks Building](https://www.openstreetmap.org/relation/16133670), Broomhall, Sheffield S3 7RH
 
 Sign up [here](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/301279273/).
 
