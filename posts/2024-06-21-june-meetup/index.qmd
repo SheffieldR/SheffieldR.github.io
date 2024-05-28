@@ -17,11 +17,11 @@ Whether you're a seasoned R user or just starting out, we encourage everyone to 
 
 How to Participate:
 
--   Register Your Topic: Fill out [this form](https://forms.gle/YSWXarhwUpXZQp2J6) to register your lightning talk topic.
+- Register Your Topic: Fill out [this form](https://forms.gle/YSWXarhwUpXZQp2J6) to register your lightning talk topic.
 
--   Prepare Your Talk: Visual aids are welcome but not required.
+- Prepare Your Talk: Visual aids are welcome but not required.
 
--   Engage and Enjoy: Join us on the day, share your insights, and enjoy learning from others.
+- Engage and Enjoy: Join us on the day, share your insights, and enjoy learning from others.
 
 After the event, join us for drinks at the The University Arms pub, it's a great opportunity to continue the conversation, network, and relax with fellow R enthusiasts.
 
@@ -34,6 +34,3 @@ Remote attendance is possible using [Google Meet](http://meet.google.com/gwr-ano
 If you have any questions or inquiries please email us [sheffieldr\@sheffield.ac.uk](mailto:sheffieldr@sheffield.ac.uk).
 
 <!--more-->
-
-
-
