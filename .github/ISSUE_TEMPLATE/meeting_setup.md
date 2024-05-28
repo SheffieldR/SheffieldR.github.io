@@ -56,7 +56,7 @@ During the event, a couple of tasks are needed and it would be helpful if organi
 
 + [ ] **Add material to web-page**: Add a link to slides to the post under `SheffieldR.github.io/posts/yyyy-mm-dd/index.qmd`. If the speaker hosted the slides on GitHub pages or Google Slides this can just be a standard link to the URL (although it may be desirable to make a PDF of Google Slides and include it on the site). If the speakers had slides as a PDF of PowerPoint slides request a copy and place them in the same directory as the web-page adding a link to `index.qmd`.
 /date of meet up/"
-+ [ ] **Send post event message**: Send a post event message to thank the presenters and everyone who came. 
++ [ ] **Send post event message**: Send a post event message to thank the presenters and everyone who came.
   + [ ] Choose: All members
   + [ ] Write the Subject and Message
   + [ ] Link the slides that were previously uploaded to the folder of the event
