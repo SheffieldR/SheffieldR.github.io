@@ -9,7 +9,9 @@ excerpt_separator: <!--more-->
 
 This month, we're shaking things up with an exciting line-up of lightning talks presented by you, our vibrant community members! This is your chance to share your knowledge, showcase your projects, and discuss your favourite R topics in a quick, 5-10 minute format.
 
-If you have a fascinating R project you're working on, a useful package you can't live without, or a data analysis technique you think others should know about sign up to present a lightning talk and share it with the SheffieldR community!
+If you have a fascinating R project you're working on, a useful package you can't live without, or a data analysis
+technique you think others should know about [sign up](https://forms.gle/YSWXarhwUpXZQp2J6) to present a lightning talk
+and share it with the SheffieldR community!
 
 Whether you're a seasoned R user or just starting out, we encourage everyone to participate. This is a fantastic opportunity to learn from each other, exchange ideas, and inspire fellow R enthusiasts.
 
