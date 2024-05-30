@@ -9,8 +9,42 @@
 <link>https://SheffieldR.github.io/</link>
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
-<generator>quarto-1.4.553</generator>
-<lastBuildDate>Mon, 22 Apr 2024 12:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Fri, 21 Jun 2024 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>SheffieldR : June 2024 Meetup</title>
+  <link>https://SheffieldR.github.io/posts/2024-06-21-june-meetup/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This month, we’re shaking things up with an exciting line-up of lightning talks presented by you, our vibrant community members! This is your chance to share your knowledge, showcase your projects, and discuss your favourite R topics in a quick, 5-10 minute format.</p>
+<p>If you have a fascinating R project you’re working on, a useful package you can’t live without, or a data analysis technique you think others should know about <a href="https://forms.gle/YSWXarhwUpXZQp2J6">sign up</a> to present a lightning talk and share it with the SheffieldR community!</p>
+<p>Whether you’re a seasoned R user or just starting out, we encourage everyone to participate. This is a fantastic opportunity to learn from each other, exchange ideas, and inspire fellow R enthusiasts.</p>
+<p><img src="https://SheffieldR.github.io/posts/2024-06-21-june-meetup/image.png" class="img-fluid"></p>
+<p>How to Participate:</p>
+<ul>
+<li><p>Register Your Topic: Fill out <a href="https://forms.gle/YSWXarhwUpXZQp2J6">this form</a> to register your lightning talk topic.</p></li>
+<li><p>Prepare Your Talk: Visual aids are welcome but not required.</p></li>
+<li><p>Engage and Enjoy: Join us on the day, share your insights, and enjoy learning from others.</p></li>
+</ul>
+<p>After the event, join us for drinks at the <a href="https://www.openstreetmap.org/way/178278884">The University Arms pub</a>, it’s a great opportunity to continue the conversation, network, and relax with fellow R enthusiasts.</p>
+<p>Meeting is on Friday 21st of June at 4:00-5:30 in F20 <a href="https://www.openstreetmap.org/relation/16133670">Hicks Building</a>, Broomhall, Sheffield S3 7RH</p>
+<p>Sign up <a href="https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/301279273/">here</a>.</p>
+<p>Remote attendance is possible using <a href="http://meet.google.com/gwr-anoz-mas">Google Meet</a>.</p>
+<p>If you have any questions or inquiries please email us <a href="mailto:sheffieldr@sheffield.ac.uk">sheffieldr@sheffield.ac.uk</a>.</p>
+<!--more-->
+
+
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2024-06-21-june-meetup/</guid>
+  <pubDate>Fri, 21 Jun 2024 16:00:00 GMT</pubDate>
+  <media:content url="https://SheffieldR.github.io/posts/2024-06-21-june-meetup/image.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
 <item>
   <title>SheffieldR : April 2024 Meetup</title>
   <link>https://SheffieldR.github.io/posts/2024-04-22-april-meetup/</link>
@@ -742,35 +776,6 @@
   <category>meetups</category>
   <guid>https://SheffieldR.github.io/posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html</guid>
   <pubDate>Wed, 01 Feb 2017 10:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>December Sheffield R Meetup: Dan Olner, James Waterhouse and Darrell Taylor</title>
-  <link>https://SheffieldR.github.io/posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This month we’ll be learning about R’s capabilities for wrangling and handling spatial data and how Sky Betting and Gaming does data science.</p>
-<p>Dan Olner from the Sheffield Methods Institute will be sharing his experience from some recent work on spatial analysis:</p>
-<section id="doing-spatial-stuff-with-r-the-magic-and-the-messiness-with-an-example-applying-it-to-windfarmhouse-price-interaction" class="level2">
-<h2 class="anchored" data-anchor-id="doing-spatial-stuff-with-r-the-magic-and-the-messiness-with-an-example-applying-it-to-windfarmhouse-price-interaction">Doing spatial stuff with R: the magic and the messiness (with an example applying it to windfarm/house-price interaction)</h2>
-<blockquote class="blockquote">
-<p>R has grown into an amazing tool for wrangling and analysing spatial data. It can do some awesome things with borderline magical ease. I’ll cover some of the introductory essentials to doing spatial stuff before looking at a project using R (and other tools including QGIS) that analysed the price impact of wind turbines on house prices in Scotland. (Spoiler: couldn’t find anything significant; see link below.) This project’s story is more about the real-world messiness of getting R spatial analysis to do what you want it to.</p>
-<p><a href="http://www.climatexchange.org.uk/reducing-emissions/impact-wind-farms-property-prices/">http://www.climatexchange.org.uk/reducing-emissions/impact-wind-farms-property-prices/</a> <a href="https://github.com/SheffieldMethodsInstitute/windfarmsHousePrices">https://github.com/SheffieldMethodsInstitute/windfarmsHousePrices</a></p>
-</blockquote>
-<p>We will also be joined by James Waterhouse (Head of Data Science) and Darrell Taylor (Principal Data Engineer) from Sky Betting and Gaming who will talk about <strong>Data Juggling at SkyBet</strong>: A brief look inside the data science toolbox at Sky Betting and Gaming.</p>
-<p>We look forward to seeing you at the Red Deer on 6 December! Location details are on our <a href="https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/events/235618485/">meetup event</a>.</p>
-<p>The SheffieldR team</p>
-
-
-</section>
-
- ]]></description>
-  <category>meetups</category>
-  <guid>https://SheffieldR.github.io/posts/2016-11-16-december-meetup/2016-11-16-december-meetup.html</guid>
-  <pubDate>Wed, 16 Nov 2016 10:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
