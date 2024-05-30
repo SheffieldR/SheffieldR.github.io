@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "SheffieldR : June 2024 Meetup"
+date:   2024-06-21 16:00:00 +0000
+categories: meetups
+image: image.png
+excerpt_separator: <!--more-->
+---
+
+This month, we're shaking things up with an exciting line-up of lightning talks presented by you, our vibrant community members! This is your chance to share your knowledge, showcase your projects, and discuss your favourite R topics in a quick, 5-10 minute format.
+
+If you have a fascinating R project you're working on, a useful package you can't live without, or a data analysis
+technique you think others should know about [sign up](https://forms.gle/YSWXarhwUpXZQp2J6) to present a lightning talk
+and share it with the SheffieldR community!
+
+Whether you're a seasoned R user or just starting out, we encourage everyone to participate. This is a fantastic opportunity to learn from each other, exchange ideas, and inspire fellow R enthusiasts.
+
+![](image.png)
+
+How to Participate:
+
+- Register Your Topic: Fill out [this form](https://forms.gle/YSWXarhwUpXZQp2J6) to register your lightning talk topic.
+
+- Prepare Your Talk: Visual aids are welcome but not required.
+
+- Engage and Enjoy: Join us on the day, share your insights, and enjoy learning from others.
+
+After the event, join us for drinks at the [The University Arms pub](https://www.openstreetmap.org/way/178278884), it's
+a great opportunity to continue the conversation, network, and relax with fellow R enthusiasts.
+
+Meeting is on Friday 21st of June at 4:00-5:30 in F20 [Hicks Building](https://www.openstreetmap.org/relation/16133670), Broomhall, Sheffield S3 7RH
+
+Sign up [here](https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/301279273/).
+
+Remote attendance is possible using [Google Meet](http://meet.google.com/gwr-anoz-mas).
+
+If you have any questions or inquiries please email us [sheffieldr\@sheffield.ac.uk](mailto:sheffieldr@sheffield.ac.uk).
+
+<!--more-->
