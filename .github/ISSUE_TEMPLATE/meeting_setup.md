@@ -39,4 +39,4 @@ to maximise the notification period and increase attendance but reminders can be
 + [ ] **NHS-R Slack** : If you are a member you can announce the event on the [NHS-R
       Slack](https://nhsrcommunity.slack.com/).
 + [ ] **Sheffield Digital Slack** : If you are a member you can announce the event on the [Sheffield Digital Slack](https://sheffield.digital/slack).
-+ [ ] **Royal Statistical Society Sheffield Local Group** Contact the [RSS Sheffield Local](https://rss.org.uk/membership/rss-groups-and-committees/groups/sheffield/) group and ask them to disseminate details of the meeting (contacts are currently [Esther Herbert](mailto:e.herbert@sheffield.ac.uk) but may change over time).
++ [ ] **Royal Statistical Society Sheffield Local Group** Contact the [RSS Sheffield Local](https://rss.org.uk/membership/rss-groups-and-committees/groups/sheffield/) group via the secretary ([Lauren Rojas](mailto:lauren.rojas@phastar.com)) and ask them to disseminate details of the meeting.
