@@ -23,7 +23,12 @@
 <p>This month, we’re shaking things up with an exciting line-up of lightning talks presented by you, our vibrant community members! This is your chance to share your knowledge, showcase your projects, and discuss your favourite R topics in a quick, 5-10 minute format.</p>
 <p>If you have a fascinating R project you’re working on, a useful package you can’t live without, or a data analysis technique you think others should know about <a href="https://forms.gle/YSWXarhwUpXZQp2J6">sign up</a> to present a lightning talk and share it with the SheffieldR community!</p>
 <p>Whether you’re a seasoned R user or just starting out, we encourage everyone to participate. This is a fantastic opportunity to learn from each other, exchange ideas, and inspire fellow R enthusiasts.</p>
-<p><img src="https://SheffieldR.github.io/posts/2024-06-21-june-meetup/image.png" title="Lightning Talks" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://SheffieldR.github.io/posts/2024-06-21-june-meetup/image.png" title="Lightning Talks" class="img-fluid figure-img"></p>
+<figcaption>Lightning Talks</figcaption>
+</figure>
+</div>
 <p>How to Participate:</p>
 <ul>
 <li><p>Register Your Topic: Fill out <a href="https://forms.gle/YSWXarhwUpXZQp2J6">this form</a> to register your lightning talk topic.</p></li>
@@ -36,8 +41,21 @@
 <p>Remote attendance is possible using <a href="http://meet.google.com/gwr-anoz-mas">Google Meet</a>.</p>
 <p>If you have any questions or inquiries please email us <a href="mailto:sheffieldr@sheffield.ac.uk">sheffieldr@sheffield.ac.uk</a>.</p>
 <!--more-->
+<section id="topics-covered" class="level2">
+<h2 class="anchored" data-anchor-id="topics-covered">Topics Covered</h2>
+<p>A few links to material from some of the talks given…</p>
+<ul>
+<li><p><a href="https://github.com/erikaris/rplaywright">rplaywright - Erika Siregar</a> - Erika has developed a wrapper for the <a href="https://playwright.dev/">playwright</a> testing framework and is keen to receive feedback from those who are able to test it.</p></li>
+<li><p><a href="https://github.com/EmmaPritchard/Detecting_changes_population_trends">Detecting Changes in Population Trends - Emma Pritchard</a></p></li>
+<li><p><a href="https://github.com/sophie-a-lee">Sophie Lee</a> talked about using Quarto to create accessible, engaging teaching material.</p></li>
+<li><p><a href="https://github.com/Ben-L-Stats/BITsurv">BITSurv R Package for survival analysis - Ben</a></p></li>
+<li><p><a href="https://github.com/simonrolph/render-rmarkdown-with-actions">Render R Markdown with GitHub Actions - Simon Rolph</a></p></li>
+<li><p><a href="https://blog.nshephard.dev/sheffieldr-fabricatr-20240621/">No Data, No Worries : Fabricatr</a></p></li>
+</ul>
+<p>Erika Siregar also floated the idea of establishing a local Sheffield <a href="https://rladies.org/">R Ladies</a> chapter so if anyone is keen and would like to be involved in that please reach out and contact <a href="emsiregar1@sheffield.ac.uk">Erika directly</a>.</p>
 
 
+</section>
 
  ]]></description>
   <category>meetups</category>
