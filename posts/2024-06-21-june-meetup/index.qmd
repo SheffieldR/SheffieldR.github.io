@@ -18,7 +18,7 @@ and share it with the SheffieldR community!
 Whether you're a seasoned R user or just starting out, we encourage everyone to participate. This is a fantastic
 opportunity to learn from each other, exchange ideas, and inspire fellow R enthusiasts.
 
-![](image.png "Lightning Talks")
+![Lightning Talks](image.png "Lightning Talks")
 
 How to Participate:
 
@@ -41,3 +41,22 @@ Remote attendance is possible using [Google Meet](http://meet.google.com/gwr-ano
 If you have any questions or inquiries please email us [sheffieldr\@sheffield.ac.uk](mailto:sheffieldr@sheffield.ac.uk).
 
 <!--more-->
+
+## Topics Covered
+
+A few links to material from some of the talks given...
+
+- [rplaywright - Erika Siregar](https://github.com/erikaris/rplaywright) - Erika has developed a wrapper for the
+  [playwright](https://playwright.dev/) testing framework and is keen to receive feedback from those who are able to
+  test it.
+- [Detecting Changes in Population Trends - Emma
+  Pritchard](https://github.com/EmmaPritchard/Detecting_changes_population_trends)
+
+- [Sophie Lee](https://github.com/sophie-a-lee) talked about using Quarto to create accessible, engaging teaching material.
+- [BITSurv R Package for survival analysis - Ben](https://github.com/Ben-L-Stats/BITsurv)
+- [Render R Markdown with GitHub Actions - Simon Rolph](https://github.com/simonrolph/render-rmarkdown-with-actions)
+- [No Data, No Worries : Fabricatr](https://blog.nshephard.dev/sheffieldr-fabricatr-20240621/)
+
+Erika Siregar also floated the idea of establishing a local Sheffield [R Ladies](https://rladies.org/) chapter so if
+anyone is keen and would like to be involved in that please reach out and contact [Erika
+directly](emsiregar1@sheffield.ac.uk).
