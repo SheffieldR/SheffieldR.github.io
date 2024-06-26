@@ -46,11 +46,12 @@ If you have any questions or inquiries please email us [sheffieldr\@sheffield.ac
 
 A few links to material from some of the talks given...
 
-+ [rplaywright - Erika Siregar](https://github.com/erikaris/rplaywright) - Erika has developed a wrapper for the
+- [rplaywright - Erika Siregar](https://github.com/erikaris/rplaywright) - Erika has developed a wrapper for the
   [playwright](https://playwright.dev/) testing framework and is keen to receive feedback from those who are able to
   test it.
-+ [Detecting Changes in Population Trends - Emma
+- [Detecting Changes in Population Trends - Emma
   Pritchard](https://github.com/EmmaPritchard/Detecting_changes_population_trends)
+
 - [Sophie Lee](https://github.com/sophie-a-lee) talked about using Quarto to create accessible, engaging teaching material.
 - [BITSurv R Package for survival analysis - Ben](https://github.com/Ben-L-Stats/BITsurv)
 - [Render R Markdown with GitHub Actions - Simon Rolph](https://github.com/simonrolph/render-rmarkdown-with-actions)
