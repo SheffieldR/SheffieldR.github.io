@@ -62,4 +62,3 @@ During the event, a couple of tasks are needed and it would be helpful if organi
   + [ ] Choose: All members
   + [ ] Write the Subject and Message
   + [ ] Link the slides that were previously uploaded to the folder of the event
-
