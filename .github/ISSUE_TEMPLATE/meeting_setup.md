@@ -17,7 +17,9 @@ advance. The longer the notification period the more likely it is that people wi
 + [ ] **Book a Room** : Reserve a room through the [provided
       portal](https://staff.sheffield.ac.uk/it-services/room-bookings/process), ensuring that it is accessible to the public, i.e., without requiring a UofS ID card.
 + [ ] **Request details from speaker 1** : Request a summary of the talk and a speaker biography from speaker 1.
+  + [ ] Ask Speaker if they consent to having their pictures taken while presenting.
 + [ ] **Request details from speaker 2** : Request a summary of the talk and a speaker biography from speaker 2.
+  + [ ] Ask Speaker if they consent to having their pictures taken while presenting.
 + [ ] **Create Calendar Event** : Create a calendar event in Google Calendar. (Calendar Link can be found under _More Actions > Publish  Event_).
   + [ ] Google Meet Settings : Meeting access type set to Open
   + [ ] Google Meet Link :
@@ -60,3 +62,4 @@ During the event, a couple of tasks are needed and it would be helpful if organi
   + [ ] Choose: All members
   + [ ] Write the Subject and Message
   + [ ] Link the slides that were previously uploaded to the folder of the event
+
