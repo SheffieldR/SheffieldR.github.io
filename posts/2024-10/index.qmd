@@ -19,8 +19,9 @@ software community._".
 
 We have planned four meetings across the month of October to help and support each other in contributing to open-source
 projects related to the [R][r] language and ecosystem including [rOpenSci][ropensci] and
-[Bioconductor][bioconductor]. The first session on Friday 2024-10-04 we will go over the basics of Git and contributing via [GitHub][gh]/[GitLab][gl] to open-source projects and how to go about
-finding R projects with issues that you could tackle and solve as part of Hacktoberfest 2024.
+[Bioconductor][bioconductor]. The first session on Friday 2024-10-04 we will go over the basics of Git and contributing
+via [GitHub][gh]/[GitLab][gl] to open-source projects and how to go about finding R projects with issues that you could
+tackle and solve as part of Hacktoberfest 2024.
 
 The remaining sessions will be held weekly on Fridays at lunch time from 12:30-13:30 in the University of Sheffield's
 Students Union you can come along and seek support and offer help to those who have questions, whether that is with some
@@ -31,15 +32,17 @@ Hacktoberfest.
 
 | **Date/Time**                                                                                                                                                                                                                        | **Venue**                                                | **Google Meet**                      |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|--------------------------------------|
-| [2024-10-04 17:00-18:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzFhcW0zZnBwOWI3Mm52c3JoMnFzcjU3Mm4gbi5zaGVwaGFyZEBzaGVmZmllbGQuYWMudWs&tmsrc=n.shephard%40sheffield.ac.uk)                                | Blue Room G22 Computer Science, Regents Court            | <https://meet.google.com/pjo-rskm-ktk> |
-| [2024-10-11 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR4 Meeting Room, University of Sheffield Students Union | <https://meet.google.com/yjs-psie-vjh> |
-| [2024-10-18 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR4 Meeting Room, University of Sheffield Students Union | <https://meet.google.com/yjs-psie-vjh> |
-| [2024-10-25 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR5 Meeting Room, University of Sheffield Students Union | <https://meet.google.com/yjs-psie-vjh> |
+| [2024-10-04 17:00-18:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzFhcW0zZnBwOWI3Mm52c3JoMnFzcjU3Mm4gbi5zaGVwaGFyZEBzaGVmZmllbGQuYWMudWs&tmsrc=n.shephard%40sheffield.ac.uk)                                | Blue Room G22 Computer Science, Regents Court            | https://meet.google.com/pjo-rskm-ktk |
+| [2024-10-11 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR4 Meeting Room, University of Sheffield Students Union | https://meet.google.com/yjs-psie-vjh |
+| [2024-10-18 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR4 Meeting Room, University of Sheffield Students Union | https://meet.google.com/yjs-psie-vjh |
+| [2024-10-25 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR5 Meeting Room, University of Sheffield Students Union | https://meet.google.com/yjs-psie-vjh |
+
 
 ## Preparation
 
 To participate you will need a [GitHub][gh] and/or a [GitLab][gl] account and to register between 2024-09-23 and
 2024-10-31 on the [Hacktoberfest site][hack24participation].
+
 
 ## Learn More
 
@@ -49,6 +52,7 @@ the course of these events.
 
 If you are interested in making contributions to R core checkout the information from [R Contributor
 Site][rcontributors].
+
 
 [bioconductor]: https://www.bioconductor.org/
 [gh]: https://github.com
