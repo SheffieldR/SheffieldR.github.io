@@ -15,7 +15,8 @@ We kick off this semester's Sheffield R User Group meetings in October with a se
 
 Hacktoberfest is an annual "_month-long celebration of all things open-source_" that runs across [GitHub][gh] and
 [GitLab][gl] which "_welcome[s] anyone who is interested in diving in, and everyone who's already part of the open-source
-software community._".
+software community._". These sessions are open to all regardless of your skill level and experience with writing R code,
+documentation or using [Git][git], [GitHub][gh] or [GitLab][gl].
 
 We have planned four meetings across the month of October to help and support each other in contributing to open-source
 projects related to the [R][r] language and ecosystem including [rOpenSci][ropensci] and
@@ -24,9 +25,9 @@ via [GitHub][gh]/[GitLab][gl] to open-source projects and how to go about findin
 tackle and solve as part of Hacktoberfest 2024.
 
 The remaining sessions will be held weekly on Fridays at lunch time from 12:30-13:30 in the University of Sheffield's
-Students Union. During these sessions you can come along and seek support and offer help to those who have questions, whether that is with some
-aspect of R, documentation, continuous integration, linting, tests or anything you have been working on as part of
-Hacktoberfest.
+Students Union. During these sessions you can come along and seek support and offer help to those who have questions,
+whether that is with some aspect of R, documentation, continuous integration, linting, tests or anything you have been
+working on as part of Hacktoberfest.
 
 ## Schedule
 
@@ -48,8 +49,8 @@ There are a bunch of resources available at [Resources for Beginners][hack24begi
 [Git][git] or [GitHub][gh]/[GitLab][gl] but these aren't essential as we are aiming to cover the basics and help you over
 the course of these events.
 
-If you are interested in making contributions to R core - the code and documentation that gets distributed as base R - check out the information from [R Contributor
-Site][rcontributors].
+If you are interested in making contributions to R core - the code and documentation that gets distributed as base R -
+check out the information from [R Contributor Site][rcontributors].
 
 [bioconductor]: https://www.bioconductor.org/
 [gh]: https://github.com
