@@ -48,7 +48,7 @@ There are a bunch of resources available at [Resources for Beginners][hack24begi
 [Git][git] or [GitHub][gh]/[GitLab][gl] but these aren't essential as we are aiming to cover the basics and help you over
 the course of these events.
 
-If you are interested in making contributions to R core checkout the information from [R Contributor
+If you are interested in making contributions to R core - the code and documentation that gets distributed as base R - check out the information from [R Contributor
 Site][rcontributors].
 
 [bioconductor]: https://www.bioconductor.org/
