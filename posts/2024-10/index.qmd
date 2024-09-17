@@ -24,7 +24,7 @@ via [GitHub][gh]/[GitLab][gl] to open-source projects and how to go about findin
 tackle and solve as part of Hacktoberfest 2024.
 
 The remaining sessions will be held weekly on Fridays at lunch time from 12:30-13:30 in the University of Sheffield's
-Students Union you can come along and seek support and offer help to those who have questions, whether that is with some
+Students Union. During these sessions you can come along and seek support and offer help to those who have questions, whether that is with some
 aspect of R, documentation, continuous integration, linting, tests or anything you have been working on as part of
 Hacktoberfest.
 
