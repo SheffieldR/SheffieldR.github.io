@@ -19,7 +19,7 @@ software community._".
 
 We have planned four meetings across the month of October to help and support each other in contributing to open-source
 projects related to the [R][r] language and ecosystem including [rOpenSci][ropensci] and
-[Bioconductor][bioconductor]. The first session on Friday 2024-10-04 we will go over the basics of Git and contributing
+[Bioconductor][bioconductor]. In the first session on Friday 2024-10-04 we will go over the basics of Git and contributing
 via [GitHub][gh]/[GitLab][gl] to open-source projects and how to go about finding R projects with issues that you could
 tackle and solve as part of Hacktoberfest 2024.
 
