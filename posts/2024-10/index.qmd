@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "SheffieldR : Hacktoberfest 2024"
+date:   2024-10-04 17:30:00 +0000
+categories: meetups
+image: img/DO-HFest-EmailBanner-600px-2-@2x.png
+excerpt_separator: <!--more-->
+---
+
+
+We kick off this semester's Sheffield R User Group meetings in October with a series of hackathons to participate in
+[Hacktoberfest 2024][hack24].
+
+![Hacktoberfest 2024](img/DO-HFest-EmailBanner-600px-2-@2x.png)
+
+Hacktoberfest is an annual "_month-long celebration of all things open-source_" that runs across [GitHub][gh] and
+[GitLab][gl] which "_welcome[s] anyone who is interested in diving in, and everyone who's already part of the open-source
+software community._". These sessions are open to all regardless of your skill level and experience with writing R code,
+documentation or using [Git][git], [GitHub][gh] or [GitLab][gl].
+
+We have planned four meetings across the month of October to help and support each other in contributing to open-source
+projects related to the [R][r] language and ecosystem including [rOpenSci][ropensci] and
+[Bioconductor][bioconductor]. In the first session on Friday 2024-10-04 we will go over the basics of Git and contributing
+via [GitHub][gh]/[GitLab][gl] to open-source projects and how to go about finding R projects with issues that you could
+tackle and solve as part of Hacktoberfest 2024.
+
+The remaining sessions will be held weekly on Fridays at lunch time from 12:30-13:30 in the University of Sheffield's
+Students Union. During these sessions you can come along and seek support and offer help to those who have questions,
+whether that is with some aspect of R, documentation, continuous integration, linting, tests or anything you have been
+working on as part of Hacktoberfest.
+
+## Schedule
+
+| **Date/Time**                                                                                                                                                                                                                        | **Venue**                                                | **Google Meet**                      |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|--------------------------------------|
+| [2024-10-04 17:00-18:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzFhcW0zZnBwOWI3Mm52c3JoMnFzcjU3Mm4gbi5zaGVwaGFyZEBzaGVmZmllbGQuYWMudWs&tmsrc=n.shephard%40sheffield.ac.uk)                                | Blue Room G22 Computer Science, Regents Court            | <https://meet.google.com/pjo-rskm-ktk> |
+| [2024-10-11 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR4 Meeting Room, University of Sheffield Students Union | <https://meet.google.com/yjs-psie-vjh> |
+| [2024-10-18 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR4 Meeting Room, University of Sheffield Students Union | <https://meet.google.com/yjs-psie-vjh> |
+| [2024-10-25 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR5 Meeting Room, University of Sheffield Students Union | <https://meet.google.com/yjs-psie-vjh> |
+
+## Preparation
+
+To participate you will need a [GitHub][gh] and/or a [GitLab][gl] account and to register between 2024-09-23 and
+2024-10-31 on the [Hacktoberfest site][hack24participation].
+
+## Learn More
+
+There are a bunch of resources available at [Resources for Beginners][hack24beginners] if you are unfamiliar with
+[Git][git] or [GitHub][gh]/[GitLab][gl] but these aren't essential as we are aiming to cover the basics and help you over
+the course of these events.
+
+If you are interested in making contributions to R core - the code and documentation that gets distributed as base R -
+check out the information from [R Contributor Site][rcontributors].
+
+[bioconductor]: https://www.bioconductor.org/
+[gh]: https://github.com
+[git]: https://git-scm.com/
+[gl]: https://gitlab.com
+[hack24]: https://hacktoberfest.com/
+[hack24beginners]: https://hacktoberfest.com/participation/#beginner-resources
+[hack24participation]: https://hacktoberfest.com/participation/
+[r]: https://www.r-project.org/
+[ropensci]: https://ropensci.org/
+[rcontributors]: https://contributor.r-project.org/
