@@ -10,7 +10,78 @@
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Fri, 21 Jun 2024 16:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 04 Oct 2024 17:30:00 GMT</lastBuildDate>
+<item>
+  <title>SheffieldR : Hacktoberfest 2024</title>
+  <link>https://SheffieldR.github.io/posts/2024-10/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We kick off this semester’s Sheffield R User Group meetings in October with a series of hackathons to participate in <a href="https://hacktoberfest.com/">Hacktoberfest 2024</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://SheffieldR.github.io/posts/2024-10/img/DO-HFest-EmailBanner-600px-2-@2x.png" class="img-fluid figure-img"></p>
+<figcaption>Hacktoberfest 2024</figcaption>
+</figure>
+</div>
+<p>Hacktoberfest is an annual “<em>month-long celebration of all things open-source</em>” that runs across <a href="https://github.com">GitHub</a> and <a href="https://gitlab.com">GitLab</a> which “<em>welcome[s] anyone who is interested in diving in, and everyone who’s already part of the open-source software community.</em>”. These sessions are open to all regardless of your skill level and experience with writing R code, documentation or using <a href="https://git-scm.com/">Git</a>, <a href="https://github.com">GitHub</a> or <a href="https://gitlab.com">GitLab</a>.</p>
+<p>We have planned four meetings across the month of October to help and support each other in contributing to open-source projects related to the <a href="https://www.r-project.org/">R</a> language and ecosystem including <a href="https://ropensci.org/">rOpenSci</a> and <a href="https://www.bioconductor.org/">Bioconductor</a>. In the first session on Friday 2024-10-04 we will go over the basics of Git and contributing via <a href="https://github.com">GitHub</a>/<a href="https://gitlab.com">GitLab</a> to open-source projects and how to go about finding R projects with issues that you could tackle and solve as part of Hacktoberfest 2024.</p>
+<p>The remaining sessions will be held weekly on Fridays at lunch time from 12:30-13:30 in the University of Sheffield’s Students Union. During these sessions you can come along and seek support and offer help to those who have questions, whether that is with some aspect of R, documentation, continuous integration, linting, tests or anything you have been working on as part of Hacktoberfest.</p>
+<section id="schedule" class="level2">
+<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Date/Time</strong></th>
+<th><strong>Venue</strong></th>
+<th><strong>Google Meet</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MzFhcW0zZnBwOWI3Mm52c3JoMnFzcjU3Mm4gbi5zaGVwaGFyZEBzaGVmZmllbGQuYWMudWs&amp;tmsrc=n.shephard%40sheffield.ac.uk">2024-10-04 17:00-18:30</a></td>
+<td>Blue Room G22 Computer Science, Regents Court</td>
+<td><a href="https://meet.google.com/pjo-rskm-ktk" class="uri">https://meet.google.com/pjo-rskm-ktk</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&amp;tmsrc=n.shephard%40sheffield.ac.uk&amp;scp=ALL">2024-10-11 12:30-13:30</a></td>
+<td>VR4 Meeting Room, University of Sheffield Students Union</td>
+<td><a href="https://meet.google.com/yjs-psie-vjh" class="uri">https://meet.google.com/yjs-psie-vjh</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&amp;tmsrc=n.shephard%40sheffield.ac.uk&amp;scp=ALL">2024-10-18 12:30-13:30</a></td>
+<td>VR4 Meeting Room, University of Sheffield Students Union</td>
+<td><a href="https://meet.google.com/yjs-psie-vjh" class="uri">https://meet.google.com/yjs-psie-vjh</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&amp;tmsrc=n.shephard%40sheffield.ac.uk&amp;scp=ALL">2024-10-25 12:30-13:30</a></td>
+<td>VR5 Meeting Room, University of Sheffield Students Union</td>
+<td><a href="https://meet.google.com/yjs-psie-vjh" class="uri">https://meet.google.com/yjs-psie-vjh</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="preparation" class="level2">
+<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
+<p>To participate you will need a <a href="https://github.com">GitHub</a> and/or a <a href="https://gitlab.com">GitLab</a> account and to register between 2024-09-23 and 2024-10-31 on the <a href="https://hacktoberfest.com/participation/">Hacktoberfest site</a>.</p>
+</section>
+<section id="learn-more" class="level2">
+<h2 class="anchored" data-anchor-id="learn-more">Learn More</h2>
+<p>There are a bunch of resources available at <a href="https://hacktoberfest.com/participation/#beginner-resources">Resources for Beginners</a> if you are unfamiliar with <a href="https://git-scm.com/">Git</a> or <a href="https://github.com">GitHub</a>/<a href="https://gitlab.com">GitLab</a> but these aren’t essential as we are aiming to cover the basics and help you over the course of these events.</p>
+<p>If you are interested in making contributions to R core - the code and documentation that gets distributed as base R - check out the information from <a href="https://contributor.r-project.org/">R Contributor Site</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2024-10/</guid>
+  <pubDate>Fri, 04 Oct 2024 17:30:00 GMT</pubDate>
+  <media:content url="https://SheffieldR.github.io/posts/2024-10/img/DO-HFest-EmailBanner-600px-2-@2x.png" medium="image" type="image/png" height="86" width="144"/>
+</item>
 <item>
   <title>SheffieldR : June 2024 Meetup</title>
   <link>https://SheffieldR.github.io/posts/2024-06-21-june-meetup/</link>
@@ -764,36 +835,6 @@
   <category>meetups</category>
   <guid>https://SheffieldR.github.io/posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html</guid>
   <pubDate>Tue, 07 Mar 2017 17:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>February Sheffield R Meetup: Martin Garlovsky and Christopher Hopkinson</title>
-  <link>https://SheffieldR.github.io/posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>In this month’s meeting we’ll explore survival analysis, a means of analysing data in which the outcome is the time to the occurrence of an event of interest. We’ll also be finding out about one of the more esoteric features of the R language, namely non-standard evaluation.</p>
-<section id="survival-analysis-with-coxme" class="level2">
-<h2 class="anchored" data-anchor-id="survival-analysis-with-coxme">Survival analysis with coxme</h2>
-<p>Martin Garlovsky, a PhD student studying sexual selection and speciation, will talk about using Cox proportional hazards models with random effects to perform survival analysis. Survival analysis can be used for a wide range of “time to event” data, e.g.&nbsp;deaths, divorce, maturation, relapse, disease etc, and is applicable in a wide range of biological, medical and social research. The R packages coxme, coxph and survival provide methods for survival analysis.</p>
-</section>
-<section id="non-standard-evaluation-or-why-r-is-a-little-unusual" class="level2">
-<h2 class="anchored" data-anchor-id="non-standard-evaluation-or-why-r-is-a-little-unusual">Non-Standard Evaluation, or why R is a little unusual</h2>
-<p>Analyst and data lover, Christopher Hopkinson, will be delving into the bowels of the R language to try to understand how R evaluates our code and when this may lead to unexpected results.</p>
-<p>If this topic is of interest, you might like to have a read of <a href="http://adv-r.had.co.nz/Computing-on-the-language.html">Hadley’s Advanced R book</a>.</p>
-<p>Hope to see you there!</p>
-<p>We look forward to seeing you at the Red Deer on 7 February! Location details are on our <a href="https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/events/237310112//">meetup event</a>.</p>
-<p>The SheffieldR team</p>
-
-
-</section>
-
- ]]></description>
-  <category>meetups</category>
-  <guid>https://SheffieldR.github.io/posts/2017-02-01-february-meetup/2017-02-01-february-meetup.html</guid>
-  <pubDate>Wed, 01 Feb 2017 10:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
