@@ -32,17 +32,15 @@ Hacktoberfest.
 
 | **Date/Time**                                                                                                                                                                                                                        | **Venue**                                                | **Google Meet**                      |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|--------------------------------------|
-| [2024-10-04 17:00-18:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzFhcW0zZnBwOWI3Mm52c3JoMnFzcjU3Mm4gbi5zaGVwaGFyZEBzaGVmZmllbGQuYWMudWs&tmsrc=n.shephard%40sheffield.ac.uk)                                | Blue Room G22 Computer Science, Regents Court            | https://meet.google.com/pjo-rskm-ktk |
-| [2024-10-11 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR4 Meeting Room, University of Sheffield Students Union | https://meet.google.com/yjs-psie-vjh |
-| [2024-10-18 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR4 Meeting Room, University of Sheffield Students Union | https://meet.google.com/yjs-psie-vjh |
-| [2024-10-25 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR5 Meeting Room, University of Sheffield Students Union | https://meet.google.com/yjs-psie-vjh |
-
+| [2024-10-04 17:00-18:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzFhcW0zZnBwOWI3Mm52c3JoMnFzcjU3Mm4gbi5zaGVwaGFyZEBzaGVmZmllbGQuYWMudWs&tmsrc=n.shephard%40sheffield.ac.uk)                                | Blue Room G22 Computer Science, Regents Court            | <https://meet.google.com/pjo-rskm-ktk> |
+| [2024-10-11 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR4 Meeting Room, University of Sheffield Students Union | <https://meet.google.com/yjs-psie-vjh> |
+| [2024-10-18 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR4 Meeting Room, University of Sheffield Students Union | <https://meet.google.com/yjs-psie-vjh> |
+| [2024-10-25 12:30-13:30](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2VrcHI0cXZhNGt2cjlhZGlydTVhcDdia2NfMjAyNDEwMTFUMTEzMDAwWiBuLnNoZXBoYXJkQHNoZWZmaWVsZC5hYy51aw&tmsrc=n.shephard%40sheffield.ac.uk&scp=ALL) | VR5 Meeting Room, University of Sheffield Students Union | <https://meet.google.com/yjs-psie-vjh> |
 
 ## Preparation
 
 To participate you will need a [GitHub][gh] and/or a [GitLab][gl] account and to register between 2024-09-23 and
 2024-10-31 on the [Hacktoberfest site][hack24participation].
-
 
 ## Learn More
 
@@ -52,7 +50,6 @@ the course of these events.
 
 If you are interested in making contributions to R core checkout the information from [R Contributor
 Site][rcontributors].
-
 
 [bioconductor]: https://www.bioconductor.org/
 [gh]: https://github.com
