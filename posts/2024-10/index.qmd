@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 
 
-We kick off this semesters Sheffield R User Group meetings in October with a series of hackathons to participate in
+We kick off this semester's Sheffield R User Group meetings in October with a series of hackathons to participate in
 [Hacktoberfest 2024][hack24].
 
 ![Hacktoberfest 2024](img/DO-HFest-EmailBanner-600px-2-@2x.png)
