@@ -17,6 +17,7 @@ website:
     search: true
     right:
       - about.qmd
+      - rladies.qmd
       - sponsors.qmd
       - resources.qmd
       - slides.qmd
