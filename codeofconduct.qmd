@@ -3,14 +3,20 @@ title: "Code of Conduct"
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
+    - icon: twitter-x
+      text: X
       href: https://twitter.com/Sheffield_R_
     - icon: github
       text: Github
       href: https://github.com/SheffieldR
----
+    - icon: slack
+      text: Slack
+      href: https://sheffieldr.slack.com
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/@sheffieldr
 
+---
 ::: {style="text-align: left;"}
 
 ## Introduction

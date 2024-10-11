@@ -17,14 +17,15 @@ website:
     search: true
     right:
       - about.qmd
-      - rladies.qmd
       - sponsors.qmd
-      - resources.qmd
       - slides.qmd
+      - rladies.qmd
       - codeofconduct.qmd
       - icon: github
         href: https://github.com/SheffieldR
-      - icon: twitter
+      - icon: slack
+        href: https://sheffieldr.slack.com
+      - icon: twitter-x
         href: https://twitter.com/Sheffield_R_
       - icon: rss
         href: index.xml

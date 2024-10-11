@@ -3,15 +3,27 @@ title: "Slides"
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/Sheffield_R_ls
+    - icon: twitter-x
+      text: X
+      href: https://twitter.com/Sheffield_R_
     - icon: github
       text: Github
       href: https://github.com/SheffieldR
+    - icon: slack
+      text: Slack
+      href: https://sheffieldr.slack.com
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/@sheffieldr
+
 ---
 
 ::: {style="text-align: left;"}
+
+If you are thinking of, or have been invited to give a talk, you can use the [Quarto](https://quarto.org) template below
+as a basis for your slides.
+
+[Quarto RevealJS Template](https://github.com/ns-rse/quarto-revealjs-template)
 
 Here you will find links to slides from previous meetings
 
