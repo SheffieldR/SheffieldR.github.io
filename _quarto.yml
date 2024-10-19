@@ -23,6 +23,8 @@ website:
       - codeofconduct.qmd
       - icon: github
         href: https://github.com/SheffieldR
+      - icon: calendar-event
+        href: https://www.meetup.com/sheffieldr-sheffield-r-users-group/
       - icon: slack
         href: https://sheffieldr.slack.com
       - icon: twitter-x
