@@ -3,15 +3,17 @@ title: "Sponsors"
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/Sheffield_R_ls
-    - icon: github
-      text: Github
-      href: https://github.com/SheffieldR
-
+      - icon: github
+        href: https://github.com/SheffieldR
+      - icon: calendar-event
+        href: https://www.meetup.com/sheffieldr-sheffield-r-users-group/
+      - icon: slack
+        href: https://sheffieldr.slack.com
+      - icon: twitter-x
+        href: https://twitter.com/Sheffield_R_
+      - icon: mastodon
+        href: https://fosstodon.org/@sheffieldr
 ---
-
 ::: {layout="[1, 1]"}
 
 [![The R Consorium](/www/RConsortium.png){.fragment width="300" height="200"}](https://www.r-consortium.org)

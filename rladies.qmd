@@ -7,6 +7,12 @@ about:
     - icon: twitter-x
       text: Twitter
       href: https://twitter.com/RLadiesSheff
+    - icon: github
+      text: Github
+      href: https://github.com/rladies/sheffield
+    - icon: slack
+      text: Slack
+      href: https://airtable.com/appJZFYABfCIdPYMR/pagw7FJB5tm2UQ55o/form
 ---
 ::: {style="text-align: left;"}
 We are Sheffield R-Ladies, a chapter of [R-Ladies Global](https://rladies.org/). The mission of R-Ladies is to achieve
