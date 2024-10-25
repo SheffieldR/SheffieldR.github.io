@@ -18,7 +18,7 @@ about:
       href: https://airtable.com/appJZFYABfCIdPYMR/pagw7FJB5tm2UQ55o/form
 ---
 ::: {style="text-align: left;"}
-We are Sheffield R-Ladies, a chapter of [R-Ladies Global](https://rladies.org/). The mission of R-Ladies is to achieve
+We are R-Ladies Sheffield, a chapter of [R-Ladies Global](https://rladies.org/). The mission of R-Ladies is to achieve
 proportionate representation by encouraging, inspiring, and empowering people of genders currently under-represented in
 the R community. R-Ladies’ primary focus, therefore, is on supporting minority gender R enthusiasts to achieve their
 programming potential, by building a collaborative global network of R leaders, mentors, learners, and developers to
