@@ -11,7 +11,7 @@ about:
       text: R-Ladies Sheffield Github
       href: https://github.com/rladies/sheffield
     - icon: calendar-event
-      text: RLadies Meetup
+      text: R-Ladies Sheffield Meetup
       href: https://www.meetup.com/rladies-sheffield/
     - icon: slack
       text: RLadies Slack
