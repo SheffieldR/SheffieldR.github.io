@@ -5,7 +5,7 @@ about:
   template: jolla
   links:
     - icon: twitter-x
-      text: RLadies Twitter
+      text: R-Ladies Sheffield Twitter
       href: https://twitter.com/RLadiesSheff
     - icon: github
       text: RLadies Github
