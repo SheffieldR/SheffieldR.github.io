@@ -27,13 +27,11 @@ website:
         href: https://www.meetup.com/sheffieldr-sheffield-r-users-group/
       - icon: slack
         href: https://sheffieldr.slack.com
-      - icon: twitter-x
-        href: https://twitter.com/Sheffield_R_
-      - icon: rss
-        href: index.xml
       - icon: mastodon
         href: https://fosstodon.org/@sheffieldr
         rel: me
+      - icon: rss
+        href: index.xml
 format:
   html:
     theme: pulse

@@ -5,13 +5,16 @@ about:
   template: jolla
   links:
     - icon: twitter-x
-      text: Twitter
+      text: RLadies Twitter
       href: https://twitter.com/RLadiesSheff
     - icon: github
-      text: Github
+      text: RLadies Github
       href: https://github.com/rladies/sheffield
+    - icon: calendar-event
+      text: RLadies Meetup
+      href: https://www.meetup.com/rladies-sheffield/
     - icon: slack
-      text: Slack
+      text: RLadies Slack
       href: https://airtable.com/appJZFYABfCIdPYMR/pagw7FJB5tm2UQ55o/form
 ---
 ::: {style="text-align: left;"}

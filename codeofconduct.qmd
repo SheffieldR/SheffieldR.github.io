@@ -2,17 +2,6 @@
 title: "Code of Conduct"
 about:
   template: jolla
-  links:
-      - icon: github
-        href: https://github.com/SheffieldR
-      - icon: calendar-event
-        href: https://www.meetup.com/sheffieldr-sheffield-r-users-group/
-      - icon: slack
-        href: https://sheffieldr.slack.com
-      - icon: twitter-x
-        href: https://twitter.com/Sheffield_R_
-      - icon: mastodon
-        href: https://fosstodon.org/@sheffieldr
 ---
 ::: {style="text-align: left;"}
 
