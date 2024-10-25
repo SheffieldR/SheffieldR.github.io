@@ -1,5 +1,5 @@
 ---
-title: "R-Ladies"
+title: "R-Ladies Sheffield"
 image: images/rladies_hex.png
 about:
   template: jolla
