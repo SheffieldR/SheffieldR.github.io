@@ -14,7 +14,7 @@ about:
       text: R-Ladies Sheffield Meetup
       href: https://www.meetup.com/rladies-sheffield/
     - icon: slack
-      text: RLadies Slack
+      text: R-Ladies Community Slack
       href: https://airtable.com/appJZFYABfCIdPYMR/pagw7FJB5tm2UQ55o/form
 ---
 ::: {style="text-align: left;"}
