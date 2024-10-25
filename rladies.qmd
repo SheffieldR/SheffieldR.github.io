@@ -8,7 +8,7 @@ about:
       text: R-Ladies Sheffield Twitter
       href: https://twitter.com/RLadiesSheff
     - icon: github
-      text: RLadies Github
+      text: R-Ladies Sheffield Github
       href: https://github.com/rladies/sheffield
     - icon: calendar-event
       text: RLadies Meetup
