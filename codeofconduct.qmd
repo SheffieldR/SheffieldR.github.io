@@ -2,15 +2,7 @@
 title: "Code of Conduct"
 about:
   template: jolla
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/Sheffield_R_
-    - icon: github
-      text: Github
-      href: https://github.com/SheffieldR
 ---
-
 ::: {style="text-align: left;"}
 
 ## Introduction

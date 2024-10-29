@@ -17,20 +17,21 @@ website:
     search: true
     right:
       - about.qmd
-      - rladies.qmd
       - sponsors.qmd
-      - resources.qmd
       - slides.qmd
+      - rladies.qmd
       - codeofconduct.qmd
       - icon: github
         href: https://github.com/SheffieldR
-      - icon: twitter
-        href: https://twitter.com/Sheffield_R_
-      - icon: rss
-        href: index.xml
+      - icon: calendar-event
+        href: https://www.meetup.com/sheffieldr-sheffield-r-users-group/
+      - icon: slack
+        href: https://sheffieldr.slack.com
       - icon: mastodon
         href: https://fosstodon.org/@sheffieldr
         rel: me
+      - icon: rss
+        href: index.xml
 format:
   html:
     theme: pulse
