@@ -3,13 +3,12 @@ title: "Sponsors"
 about:
   template: jolla
 ---
-::: {layout="[1, 1]"}
-
-[![The R Consorium](/www/RConsortium.png){.fragment width="300" height="200"}](https://www.r-consortium.org)
+::: {.center}
+[![The R Consortium](/www/RConsortium.png){width="320px"}](https://www.r-consortium.org)
+[]{.spacer }
 <!-- markdownlint-disable MD013 -->
-[![Research Software Engineering at The University of Sheffield](https://rse.shef.ac.uk/assets/images/logo/rse-logoonly-stroke.png){.fragment width="80" height="80"}](https://rse.shef.ac.uk)
+[![Research Software Engineering at The University of Sheffield](https://rse.shef.ac.uk/assets/images/logo/rse-logoonly-stroke.png){width="80px"}](https://rse.shef.ac.uk)
 <!-- markdownlint-enable MD013 -->
-
 :::
 
 ::: {style="text-align: left;"}

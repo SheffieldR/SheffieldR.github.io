@@ -3,6 +3,7 @@ title: "About"
 image: profile.jpg
 about:
   template: jolla
+  image-shape: rectangle
 ---
 
 ::: {style="text-align: left;"}
