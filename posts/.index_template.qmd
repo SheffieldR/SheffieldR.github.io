@@ -6,3 +6,26 @@ categories: meetups
 image: https://live.staticflickr.com/65535/53182749103_d03f3bbd0a_k.jpg
 excerpt_separator: <!--more-->
 ---
+
+<!-- Some Blurb -->
+
+## Where and When
+
+Meeting will be held YYYY-MM-DD hh:mm-hh-mm in <!-- Room --> of <!-- Building -->.
+
+## Talk 1 Title
+
+<!-- Abstract -->
+
+### Bio
+
+<!-- Short Bio -->
+
+## Talk 2 Title
+
+<!-- Abstract -->
+
+<!-- markdownlint-disable-next-line MD024 -->
+### Bio
+
+<!-- Short Bio -->
