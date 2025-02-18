@@ -7,13 +7,16 @@ about:
 
 ::: {style="text-align: left;"}
 
-We are the SheffieldR User group. We meet roughly every month to learn about and discuss R. We aim to provide a friendly
-and welcoming space for Sheffield R users of any level of R skill.
+We are the SheffieldR User group. We meet roughly every month or so to learn from each other and discuss R. We aim to
+provide a friendly and welcoming space for Sheffield R users of any level of R skill.
 
-Meetings are advertised on our [Meetup page](http://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/) and if you would
-like to volunteer to talk at a meeting you are more than welcome, please get in touch with
-[sheffieldr@sheffield.ac.uk](mailto:sheffieldr@sheffield.ac.uk).
+Meetings are advertised on our [Meetup page][meetup], we have a (sleepy) [Slack Channel][slack] and if you would like to
+volunteer to talk at a meeting you are more than welcome, please get in touch with [sheffieldr@sheffield.ac.uk](mailto:sheffieldr@sheffield.ac.uk).
 
-Slides and other material from our meetups are available on our GitHub account [SheffieldR](https://github.com/SheffieldR/).
+Slides and other material from our meetups are available on our GitHub account [SheffieldR][github].
 
 :::
+
+[github]: https://github.com/SheffieldR/
+[meetup]: http://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/
+[slack]: https://sheffieldr.slack.com/
