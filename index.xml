@@ -10,7 +10,54 @@
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Fri, 04 Oct 2024 17:30:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 13 Mar 2025 12:30:00 GMT</lastBuildDate>
+<item>
+  <title>SheffieldR : March 2025 Meetup</title>
+  <link>https://SheffieldR.github.io/posts/2025-03/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We’ve been a bit quiet recently but are back with our first meetup of 2025 on 13th March where we welcome <a href="https://www.sheffield.ac.uk/smph/people/clinical-medicine/neil-lawrence">Dr Neil Lawrence</a> and <a href="https://www.sheffield.ac.uk/smph/people/population-health/charlotte-head">Charlotte Head</a> from the University of Sheffield School of Medicine and Population Health.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://live.staticflickr.com/65535/54027972058_1fa30a254a_h.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://www.flickr.com/photos/slackline/54027972058/">Histograms by Neil Shephard</a></figcaption>
+</figure>
+</div>
+<section id="where-and-when" class="level2">
+<h2 class="anchored" data-anchor-id="where-and-when">Where and When</h2>
+<p>Meeting will be held 2025-03-13 12:30-13:30 in Room 315 of <a href="https://www.openstreetmap.org/relation/16098200">The Diamond</a>.</p>
+<p>Sign up via <a href="https://www.meetup.com/sheffieldr-sheffield-r-users-group/?eventOrigin=event_home_page">Meetup</a> although remote attendance is possible via <a href="https://meet.google.com/bhv-xmkk-gjk">Google Meet</a>.</p>
+</section>
+<section id="charlotte-head---devtools" class="level2">
+<h2 class="anchored" data-anchor-id="charlotte-head---devtools">Charlotte Head - <code>{devtools}</code></h2>
+<p>Want to make your R life easier? This talk introduces how to build R packages (it’s much easier than you think!) and how they can organise your code. Using <a href="https://devtools.r-lib.org/"><code>devtools</code></a>, we’ll build a simple package (by getting some ASCII animals to compliment you using the R packages <code>praise</code> and <code>cowsay</code>!). We’ll be covering the essentials: structure, functions, and documentation. By the end, you’ll be ready to create your own packages. Bring your laptop if you’d like to follow along (the download prerequisites for codealongs are the <code>devtools</code>, <code>praise</code> and <code>cowsay</code> packages, as well as Rtools (Windows) or XCode (Mac)).</p>
+<section id="bio" class="level3">
+<h3 class="anchored" data-anchor-id="bio">Bio</h3>
+<p>Charlotte is a Research Associate in Public Health Economic Modelling working on the <a href="https://www.phiuk.org/local-health-global-profits">Local Health and Global Profits project</a> since September 2024. Beginning with a Biomedical Science degree at Sheffield Hallam University and spending some time working with the Clinical Microbiology team at Doncaster Royal Infirmary, she then moved on to the University of York for postgraduate research in Antimicrobial Resistance where she found a love for coding in R and big data. She has a strong interest in public health and data science, especially the use of big data to inform health decision-making and the implementation of One-Health policies and commercial determinants of health. Charlotte is currently working on generating local synthetic populations using the Health Survey for England for use in public health policy and is open to suggestions for how best to validate these at low geographies.</p>
+</section>
+</section>
+<section id="neil-lawrence---sitar-longitudinal-multilevel-modelling" class="level2">
+<h2 class="anchored" data-anchor-id="neil-lawrence---sitar-longitudinal-multilevel-modelling">Neil Lawrence - SITAR : Longitudinal multilevel modelling</h2>
+<p>Super Imposition by Translation And Rotation (SITAR) is an advanced statistical modelling that uses longitudinal multilevel modelling to appropriately summarise time series data, particularly useful for modelling the growth of children. Advantages include application to data that is measured at variable frequencies, as well as relatively simple model fit statistics that help the selection of hyperparameters and the avoidance of overfitting. However, the use of terms such as ‘random effects’, akin to terms like ‘missing at random’ when considering challenges around missing data, create barriers when explaining these models to clinicians. Technical challenges such as the impact of time varying covariates also make robust estimation of the impact of treatment changes within patients difficult to define. This talk will show the application of SITAR modelling to cohort and registry data and some of the insights that have been gained, and hopefully inspire conversation about how such modelling can move from being purely descriptive, to predictive and suitable to be incorporated into clinical decision support tools on the front line of clinical practice.</p>
+<!-- markdownlint-disable-next-line MD024 -->
+<section id="bio-1" class="level3">
+<h3 class="anchored" data-anchor-id="bio-1">Bio</h3>
+<p>Neil is an NIHR doctoral research fellow in paediatrics and child health, and clinically works as a paediatric registrar. Originally having studied Civil Engineering, Neil completed a degree in medicine and then the NIHR academic foundation programme. He completed the National Medical Director’s Clinical Fellow Scheme working for NHS Digital within the Data, Insights &amp; Statistics division, where he developed his interest in data analytics using R. He is working to gain insights from real world data within the International Congenital Adrenal Hyperplasia Registry, amongst other data sets including those related to COVID-19, as well as cohort data from the neonatal unit at Jessops Wing. Neil is keen to develop his interest in clinical decision support tools, and is always happy to hear suggestions about how to best explain findings from statistical models to other clinicians, as well as effective ways to incorporate statistical modelling within software as a medical device in an explainable and transparent fashion.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2025-03/</guid>
+  <pubDate>Thu, 13 Mar 2025 12:30:00 GMT</pubDate>
+  <media:content url="https://live.staticflickr.com/65535/54027972058_1fa30a254a_h.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>SheffieldR : Hacktoberfest 2024</title>
   <link>https://SheffieldR.github.io/posts/2024-10/</link>
@@ -705,136 +752,6 @@
   <category>meetups</category>
   <guid>https://SheffieldR.github.io/posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html</guid>
   <pubDate>Tue, 04 Apr 2017 17:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>March Sheffield R Meetup: Code surgery and social</title>
-  <link>https://SheffieldR.github.io/posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>In March we held our first R coding surgery and social, a chance for our members to meet, greet, learn from and collaborate with fellow R users.</p>
-<section id="in-attendance" class="level2">
-<h2 class="anchored" data-anchor-id="in-attendance">In attendance</h2>
-<p>Tamora, Eoghan, Kassandra, Alison, Mat, Chris, José</p>
-</section>
-<section id="topics" class="level2">
-<h2 class="anchored" data-anchor-id="topics">Topics</h2>
-<section id="data-storage-alison" class="level3">
-<h3 class="anchored" data-anchor-id="data-storage-alison">Data storage (Alison)</h3>
-<!-- markdownlint-disable MD024 -->
-<section id="problem" class="level4">
-<h4 class="anchored" data-anchor-id="problem">Problem</h4>
-<ul>
-<li>Storing data of different lengths.</li>
-</ul>
-</section>
-<section id="answer" class="level4">
-<h4 class="anchored" data-anchor-id="answer">Answer</h4>
-<ul>
-<li>Use list columns: allows arbitrary length vectors.</li>
-<li>See <a href="https://www.rstudio.com/resources/videos/happy-r-users-purrr-tutorial/">Charlotte Wickham presentation on tidy data at R Studio conference 2017</a>.</li>
-</ul>
-</section>
-</section>
-<section id="spatio-temporal-time-series-kassandra" class="level3">
-<h3 class="anchored" data-anchor-id="spatio-temporal-time-series-kassandra">Spatio-temporal time series (Kassandra)</h3>
-<section id="problem-1" class="level4">
-<h4 class="anchored" data-anchor-id="problem-1">Problem</h4>
-<ul>
-<li>Lots of observations in some areas/directions, few elsewhere.</li>
-<li>Time series of environmental variables.</li>
-<li>Relate observed distribution with methane flux.</li>
-<li>Time series has gaps - how to handle?</li>
-</ul>
-</section>
-<section id="answer-1" class="level4">
-<h4 class="anchored" data-anchor-id="answer-1">Answer</h4>
-<ul>
-<li>Can create an even time series - add NAs where observations missing</li>
-<li>Raster layers as time, environmental variable single point time series</li>
-<li>List columns again!</li>
-<li>Loading raster data into R: use <code>raster</code> package, load data and specify projection string (unless data is GEO tiff, in that case it’s in the metadata).</li>
-</ul>
-</section>
-</section>
-<section id="optimisation-alison" class="level3">
-<h3 class="anchored" data-anchor-id="optimisation-alison">Optimisation (Alison)</h3>
-<section id="problem-2" class="level4">
-<h4 class="anchored" data-anchor-id="problem-2">Problem</h4>
-<ul>
-<li>Profiling and how to make the loop quicker.</li>
-</ul>
-</section>
-<section id="answer-2" class="level4">
-<h4 class="anchored" data-anchor-id="answer-2">Answer</h4>
-<ul>
-<li>Apply lineprof/profvis to profile whole sections of program/script. See <a href="http://adv-r.had.co.nz/Profiling.html">Hadley’s profiling guide</a>.</li>
-<li>Might be possible to use closures to precalculate distributions.</li>
-<li>Use C++ via Rcpp.</li>
-<li>Use JAGS or stan - parallelisable implementations.</li>
-</ul>
-</section>
-<section id="live-demo-chris" class="level4">
-<h4 class="anchored" data-anchor-id="live-demo-chris">Live demo (Chris)</h4>
-<ul>
-<li><a href="http://sheffieldr.github.io/assets/material/2017-03/ListColumnDemo.R">Live code demo of list columns</a>.</li>
-<li>Use <code>saveRDS()</code>, <code>readRDS()</code> as alternative to store as text.</li>
-<li>Might be problems with speed - use profiling to compare with text storage.</li>
-</ul>
-</section>
-</section>
-<section id="eeg-processing-josé" class="level3">
-<h3 class="anchored" data-anchor-id="eeg-processing-josé">EEG processing (José)</h3>
-<section id="problem-3" class="level4">
-<h4 class="anchored" data-anchor-id="problem-3">Problem</h4>
-<ul>
-<li>Getting raw data into format required for R package for signal processing.</li>
-<li>Bad documentation!</li>
-</ul>
-</section>
-<section id="answer-3" class="level4">
-<h4 class="anchored" data-anchor-id="answer-3">Answer</h4>
-<ul>
-<li>Use Matlab with manufacturer software?</li>
-</ul>
-</section>
-</section>
-<section id="data-handling-kassandra" class="level3">
-<h3 class="anchored" data-anchor-id="data-handling-kassandra">Data handling (Kassandra)</h3>
-<section id="problem-4" class="level4">
-<h4 class="anchored" data-anchor-id="problem-4">Problem</h4>
-<ul>
-<li>Problem with large data - can she write all objects together?</li>
-</ul>
-</section>
-<section id="answe" class="level4">
-<h4 class="anchored" data-anchor-id="answe">Answe</h4>
-<ul>
-<li>Need to be able to write sequentially - plugin for R to speak to database e.g.&nbsp;RSQLite or use RDS.</li>
-<li>Sparse matrix?</li>
-<li>R ArcGIS interface?</li>
-</ul>
-</section>
-</section>
-<section id="profiling-update-alison" class="level3">
-<h3 class="anchored" data-anchor-id="profiling-update-alison">Profiling update (Alison)</h3>
-<ul>
-<li>Constant matrix each time - copy on modify?</li>
-<li>Avoid assignment of matrices within for loop (nested).</li>
-</ul>
-<!-- markdownlint-enable MD024 -->
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>meetups</category>
-  <guid>https://SheffieldR.github.io/posts/2017-03-07-march-meetup/2017-03-07-march-meetup.html</guid>
-  <pubDate>Tue, 07 Mar 2017 17:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
