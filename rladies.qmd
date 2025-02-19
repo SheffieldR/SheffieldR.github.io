@@ -3,6 +3,7 @@ title: "R-Ladies Sheffield"
 image: images/rladies_hex.png
 about:
   template: jolla
+  image-shape: rectangle
   links:
     - icon: twitter-x
       text: R-Ladies Sheffield Twitter
