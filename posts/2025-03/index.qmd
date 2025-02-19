@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "SheffieldR : March 2025 Meetup"
+date:   2025-03-13 12:30:00 +0000
+categories: meetups
+image: https://live.staticflickr.com/65535/54027972058_1fa30a254a_h.jpg
+excerpt_separator: <!--more-->
+---
+
+We've been a bit quiet recently but are back with our first meetup of 2025 on 13th March where we welcome [Dr Neil
+Lawrence][neil] and [Charlotte Head][charlotte] from the University of Sheffield School of Medicine and Population
+Health.
+
+![[Histograms by Neil
+Shephard](https://www.flickr.com/photos/slackline/54027972058/)](https://live.staticflickr.com/65535/54027972058_1fa30a254a_h.jpg)
+
+## Where and When
+
+Meeting will be held 2025-03-13 12:30-13:30 in Room 315 of [The Diamond][diamond].
+
+Sign up via [Meetup][meetup] although remote attendance is possible via [Google Meet][googlemeet].
+
+## Charlotte Head - `{devtools}`
+
+Want to make your R life easier? This talk introduces how to build R packages (it's much easier than you think!) and how
+they can organise your code. Using [`devtools`][devtools], we'll build a simple package (by getting some ASCII animals
+to compliment you using the R packages `praise` and `cowsay`!). We'll be covering the essentials: structure, functions,
+and documentation. By the end, you'll be ready to create your own packages. Bring your laptop if you'd like to follow
+along (the download prerequisites for codealongs are the `devtools`, `praise` and `cowsay` packages, as well as Rtools
+(Windows) or XCode (Mac)).
+
+### Bio
+
+Charlotte is a Research Associate in Public Health Economic Modelling working on the [Local Health and Global Profits
+project][localhealth] since September 2024. Beginning with a Biomedical Science degree at Sheffield Hallam University
+and spending some time working with the Clinical Microbiology team at Doncaster Royal Infirmary, she then moved on to
+the University of York for postgraduate research in Antimicrobial Resistance where she found a love for coding in R and
+big data. She has a strong interest in public health and data science, especially the use of big data to inform health
+decision-making and the implementation of One-Health policies and commercial determinants of health. Charlotte is
+currently working on generating local synthetic populations using the Health Survey for England for use in public health
+policy and is open to suggestions for how best to validate these at low geographies.
+
+## Neil Lawrence - SITAR : Longitudinal multilevel modelling
+
+Super Imposition by Translation And Rotation (SITAR) is an advanced statistical modelling that uses longitudinal
+multilevel modelling to appropriately summarise time series data, particularly useful for modelling the growth of
+children. Advantages include application to data that is measured at variable frequencies, as well as relatively simple
+model fit statistics that help the selection of hyperparameters and the avoidance of overfitting. However, the use of
+terms such as 'random effects', akin to terms like 'missing at random' when considering challenges around missing data,
+create barriers when explaining these models to clinicians. Technical challenges such as the impact of time varying
+covariates also make robust estimation of the impact of treatment changes within patients difficult to define. This talk
+will show the application of SITAR modelling to cohort and registry data and some of the insights that have been gained,
+and hopefully inspire conversation about how such modelling can move from being purely descriptive, to predictive and
+suitable to be incorporated into clinical decision support tools on the front line of clinical practice.
+
+<!-- markdownlint-disable-next-line MD024 -->
+### Bio
+
+Neil is an NIHR doctoral research fellow in paediatrics and child health, and clinically works as a paediatric
+registrar. Originally having studied Civil Engineering, Neil completed a degree in medicine and then the NIHR academic
+foundation programme. He completed the National Medical Director's Clinical Fellow Scheme working for NHS Digital within
+the Data, Insights & Statistics division, where he developed his interest in data analytics using R. He is working to
+gain insights from real world data within the International Congenital Adrenal Hyperplasia Registry, amongst other data
+sets including those related to COVID-19, as well as cohort data from the neonatal unit at Jessops Wing. Neil is keen to
+develop his interest in clinical decision support tools, and is always happy to hear suggestions about how to best
+explain findings from statistical models to other clinicians, as well as effective ways to incorporate statistical
+modelling within software as a medical device in an explainable and transparent fashion.
+
+[charlotte]: https://www.sheffield.ac.uk/smph/people/population-health/charlotte-head
+[devtools]: https://devtools.r-lib.org/
+[diamond]: https://www.openstreetmap.org/relation/16098200
+[localhealth]: https://www.phiuk.org/local-health-global-profits
+[googlemeet]: https://meet.google.com/bhv-xmkk-gjk
+[meetup]: https://www.meetup.com/sheffieldr-sheffield-r-users-group/?eventOrigin=event_home_page
+[neil]: https://www.sheffield.ac.uk/smph/people/clinical-medicine/neil-lawrence
