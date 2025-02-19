@@ -71,5 +71,5 @@ modelling within software as a medical device in an explainable and transparent 
 [diamond]: https://www.openstreetmap.org/relation/16098200
 [localhealth]: https://www.phiuk.org/local-health-global-profits
 [googlemeet]: https://meet.google.com/bhv-xmkk-gjk
-[meetup]: https://www.meetup.com/sheffieldr-sheffield-r-users-group/?eventOrigin=event_home_page
+[meetup]: https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/306236464/
 [neil]: https://www.sheffield.ac.uk/smph/people/clinical-medicine/neil-lawrence
