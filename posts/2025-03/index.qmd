@@ -20,7 +20,6 @@ Meeting will be held 2025-03-13 12:30-13:30 in Room 315 of [The Diamond][diamond
 
 Sign up via [Meetup][meetup] although remote attendance is possible via [Google Meet][googlemeet].
 
-
 ## Charlotte Head - `{devtools}`
 
 Want to make your R life easier? This talk introduces how to build R packages (it's much easier than you think!) and how
@@ -40,7 +39,6 @@ big data. She has a strong interest in public health and data science, especiall
 decision-making and the implementation of One-Health policies and commercial determinants of health. Charlotte is
 currently working on generating local synthetic populations using the Health Survey for England for use in public health
 policy and is open to suggestions for how best to validate these at low geographies.
-
 
 ## Neil Lawrence - SITAR : Longitudinal multilevel modelling
 
