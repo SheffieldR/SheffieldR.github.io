@@ -40,7 +40,6 @@ decision-making and the implementation of One-Health policies and commercial det
 currently working on generating local synthetic populations using the Health Survey for England for use in public health
 policy and is open to suggestions for how best to validate these at low geographies.
 
-
 + [An Introduction to R Packages | Charlotte
   Head](https://docs.google.com/presentation/d/1mJhN_dDBC3SrZVn2ZvlY2jSrvG6jR_VsfXY-cMIhwFI/edit#slide=id.p)
 
