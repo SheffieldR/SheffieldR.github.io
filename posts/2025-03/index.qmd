@@ -20,7 +20,6 @@ Meeting will be held 2025-03-13 12:30-13:30 in Room 315 of [The Diamond][diamond
 
 Sign up via [Meetup][meetup] although remote attendance is possible via [Google Meet][googlemeet].
 
-
 ## Charlotte Head - `{devtools}`
 
 Want to make your R life easier? This talk introduces how to build R packages (it's much easier than you think!) and how
