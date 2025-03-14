@@ -42,6 +42,9 @@ currently working on generating local synthetic populations using the Health Sur
 policy and is open to suggestions for how best to validate these at low geographies.
 
 
++ [An Introduction to R Packages | Charlotte
+  Head](https://docs.google.com/presentation/d/1mJhN_dDBC3SrZVn2ZvlY2jSrvG6jR_VsfXY-cMIhwFI/edit#slide=id.p)
+
 ## Neil Lawrence - SITAR : Longitudinal multilevel modelling
 
 Super Imposition by Translation And Rotation (SITAR) is an advanced statistical modelling that uses longitudinal
