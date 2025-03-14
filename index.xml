@@ -9,7 +9,7 @@
 <link>https://SheffieldR.github.io/</link>
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
-<generator>quarto-1.6.40</generator>
+<generator>quarto-1.6.42</generator>
 <lastBuildDate>Thu, 13 Mar 2025 12:30:00 GMT</lastBuildDate>
 <item>
   <title>SheffieldR : March 2025 Meetup</title>
@@ -38,6 +38,9 @@
 <section id="bio" class="level3">
 <h3 class="anchored" data-anchor-id="bio">Bio</h3>
 <p>Charlotte is a Research Associate in Public Health Economic Modelling working on the <a href="https://www.phiuk.org/local-health-global-profits">Local Health and Global Profits project</a> since September 2024. Beginning with a Biomedical Science degree at Sheffield Hallam University and spending some time working with the Clinical Microbiology team at Doncaster Royal Infirmary, she then moved on to the University of York for postgraduate research in Antimicrobial Resistance where she found a love for coding in R and big data. She has a strong interest in public health and data science, especially the use of big data to inform health decision-making and the implementation of One-Health policies and commercial determinants of health. Charlotte is currently working on generating local synthetic populations using the Health Survey for England for use in public health policy and is open to suggestions for how best to validate these at low geographies.</p>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1mJhN_dDBC3SrZVn2ZvlY2jSrvG6jR_VsfXY-cMIhwFI/edit#slide=id.p">An Introduction to R Packages | Charlotte Head</a></li>
+</ul>
 </section>
 </section>
 <section id="neil-lawrence---sitar-longitudinal-multilevel-modelling" class="level2">
