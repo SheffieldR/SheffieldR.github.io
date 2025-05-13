@@ -69,6 +69,9 @@ develop his interest in clinical decision support tools, and is always happy to 
 explain findings from statistical models to other clinicians, as well as effective ways to incorporate statistical
 modelling within software as a medical device in an explainable and transparent fashion.
 
++ [SITAR modelling of growth in preterm infants and the effect of antenatal
+  steroids](https://docs.google.com/presentation/d/1REuMD5B-r_Uyy9xl5gInzsDWMiEVmowi/edit#slide=id.p1)
+
 [charlotte]: https://www.sheffield.ac.uk/smph/people/population-health/charlotte-head
 [devtools]: https://devtools.r-lib.org/
 [diamond]: https://www.openstreetmap.org/relation/16098200
