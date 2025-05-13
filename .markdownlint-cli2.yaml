@@ -1,4 +1,5 @@
 config:
+  descriptive-link-text: false
 # MD013 - line-length
   line_length:
     line_length: 120
