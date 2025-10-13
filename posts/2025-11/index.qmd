@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "SheffieldR : November 2025 Meetup"
+date:   2025-10-14 12:00:00 +0000
+categories: meetups
+image: https://live.staticflickr.com/65535/54764888522_1269a889a5_k.jpg
+excerpt_separator: <!--more-->
+---
+
+Most of the year has passed without much activity but we are pleased to announce that Dr Robert Smith and Oliver Dolin
+have volunteered to talk about their development of a web platform for healthcare professionals.
+
+![[Taking Time to Reflect by Neil
+Shephard](https://www.flickr.com/photos/slackline/54764888522/)](https://live.staticflickr.com/65535/54764888522_1269a889a5_k.jpg)
+
+## Where and When
+
+Meeting will be held 2025-11-19 17:30-19:00 in Lecture Theatre 8 of [The Diamond][diamond].
+
+Sign up via [Meetup][meetup] although remote attendance is possible via [Google Meet][googlemeet].
+
+## Abstract
+
+Access to healthcare-professional administered medicines in England varies significantly across the country, resulting
+in inequitable health outcomes. Our interactive web platform identifies optimal new care site locations. It uses a
+greedy search method outlined in Schneider & Smith (2020) to rank candidate sites that maximize a range of user-selected
+objective functions such as: travel distance, travel time, adherence or health outcomes. Users can customize input
+parameters like travel cost and CO<sub>2</sub>/km, and estimate the impact of adding new sites on a range of outcomes
+including
+patient travel time, adherence, health outcomes, CO<sub>2</sub> emissions, and out-of-pocket costs. The platform uses
+data on the
+socioeconomic  and demographic structure of each Lower Super Output Area, a small community of around 1500 individuals,
+in England. It combines this with information on the prevalence of disease, and the relationship between geographic
+access and outcomes. It allows users to assess the impact of creating one or more of the sites identified on national
+and regional outcomes, and to assess the impact on inequalities. The platform is in beta stage, and we are interested in
+feedback from the research community on how to build upon this work going forward.
+
+## Bios
+
+Oliver Dolin is a data scientist at [Dark Peak Analytics][darkpeak], where he builds web interfaces for health economic
+models in R Shiny. He has contributed to R packages for Health Economics and Outcomes Research (HEOR) tasks
+([assertHE][asserthe], and an internal package for network meta-analysis plot visualizations). He holds an MSc
+in Health Data Science from London School of Hygiene & Tropical Medicine and a BA in Experimental Psychology from the
+University of Oxford.
+
+Robert Smith is a Director of Health Economics at [Dark Peak Analytics][darkpeak]. He leads the development of health economic
+models, web-platforms and software for Health Economic Evaluation. He is co-director of the R for Health Technology
+Assessment consortium. Rob has previously advised on projects for the WHO, CGD, 10 Downing St, UKHSA and most of the top
+10 pharma companies. He has a PhD in Public Health Economics & Decision Science from the University of Sheffield.
+
+[asserthe]: https://github.com/dark-peak-analytics/assertHE
+[darkpeak]: https://darkpeakanalytics.com/
+[diamond]: https://www.openstreetmap.org/relation/16098200
+[googlemeet]: https://meet.google.com/sns-yqak-nhy
+[meetup]: https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/306236464/

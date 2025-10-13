@@ -8,6 +8,8 @@ config:
   html:
     allowed_elements:
       - div
+      - sub
+      - sup
 globs:
 - "posts/**/*.qmd"
 - "*.qmd"
