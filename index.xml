@@ -9,8 +9,47 @@
 <link>https://SheffieldR.github.io/</link>
 <atom:link href="https://SheffieldR.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shefffield R User Group</description>
-<generator>quarto-1.7.33</generator>
-<lastBuildDate>Thu, 13 Mar 2025 12:30:00 GMT</lastBuildDate>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Tue, 14 Oct 2025 12:00:00 GMT</lastBuildDate>
+<item>
+  <title>SheffieldR : November 2025 Meetup</title>
+  <link>https://SheffieldR.github.io/posts/2025-11/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Most of the year has passed without much activity but we are pleased to announce that Dr Robert Smith and Oliver Dolin have volunteered to talk about their development of a web platform for healthcare professionals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://live.staticflickr.com/65535/54764888522_1269a889a5_k.jpg" class="img-fluid figure-img"></p>
+<figcaption><a href="https://www.flickr.com/photos/slackline/54764888522/">Taking Time to Reflect by Neil Shephard</a></figcaption>
+</figure>
+</div>
+<section id="where-and-when" class="level2">
+<h2 class="anchored" data-anchor-id="where-and-when">Where and When</h2>
+<p>Meeting will be held 2025-11-19 17:30-19:00 in Lecture Theatre 8 of <a href="https://www.openstreetmap.org/relation/16098200">The Diamond</a>.</p>
+<p>Sign up via <a href="https://www.meetup.com/sheffieldr-sheffield-r-users-group/events/306236464/">Meetup</a> although remote attendance is possible via <a href="https://meet.google.com/sns-yqak-nhy">Google Meet</a>.</p>
+</section>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Access to healthcare-professional administered medicines in England varies significantly across the country, resulting in inequitable health outcomes. Our interactive web platform identifies optimal new care site locations. It uses a greedy search method outlined in Schneider &amp; Smith (2020) to rank candidate sites that maximize a range of user-selected objective functions such as: travel distance, travel time, adherence or health outcomes. Users can customize input parameters like travel cost and CO<sub>2</sub>/km, and estimate the impact of adding new sites on a range of outcomes including patient travel time, adherence, health outcomes, CO<sub>2</sub> emissions, and out-of-pocket costs. The platform uses data on the socioeconomic and demographic structure of each Lower Super Output Area, a small community of around 1500 individuals, in England. It combines this with information on the prevalence of disease, and the relationship between geographic access and outcomes. It allows users to assess the impact of creating one or more of the sites identified on national and regional outcomes, and to assess the impact on inequalities. The platform is in beta stage, and we are interested in feedback from the research community on how to build upon this work going forward.</p>
+</section>
+<section id="bios" class="level2">
+<h2 class="anchored" data-anchor-id="bios">Bios</h2>
+<p>Oliver Dolin is a data scientist at <a href="https://darkpeakanalytics.com/">Dark Peak Analytics</a>, where he builds web interfaces for health economic models in R Shiny. He has contributed to R packages for Health Economics and Outcomes Research (HEOR) tasks (<a href="https://github.com/dark-peak-analytics/assertHE">assertHE</a>, and an internal package for network meta-analysis plot visualizations). He holds an MSc in Health Data Science from London School of Hygiene &amp; Tropical Medicine and a BA in Experimental Psychology from the University of Oxford.</p>
+<p>Robert Smith is a Director of Health Economics at <a href="https://darkpeakanalytics.com/">Dark Peak Analytics</a>. He leads the development of health economic models, web-platforms and software for Health Economic Evaluation. He is co-director of the R for Health Technology Assessment consortium. Rob has previously advised on projects for the WHO, CGD, 10 Downing St, UKHSA and most of the top 10 pharma companies. He has a PhD in Public Health Economics &amp; Decision Science from the University of Sheffield.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meetups</category>
+  <guid>https://SheffieldR.github.io/posts/2025-11/</guid>
+  <pubDate>Tue, 14 Oct 2025 12:00:00 GMT</pubDate>
+  <media:content url="https://live.staticflickr.com/65535/54764888522_1269a889a5_k.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>SheffieldR : March 2025 Meetup</title>
   <link>https://SheffieldR.github.io/posts/2025-03/</link>
@@ -730,34 +769,6 @@
   <category>meetups</category>
   <guid>https://SheffieldR.github.io/posts/2017-05-02-may-meetup/2017-05-02-may-meetup.html</guid>
   <pubDate>Tue, 02 May 2017 17:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>April Sheffield R Meetup: Using R Notebooks and Ensembles in Machine Learning</title>
-  <link>https://SheffieldR.github.io/posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This month’s talks cover ensembles in machine learning and using R notebooks as a learning tool.</p>
-<section id="wisdom-of-the-crowd-ensembles-in-machine-learning-and-the-factors-that-influence-them" class="level2">
-<h2 class="anchored" data-anchor-id="wisdom-of-the-crowd-ensembles-in-machine-learning-and-the-factors-that-influence-them">“Wisdom of the crowd”: Ensembles in machine learning, and the factors that influence them</h2>
-<p>Pieter Wessels will present a brief discussion on Ensembles, including popular algorithms for creating same engine Ensembles (bagging, boosting, etc), multiple engine Ensembles, the factors that influence Ensembles, including diversity between members and a brief introduction to one measure of diversity.</p>
-</section>
-<section id="teaching-with-r-notebook" class="level2">
-<h2 class="anchored" data-anchor-id="teaching-with-r-notebook">Teaching with R Notebook</h2>
-<p>Duncan Gillespie will speak about the pros and cons of using R notebooks as a learning tool in an introductory R course.</p>
-<p>We hope to see you there!</p>
-<p>The SheffieldR team</p>
-
-
-</section>
-
- ]]></description>
-  <category>meetups</category>
-  <guid>https://SheffieldR.github.io/posts/2017-04-04-april-meetup/2017-04-04-april-meetup.html</guid>
-  <pubDate>Tue, 04 Apr 2017 17:30:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
