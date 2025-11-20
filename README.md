@@ -36,19 +36,20 @@ biography of the presenter(s). To create a new post follow the steps below.
    presenting.
 
 10. Preview your changes locally to make sure all fields, links etc. render correctly (use `quarto preview` or the
+
    "Render" button in RStudio).
 
-11. Once everything has been checked and is correct save all changes, commit them to git and push the changes to
+1. Once everything has been checked and is correct save all changes, commit them to git and push the changes to
     GitHub. **NB** There is no need to run `quarto publish gh-pages` locally nor to commit the locally rendered HTML
     (located under `_site/_` directory and which is ignored via `.gitignore`). The GitHub Workflow (under
     `.github/workflows/publish.yaml`) handles rendering and publishing the site on GitHub.
 
-12. Open a pull request to merge your changes into the `main` branch.
+2. Open a pull request to merge your changes into the `main` branch.
 
-13. Announce the event details to the mailing list on
+3. Announce the event details to the mailing list on
     [Meetup](https://www.meetup.com/sheffieldr-sheffield-r-users-group/).
 
-14. Add an image to the post in the YAML header and inline before the `<!--more-->` delimiter.
+4. Add an image to the post in the YAML header and inline before the `<!--more-->` delimiter.
 
 ### Images
 
@@ -79,6 +80,6 @@ pull-requests, however [pre-commit.ci](https://pre-commit.ci) is used and checks
 
 If you are unfamiliar with pre-commit the following articles may be useful.
 
-+ [RSE Sheffield - pre-commit : Protecting your future self](https://rse.shef.ac.uk/blog/pre-commit/)
-+ [ns-rse - Pre-commit and R Packaging](https://ns-rse.github.io/posts/pre-commit-r/#windows) includes instructions for
+- [RSE Sheffield - pre-commit : Protecting your future self](https://rse.shef.ac.uk/blog/pre-commit/)
+- [ns-rse - Pre-commit and R Packaging](https://ns-rse.github.io/posts/pre-commit-r/#windows) includes instructions for
   setting up and configuring R and RStudio with pre-commit.
