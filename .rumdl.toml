@@ -1,0 +1,62 @@
+# rumdl configuration file
+# RULES                     : https://github.com/rvben/rumdl/blob/main/docs/RULES.md
+# GLOBAL SETTINGS REFERENCE : https://github.com/rvben/rumdl/blob/main/docs/global-settings.md
+# IN-LINE RULES             : https://github.com/rvben/rumdl/blob/main/docs/inline-configuration.md
+# Global configuration options
+[global]
+# List of rules to disable (uncomment and modify as needed)
+# MD059 : https://github.com/rvben/rumdl/blob/main/docs/md059.md
+disable = ["MD059"]
+
+# List of file/directory patterns to include for linting (if provided, only these will be linted)
+# include = [
+#    "docs/*.md",
+#    "src/**/*.md",
+#    "README.md"
+# ]
+
+# List of file/directory patterns to exclude from linting
+exclude = [
+    # Common directories to exclude
+    ".git",
+    ".github/**/*.md",
+    "node_modules",
+    "vendor",
+    "dist",
+    "build",
+
+    # Specific files or patterns
+    "CHANGELOG.md",
+    "LICENSE.md",
+]
+
+# Respect .gitignore files when scanning directories (default: true)
+respect-gitignore = true
+
+# Markdown flavor/dialect (uncomment to enable)
+# Options: mkdocs, gfm, commonmark
+# flavor = "mkdocs"
+
+# Rule-specific configurations (uncomment and modify as needed)
+#
+# [MD003]
+# style = "atx"  # Heading style (atx, atx_closed, setext)
+
+[MD004]
+style = "dash"  # Unordered list style (asterisk, plus, dash, consistent)
+
+# [MD007]
+# indent = 4  # Unordered list indentation
+
+[MD013]
+line-length = 120  # Line length
+code-blocks = false  # Exclude code blocks from line length check
+tables = false  # Exclude tables from line length check
+headings = true  # Include headings in line length check
+
+# [MD044]
+# names = ["rumdl", "Markdown", "GitHub"]  # Proper names that should be capitalized correctly
+# code-blocks = false  # Check code blocks for proper names (default: false, skips code blocks)
+
+[MD033]
+allowed-elements = ["div", "sub", "sup"]
