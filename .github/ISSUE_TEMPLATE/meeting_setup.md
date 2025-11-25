@@ -15,7 +15,9 @@ advance. The longer the notification period the more likely it is that people wi
 + [ ] **Time** : HH-MM to HH-MM
 + [ ] **Venue** : LOCATION
 + [ ] **Book a Room** : Reserve a room through the [provided
-      portal](https://staff.sheffield.ac.uk/it-services/room-bookings/process), ensuring that it is accessible to the public, i.e., without requiring a UofS ID card.
+      portal](https://staff.sheffield.ac.uk/it-services/room-bookings/process), ensuring that it is accessible to the
+      public, i.e., without requiring a UofS ID card.
+  + [ ] If speakers are external to University this should be indicated on the booking page and a specific approval for external speakers submitted.
 + [ ] **Request details from speaker 1** : Request a summary of the talk and a speaker biography from speaker 1.
   + [ ] Ask Speaker if they consent to having their pictures taken while presenting.
 + [ ] **Request details from speaker 2** : Request a summary of the talk and a speaker biography from speaker 2.
